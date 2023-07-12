@@ -10,11 +10,6 @@ import Foundation
 import SwiftUI
 import SpriteKit
 
-
-class GameScene: SKScene {
-    
-}
-
 struct FFSpriteView: View {
     
     var scene: SKScene {

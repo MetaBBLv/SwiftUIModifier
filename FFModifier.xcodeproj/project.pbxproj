@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */; };
+		873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */; };
+		873B8A3E2A5EA13300394245 /* FFImageDynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3D2A5EA13300394245 /* FFImageDynamicColor.swift */; };
+		873B8A402A5EA7DB00394245 /* FFImagePhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3F2A5EA7DB00394245 /* FFImagePhotosPicker.swift */; };
+		873B8A422A5EB18F00394245 /* FFImageVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A412A5EB18F00394245 /* FFImageVideo.swift */; };
+		873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A432A5EBD5D00394245 /* FFSFAminate.swift */; };
 		87EC14E92A5BA7D50065B715 /* FFModifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC14E82A5BA7D50065B715 /* FFModifierApp.swift */; };
 		87EC14EB2A5BA7D50065B715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC14EA2A5BA7D50065B715 /* ContentView.swift */; };
 		87EC14ED2A5BA7D60065B715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87EC14EC2A5BA7D60065B715 /* Assets.xcassets */; };
@@ -39,6 +45,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageRemoteUrl.swift; sourceTree = "<group>"; };
+		873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageTransparency.swift; sourceTree = "<group>"; };
+		873B8A3D2A5EA13300394245 /* FFImageDynamicColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageDynamicColor.swift; sourceTree = "<group>"; };
+		873B8A3F2A5EA7DB00394245 /* FFImagePhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImagePhotosPicker.swift; sourceTree = "<group>"; };
+		873B8A412A5EB18F00394245 /* FFImageVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageVideo.swift; sourceTree = "<group>"; };
+		873B8A432A5EBD5D00394245 /* FFSFAminate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSFAminate.swift; sourceTree = "<group>"; };
 		87EC14E52A5BA7D50065B715 /* FFModifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFModifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EC14E82A5BA7D50065B715 /* FFModifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFModifierApp.swift; sourceTree = "<group>"; };
 		87EC14EA2A5BA7D50065B715 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,6 +166,12 @@
 				87ECEB272A5D704E0092C522 /* FFVideoPlayer.swift */,
 				87ECEB2B2A5D75E70092C522 /* FFSpriteView.swift */,
 				87ECEB2D2A5D76F70092C522 /* FFGameScene.swift */,
+				873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */,
+				873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */,
+				873B8A3D2A5EA13300394245 /* FFImageDynamicColor.swift */,
+				873B8A3F2A5EA7DB00394245 /* FFImagePhotosPicker.swift */,
+				873B8A412A5EB18F00394245 /* FFImageVideo.swift */,
+				873B8A432A5EBD5D00394245 /* FFSFAminate.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -234,20 +252,26 @@
 				87ECEAFF2A5C1C8A0092C522 /* FFTextDataFormat.swift in Sources */,
 				87ECEB072A5C2B630092C522 /* FFTextPrivasySensitive.swift in Sources */,
 				87ECEB262A5D6AF20092C522 /* FFImageShapeTrim.swift in Sources */,
+				873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */,
 				87ECEB142A5D2C010092C522 /* FFImage.swift in Sources */,
 				87ECEB282A5D704E0092C522 /* FFVideoPlayer.swift in Sources */,
 				87ECEB012A5C1FD40092C522 /* FFTextField.swift in Sources */,
 				87ECEAFD2A5C17E50092C522 /* FFTextAddSpacing.swift in Sources */,
+				873B8A402A5EA7DB00394245 /* FFImagePhotosPicker.swift in Sources */,
 				87ECEB0D2A5CE05C0092C522 /* FFTextUsersSelect.swift in Sources */,
 				87ECEB032A5C217C0092C522 /* FFLabel.swift in Sources */,
 				87EC14E92A5BA7D50065B715 /* FFModifierApp.swift in Sources */,
 				87ECEB2C2A5D75E70092C522 /* FFSpriteView.swift in Sources */,
+				873B8A422A5EB18F00394245 /* FFImageVideo.swift in Sources */,
+				873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */,
 				87ECEB1C2A5D41A30092C522 /* FFImageGradients.swift in Sources */,
 				87ECEB182A5D398C0092C522 /* FFImagetile.swift in Sources */,
 				87ECEB0B2A5C315F0092C522 /* FFCustomizeLinks.swift in Sources */,
 				87ECEB202A5D64450092C522 /* FFImageShapes.swift in Sources */,
 				87EC14F82A5BDB400065B715 /* FFTextAlignment.swift in Sources */,
 				87ECEB2E2A5D76F70092C522 /* FFGameScene.swift in Sources */,
+				873B8A3E2A5EA13300394245 /* FFImageDynamicColor.swift in Sources */,
+				873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */,
 				87EC14FA2A5BDDEA0065B715 /* FFTextFormat.swift in Sources */,
 				87ECEB052A5C245F0092C522 /* FFTextPlaceholder.swift in Sources */,
 				87ECEB242A5D6ACC0092C522 /* FFImageContainerRelativeShape.swift in Sources */,
