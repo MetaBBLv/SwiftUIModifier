@@ -13,6 +13,9 @@
 		873B8A402A5EA7DB00394245 /* FFImagePhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3F2A5EA7DB00394245 /* FFImagePhotosPicker.swift */; };
 		873B8A422A5EB18F00394245 /* FFImageVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A412A5EB18F00394245 /* FFImageVideo.swift */; };
 		873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A432A5EBD5D00394245 /* FFSFAminate.swift */; };
+		873B8A462A5F814F00394245 /* FFColorWithGETRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A452A5F814F00394245 /* FFColorWithGETRGB.swift */; };
+		873B8A482A5F885000394245 /* FFCombinShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A472A5F885000394245 /* FFCombinShape.swift */; };
+		873B8A4A2A5F8D6C00394245 /* SwiftCustomColorWithAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A492A5F8D6C00394245 /* SwiftCustomColorWithAsset.swift */; };
 		87EC14E92A5BA7D50065B715 /* FFModifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC14E82A5BA7D50065B715 /* FFModifierApp.swift */; };
 		87EC14EB2A5BA7D50065B715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC14EA2A5BA7D50065B715 /* ContentView.swift */; };
 		87EC14ED2A5BA7D60065B715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87EC14EC2A5BA7D60065B715 /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 		873B8A3F2A5EA7DB00394245 /* FFImagePhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImagePhotosPicker.swift; sourceTree = "<group>"; };
 		873B8A412A5EB18F00394245 /* FFImageVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageVideo.swift; sourceTree = "<group>"; };
 		873B8A432A5EBD5D00394245 /* FFSFAminate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSFAminate.swift; sourceTree = "<group>"; };
+		873B8A452A5F814F00394245 /* FFColorWithGETRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFColorWithGETRGB.swift; sourceTree = "<group>"; };
+		873B8A472A5F885000394245 /* FFCombinShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCombinShape.swift; sourceTree = "<group>"; };
+		873B8A492A5F8D6C00394245 /* SwiftCustomColorWithAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCustomColorWithAsset.swift; sourceTree = "<group>"; };
 		87EC14E52A5BA7D50065B715 /* FFModifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFModifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EC14E82A5BA7D50065B715 /* FFModifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFModifierApp.swift; sourceTree = "<group>"; };
 		87EC14EA2A5BA7D50065B715 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -172,6 +178,9 @@
 				873B8A3F2A5EA7DB00394245 /* FFImagePhotosPicker.swift */,
 				873B8A412A5EB18F00394245 /* FFImageVideo.swift */,
 				873B8A432A5EBD5D00394245 /* FFSFAminate.swift */,
+				873B8A452A5F814F00394245 /* FFColorWithGETRGB.swift */,
+				873B8A472A5F885000394245 /* FFCombinShape.swift */,
+				873B8A492A5F8D6C00394245 /* SwiftCustomColorWithAsset.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -258,10 +267,12 @@
 				87ECEB012A5C1FD40092C522 /* FFTextField.swift in Sources */,
 				87ECEAFD2A5C17E50092C522 /* FFTextAddSpacing.swift in Sources */,
 				873B8A402A5EA7DB00394245 /* FFImagePhotosPicker.swift in Sources */,
+				873B8A4A2A5F8D6C00394245 /* SwiftCustomColorWithAsset.swift in Sources */,
 				87ECEB0D2A5CE05C0092C522 /* FFTextUsersSelect.swift in Sources */,
 				87ECEB032A5C217C0092C522 /* FFLabel.swift in Sources */,
 				87EC14E92A5BA7D50065B715 /* FFModifierApp.swift in Sources */,
 				87ECEB2C2A5D75E70092C522 /* FFSpriteView.swift in Sources */,
+				873B8A482A5F885000394245 /* FFCombinShape.swift in Sources */,
 				873B8A422A5EB18F00394245 /* FFImageVideo.swift in Sources */,
 				873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */,
 				87ECEB1C2A5D41A30092C522 /* FFImageGradients.swift in Sources */,
@@ -277,6 +288,7 @@
 				87ECEB242A5D6ACC0092C522 /* FFImageContainerRelativeShape.swift in Sources */,
 				87ECEB1A2A5D3BFE0092C522 /* FFImageSFSymbols.swift in Sources */,
 				87ECEB162A5D30250092C522 /* FFImagefitToSpace.swift in Sources */,
+				873B8A462A5F814F00394245 /* FFColorWithGETRGB.swift in Sources */,
 				87ECEB092A5C2D9F0092C522 /* FFTextMarkdown.swift in Sources */,
 				87ECEB222A5D66730092C522 /* FFImageStorkeShapes.swift in Sources */,
 			);
