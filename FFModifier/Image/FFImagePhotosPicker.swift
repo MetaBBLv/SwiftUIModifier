@@ -6,7 +6,7 @@
 //
 // 如何使用PhotosPicker选择图片
 // SwiftUIPhitisPicker可以使用系统标准图片导入界面，允许用户选择一张或多张图片以及视频导入你的应用程序
-// 如果使用它来应用图像，你需要导入PhotosUI，然后创建存储PhotosPickerItem来保存用户选择的内容，并创建一个Image属性来存储加载的资源
+//
 
 import SwiftUI
 import PhotosUI
