@@ -5,7 +5,7 @@
 //  Created by BBLv on 2023/7/17.
 //
 //  如何使用ViewThatFits创建自适应布局
-//  SwiftUI使ViewThatFits可以根据可用屏幕空间的大小从几种可能的布局中选择一种。这时期成为确保你的app从最大的tvOS到最小的watchOS所有的屏幕都可以以最佳的方式显示
+//  SwiftUI 为我们提供了 ViewThatFits，以便我们可以根据适合可用屏幕空间的布局从几种可能的布局中选择一种。 这使其成为确保您的应用程序从最大的 tvOS 屏幕到最小的 Apple Watch 都具有出色外观的绝佳方式。
 
 import SwiftUI
 

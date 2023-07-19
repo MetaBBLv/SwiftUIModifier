@@ -5,7 +5,7 @@
 //  Created by BBLv on 2023/7/17.
 //
 //  如何在VStack和HStack之间动态切换
-//  SwiftUI的AnyLayout结构题允许我们在HStack和Vstask之间自由切换，基于我们想要考虑的任何环境上下文，只要记住使用每一个伏虎布局的变体
+//  SwiftUI 的 AnyLayout 结构允许我们根据我们想要考虑的任何环境上下文在 HStack 和 VStack 之间自由切换 - 只需记住使用每个的符合布局的变体即可。
 import SwiftUI
 
 struct FFViewDynamicallyChange: View {

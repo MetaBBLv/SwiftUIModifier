@@ -5,7 +5,7 @@
 //  Created by BBLv on 2023/7/17.
 //
 //  如何使用ForEach在循环中创建视图
-//  在SwiftUI中，使用ForEach来循环创建视图。重点提示：SwiftUI中的ForEach与Swift中不同。ForEach在SwiftUI中，它本身就是一个视图结构，这意味着如果需要，你可以直接从视图主题返回他。你为其提供一个项目数组，并且你可能还需要告诉SwiftUI如何逐一的识别每一个项目，以便它知道如何在值更新时更新它们。你还可以向其传递一个要运行的函数，以便为循环中的每个项目创建视图。
+// 您通常会发现需要循环序列来创建视图，而在 SwiftUI 中这是使用 ForEach 完成的。重要提示：很容易看到 ForEach 并认为它与 Swift 序列上的 forEach() 方法相同，但您将看到情况并非如此。SwiftUI 中的 ForEach 本身就是一个视图结构，这意味着如果需要，您可以直接从视图主体返回它。 您为其提供一个项目数组，并且您可能还需要告诉 SwiftUI 如何唯一地识别每个项目，以便它知道如何在值更改时更新它们。 您还可以向其传递一个要运行的函数，以便为循环中的每个项目创建视图。
 
 import SwiftUI
 
@@ -41,7 +41,7 @@ struct FFViewForEach: View {
         List {
             Section {
                 //倒计时
-                //id: \.self是必须参数，以便SwiftUI剋唯一的识别数组中的每个元素，这意味着如果你添加或删除一个项目，SwiftUI确切的知道是哪一个。
+                //id: \.self 部分是必需的，以便 SwiftUI 可以唯一地标识数组中的每个元素 - 这意味着如果您添加或删除一个项目，SwiftUI 确切地知道是哪一个。
                 ForEach((1...10).reversed(), id: \.self) {
                     Text("\($0)...")
                 }

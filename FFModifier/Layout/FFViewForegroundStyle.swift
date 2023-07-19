@@ -5,7 +5,7 @@
 //  Created by BBLv on 2023/7/17.
 //
 //  如何使用forgoundStyle提供视觉结构
-//  SwiftUI提供了一个foregroundStyle修饰符来共识控制文本、图像和形状的样式是指方式。foregroundStyle从最简单的形式来看，这与使用with类似.secondary，但它不仅解锁了更多的语义颜色，.tertiary而且.quaternary还增加了对任何符号ShapeStyle
+//  SwiftUI 提供了 foregroundStyle() 修饰符来同时控制文本、图像和形状的样式设置方式。 最简单的形式类似于将 foregroundStyle() 与 .secondary 一起使用，但它不仅解锁了更多语义颜色 – .tertiary 和 .quaternary，还增加了对任何符合 ShapeStyle 的支持。
 import SwiftUI
 
 struct FFViewForegroundStyle: View {

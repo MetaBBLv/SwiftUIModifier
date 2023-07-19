@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87153EBC2A667BBE009C2084 /* FFStackPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBB2A667BBE009C2084 /* FFStackPrimary.swift */; };
+		87153EBE2A667F09009C2084 /* FFStackSpacingAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBD2A667F09009C2084 /* FFStackSpacingAndAlignment.swift */; };
+		87153EC02A668205009C2084 /* FFStackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBF2A668205009C2084 /* FFStackSpacer.swift */; };
+		872DC0A72A67F92A00320AB2 /* FFScrollVIewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */; };
+		872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */; };
+		872DC0AB2A67FEBF00320AB2 /* FFScrollViewSnap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */; };
+		872DC0AD2A68030D00320AB2 /* FFScrollViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AC2A68030D00320AB2 /* FFScrollViewTransition.swift */; };
+		872DC0AF2A68088B00320AB2 /* FFScrollViewStartBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AE2A68088B00320AB2 /* FFScrollViewStartBottom.swift */; };
+		872DC0B12A680A4700320AB2 /* FFScrollViewOverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0B02A680A4700320AB2 /* FFScrollViewOverFlow.swift */; };
 		873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */; };
 		873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */; };
 		873B8A3E2A5EA13300394245 /* FFImageDynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3D2A5EA13300394245 /* FFImageDynamicColor.swift */; };
@@ -17,6 +26,8 @@
 		873B8A482A5F885000394245 /* FFCombinShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A472A5F885000394245 /* FFCombinShape.swift */; };
 		873B8A4A2A5F8D6C00394245 /* SwiftCustomColorWithAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A492A5F8D6C00394245 /* SwiftCustomColorWithAsset.swift */; };
 		873B8A4C2A5F955300394245 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A4B2A5F955300394245 /* Temp.swift */; };
+		873DE21F2A668C2900771D3F /* FFStackSpacerFixedsize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DE21E2A668C2900771D3F /* FFStackSpacerFixedsize.swift */; };
+		873DE2212A66930900771D3F /* FFStackZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DE2202A66930900771D3F /* FFStackZ.swift */; };
 		874710C02A65431500C073E0 /* FFViewDynamicallyChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874710BF2A65431500C073E0 /* FFViewDynamicallyChange.swift */; };
 		875DD9832A6550C10061D9FB /* FFViewLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875DD9822A6550C10061D9FB /* FFViewLayoutProtocol.swift */; };
 		875DD9852A6558F70061D9FB /* FFViewThatFIts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875DD9842A6558F70061D9FB /* FFViewThatFIts.swift */; };
@@ -24,6 +35,17 @@
 		875DD9892A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875DD9882A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift */; };
 		875DD98B2A6566DA0061D9FB /* FFViewDynamicallyAppearanceRota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875DD98A2A6566DA0061D9FB /* FFViewDynamicallyAppearanceRota.swift */; };
 		875DD98D2A6568920061D9FB /* FFViewContainerSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875DD98C2A6568920061D9FB /* FFViewContainerSize.swift */; };
+		8788B4382A669D3B0083A85B /* FFStackZIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4372A669D3B0083A85B /* FFStackZIndex.swift */; };
+		8788B43A2A66A0070083A85B /* FFLayoutsSizeClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4392A66A0070083A85B /* FFLayoutsSizeClasses.swift */; };
+		8788B43C2A66B3D80083A85B /* FFStackAutomaticallySwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B43B2A66B3D80083A85B /* FFStackAutomaticallySwitch.swift */; };
+		8788B43E2A66BC900083A85B /* FFScrollViewScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B43D2A66BC900083A85B /* FFScrollViewScrolling.swift */; };
+		8788B4402A66BFE20083A85B /* FFScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B43F2A66BFE20083A85B /* FFScrollViewReader.swift */; };
+		8788B4422A6775520083A85B /* FFStack3DEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4412A6775520083A85B /* FFStack3DEffects.swift */; };
+		879AC3F82A67C4A0001B3C43 /* FFGirdPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AC3F72A67C4A0001B3C43 /* FFGirdPosition.swift */; };
+		879AC3FA2A67CEBC001B3C43 /* FFLazyGridPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AC3F92A67CEBC001B3C43 /* FFLazyGridPosition.swift */; };
+		879AC3FC2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AC3FB2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift */; };
+		879AC3FE2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AC3FD2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift */; };
+		879AC4002A67DCB5001B3C43 /* FFTableColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AC3FF2A67DCB5001B3C43 /* FFTableColumn.swift */; };
 		87B7D73E2A650A10006049A7 /* FFViewSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7D73D2A650A10006049A7 /* FFViewSafeArea.swift */; };
 		87B7D7402A650CB9006049A7 /* FFViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7D73F2A650CB9006049A7 /* FFViewType.swift */; };
 		87B7D7422A651386006049A7 /* FFViewForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7D7412A651386006049A7 /* FFViewForEach.swift */; };
@@ -34,6 +56,7 @@
 		87D07C032A64DDCC006F81AE /* FFViewCustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D07C022A64DDCC006F81AE /* FFViewCustomLayout.swift */; };
 		87D07C052A64E167006F81AE /* FFViewPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D07C042A64E167006F81AE /* FFViewPadding.swift */; };
 		87D07C072A64E3C9006F81AE /* FFViewGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D07C062A64E3C9006F81AE /* FFViewGeometryReader.swift */; };
+		87E25F882A678C7D007B76AE /* FFStackWithLazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E25F872A678C7D007B76AE /* FFStackWithLazy.swift */; };
 		87EB0D232A653153006F32D4 /* FFViewhideSystemUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB0D222A653153006F32D4 /* FFViewhideSystemUI.swift */; };
 		87EB0D252A653344006F32D4 /* FFViewGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB0D242A653344006F32D4 /* FFViewGestures.swift */; };
 		87EC14E92A5BA7D50065B715 /* FFModifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC14E82A5BA7D50065B715 /* FFModifierApp.swift */; };
@@ -81,6 +104,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		87153EBB2A667BBE009C2084 /* FFStackPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackPrimary.swift; sourceTree = "<group>"; };
+		87153EBD2A667F09009C2084 /* FFStackSpacingAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackSpacingAndAlignment.swift; sourceTree = "<group>"; };
+		87153EBF2A668205009C2084 /* FFStackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackSpacer.swift; sourceTree = "<group>"; };
+		872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollVIewContent.swift; sourceTree = "<group>"; };
+		872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewFlash.swift; sourceTree = "<group>"; };
+		872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewSnap.swift; sourceTree = "<group>"; };
+		872DC0AC2A68030D00320AB2 /* FFScrollViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewTransition.swift; sourceTree = "<group>"; };
+		872DC0AE2A68088B00320AB2 /* FFScrollViewStartBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewStartBottom.swift; sourceTree = "<group>"; };
+		872DC0B02A680A4700320AB2 /* FFScrollViewOverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewOverFlow.swift; sourceTree = "<group>"; };
 		873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageRemoteUrl.swift; sourceTree = "<group>"; };
 		873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageTransparency.swift; sourceTree = "<group>"; };
 		873B8A3D2A5EA13300394245 /* FFImageDynamicColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageDynamicColor.swift; sourceTree = "<group>"; };
@@ -93,6 +125,8 @@
 		873B8A4B2A5F955300394245 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
 		873B8A532A5FCA3400394245 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		873B8A552A5FCA3400394245 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		873DE21E2A668C2900771D3F /* FFStackSpacerFixedsize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackSpacerFixedsize.swift; sourceTree = "<group>"; };
+		873DE2202A66930900771D3F /* FFStackZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackZ.swift; sourceTree = "<group>"; };
 		874710BF2A65431500C073E0 /* FFViewDynamicallyChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewDynamicallyChange.swift; sourceTree = "<group>"; };
 		875DD9822A6550C10061D9FB /* FFViewLayoutProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewLayoutProtocol.swift; sourceTree = "<group>"; };
 		875DD9842A6558F70061D9FB /* FFViewThatFIts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewThatFIts.swift; sourceTree = "<group>"; };
@@ -100,6 +134,17 @@
 		875DD9882A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewDynamicallyAppearance.swift; sourceTree = "<group>"; };
 		875DD98A2A6566DA0061D9FB /* FFViewDynamicallyAppearanceRota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewDynamicallyAppearanceRota.swift; sourceTree = "<group>"; };
 		875DD98C2A6568920061D9FB /* FFViewContainerSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewContainerSize.swift; sourceTree = "<group>"; };
+		8788B4372A669D3B0083A85B /* FFStackZIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackZIndex.swift; sourceTree = "<group>"; };
+		8788B4392A66A0070083A85B /* FFLayoutsSizeClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLayoutsSizeClasses.swift; sourceTree = "<group>"; };
+		8788B43B2A66B3D80083A85B /* FFStackAutomaticallySwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackAutomaticallySwitch.swift; sourceTree = "<group>"; };
+		8788B43D2A66BC900083A85B /* FFScrollViewScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewScrolling.swift; sourceTree = "<group>"; };
+		8788B43F2A66BFE20083A85B /* FFScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewReader.swift; sourceTree = "<group>"; };
+		8788B4412A6775520083A85B /* FFStack3DEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStack3DEffects.swift; sourceTree = "<group>"; };
+		879AC3F72A67C4A0001B3C43 /* FFGirdPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGirdPosition.swift; sourceTree = "<group>"; };
+		879AC3F92A67CEBC001B3C43 /* FFLazyGridPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLazyGridPosition.swift; sourceTree = "<group>"; };
+		879AC3FB2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewDismissKeyboard.swift; sourceTree = "<group>"; };
+		879AC3FD2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewHideIndicators.swift; sourceTree = "<group>"; };
+		879AC3FF2A67DCB5001B3C43 /* FFTableColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTableColumn.swift; sourceTree = "<group>"; };
 		87B7D73D2A650A10006049A7 /* FFViewSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewSafeArea.swift; sourceTree = "<group>"; };
 		87B7D73F2A650CB9006049A7 /* FFViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewType.swift; sourceTree = "<group>"; };
 		87B7D7412A651386006049A7 /* FFViewForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewForEach.swift; sourceTree = "<group>"; };
@@ -110,6 +155,7 @@
 		87D07C022A64DDCC006F81AE /* FFViewCustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewCustomLayout.swift; sourceTree = "<group>"; };
 		87D07C042A64E167006F81AE /* FFViewPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewPadding.swift; sourceTree = "<group>"; };
 		87D07C062A64E3C9006F81AE /* FFViewGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewGeometryReader.swift; sourceTree = "<group>"; };
+		87E25F872A678C7D007B76AE /* FFStackWithLazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackWithLazy.swift; sourceTree = "<group>"; };
 		87EB0D222A653153006F32D4 /* FFViewhideSystemUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewhideSystemUI.swift; sourceTree = "<group>"; };
 		87EB0D242A653344006F32D4 /* FFViewGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewGestures.swift; sourceTree = "<group>"; };
 		87EC14E52A5BA7D50065B715 /* FFModifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFModifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +210,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		879E1F8E2A667A8A00287EF8 /* Stacks,girds,scrollviews */ = {
+			isa = PBXGroup;
+			children = (
+				87153EBB2A667BBE009C2084 /* FFStackPrimary.swift */,
+				87153EBD2A667F09009C2084 /* FFStackSpacingAndAlignment.swift */,
+				87153EBF2A668205009C2084 /* FFStackSpacer.swift */,
+				873DE21E2A668C2900771D3F /* FFStackSpacerFixedsize.swift */,
+				873DE2202A66930900771D3F /* FFStackZ.swift */,
+				8788B4372A669D3B0083A85B /* FFStackZIndex.swift */,
+				8788B4392A66A0070083A85B /* FFLayoutsSizeClasses.swift */,
+				8788B43B2A66B3D80083A85B /* FFStackAutomaticallySwitch.swift */,
+				8788B43D2A66BC900083A85B /* FFScrollViewScrolling.swift */,
+				8788B43F2A66BFE20083A85B /* FFScrollViewReader.swift */,
+				8788B4412A6775520083A85B /* FFStack3DEffects.swift */,
+				87E25F872A678C7D007B76AE /* FFStackWithLazy.swift */,
+				879AC3F72A67C4A0001B3C43 /* FFGirdPosition.swift */,
+				879AC3F92A67CEBC001B3C43 /* FFLazyGridPosition.swift */,
+				879AC3FB2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift */,
+				879AC3FD2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift */,
+				879AC3FF2A67DCB5001B3C43 /* FFTableColumn.swift */,
+				872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */,
+				872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */,
+				872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */,
+				872DC0AC2A68030D00320AB2 /* FFScrollViewTransition.swift */,
+				872DC0AE2A68088B00320AB2 /* FFScrollViewStartBottom.swift */,
+				872DC0B02A680A4700320AB2 /* FFScrollViewOverFlow.swift */,
+			);
+			path = "Stacks,girds,scrollviews";
+			sourceTree = "<group>";
+		};
 		87D07C012A64DD83006F81AE /* Layout */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +292,7 @@
 				87EC14F62A5BDB1D0065B715 /* Text */,
 				87ECEB122A5D2BA50092C522 /* Image */,
 				87D07C012A64DD83006F81AE /* Layout */,
+				879E1F8E2A667A8A00287EF8 /* Stacks,girds,scrollviews */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -352,10 +429,12 @@
 			files = (
 				87B7D7462A651E86006049A7 /* FFViewSameWidthHeight.swift in Sources */,
 				87ECEB1E2A5D4E020092C522 /* FFImageBackgrounds.swift in Sources */,
+				8788B4382A669D3B0083A85B /* FFStackZIndex.swift in Sources */,
 				875DD9872A6560CF0061D9FB /* FFViewAddPaddingForSafeArea.swift in Sources */,
 				87D07C072A64E3C9006F81AE /* FFViewGeometryReader.swift in Sources */,
 				87B7D74A2A652650006049A7 /* FFViewInsertSafeArea.swift in Sources */,
 				87EC14EB2A5BA7D50065B715 /* ContentView.swift in Sources */,
+				879AC3FA2A67CEBC001B3C43 /* FFLazyGridPosition.swift in Sources */,
 				87ECEAFF2A5C1C8A0092C522 /* FFTextDataFormat.swift in Sources */,
 				87ECEB072A5C2B630092C522 /* FFTextPrivasySensitive.swift in Sources */,
 				87ECEB262A5D6AF20092C522 /* FFImageShapeTrim.swift in Sources */,
@@ -364,9 +443,14 @@
 				87D07C052A64E167006F81AE /* FFViewPadding.swift in Sources */,
 				87ECEB142A5D2C010092C522 /* FFImage.swift in Sources */,
 				875DD98D2A6568920061D9FB /* FFViewContainerSize.swift in Sources */,
+				8788B43A2A66A0070083A85B /* FFLayoutsSizeClasses.swift in Sources */,
 				87ECEB282A5D704E0092C522 /* FFVideoPlayer.swift in Sources */,
+				87153EBC2A667BBE009C2084 /* FFStackPrimary.swift in Sources */,
 				875DD98B2A6566DA0061D9FB /* FFViewDynamicallyAppearanceRota.swift in Sources */,
+				872DC0A72A67F92A00320AB2 /* FFScrollVIewContent.swift in Sources */,
 				87ECEB012A5C1FD40092C522 /* FFTextField.swift in Sources */,
+				872DC0AF2A68088B00320AB2 /* FFScrollViewStartBottom.swift in Sources */,
+				8788B4402A66BFE20083A85B /* FFScrollViewReader.swift in Sources */,
 				87ECEAFD2A5C17E50092C522 /* FFTextAddSpacing.swift in Sources */,
 				873B8A402A5EA7DB00394245 /* FFImagePhotosPicker.swift in Sources */,
 				873B8A4C2A5F955300394245 /* Temp.swift in Sources */,
@@ -377,33 +461,49 @@
 				87ECEB2C2A5D75E70092C522 /* FFSpriteView.swift in Sources */,
 				873B8A482A5F885000394245 /* FFCombinShape.swift in Sources */,
 				87EB0D232A653153006F32D4 /* FFViewhideSystemUI.swift in Sources */,
+				879AC4002A67DCB5001B3C43 /* FFTableColumn.swift in Sources */,
 				875DD9852A6558F70061D9FB /* FFViewThatFIts.swift in Sources */,
+				873DE2212A66930900771D3F /* FFStackZ.swift in Sources */,
 				873B8A422A5EB18F00394245 /* FFImageVideo.swift in Sources */,
 				873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */,
 				87ECEB1C2A5D41A30092C522 /* FFImageGradients.swift in Sources */,
 				87ECEB182A5D398C0092C522 /* FFImagetile.swift in Sources */,
 				87ECEB0B2A5C315F0092C522 /* FFCustomizeLinks.swift in Sources */,
 				87B7D7482A652272006049A7 /* FFViewForegroundStyle.swift in Sources */,
+				872DC0AB2A67FEBF00320AB2 /* FFScrollViewSnap.swift in Sources */,
+				8788B43C2A66B3D80083A85B /* FFStackAutomaticallySwitch.swift in Sources */,
 				87ECEB202A5D64450092C522 /* FFImageShapes.swift in Sources */,
 				87EC14F82A5BDB400065B715 /* FFTextAlignment.swift in Sources */,
 				875DD9832A6550C10061D9FB /* FFViewLayoutProtocol.swift in Sources */,
 				87ECEB2E2A5D76F70092C522 /* FFGameScene.swift in Sources */,
 				873B8A3E2A5EA13300394245 /* FFImageDynamicColor.swift in Sources */,
 				873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */,
+				879AC3F82A67C4A0001B3C43 /* FFGirdPosition.swift in Sources */,
+				872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */,
 				875DD9892A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift in Sources */,
+				87153EBE2A667F09009C2084 /* FFStackSpacingAndAlignment.swift in Sources */,
 				87EC14FA2A5BDDEA0065B715 /* FFTextFormat.swift in Sources */,
+				879AC3FC2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift in Sources */,
 				87B7D7442A651BE5006049A7 /* FFViewLayoutPriority.swift in Sources */,
+				873DE21F2A668C2900771D3F /* FFStackSpacerFixedsize.swift in Sources */,
+				872DC0B12A680A4700320AB2 /* FFScrollViewOverFlow.swift in Sources */,
+				87E25F882A678C7D007B76AE /* FFStackWithLazy.swift in Sources */,
 				87ECEB052A5C245F0092C522 /* FFTextPlaceholder.swift in Sources */,
 				87ECEB242A5D6ACC0092C522 /* FFImageContainerRelativeShape.swift in Sources */,
 				87ECEB1A2A5D3BFE0092C522 /* FFImageSFSymbols.swift in Sources */,
+				879AC3FE2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift in Sources */,
 				87ECEB162A5D30250092C522 /* FFImagefitToSpace.swift in Sources */,
 				873B8A462A5F814F00394245 /* FFColorWithGETRGB.swift in Sources */,
 				87ECEB092A5C2D9F0092C522 /* FFTextMarkdown.swift in Sources */,
 				87ECEB222A5D66730092C522 /* FFImageStorkeShapes.swift in Sources */,
+				8788B43E2A66BC900083A85B /* FFScrollViewScrolling.swift in Sources */,
+				872DC0AD2A68030D00320AB2 /* FFScrollViewTransition.swift in Sources */,
 				87B7D73E2A650A10006049A7 /* FFViewSafeArea.swift in Sources */,
+				8788B4422A6775520083A85B /* FFStack3DEffects.swift in Sources */,
 				87B7D7422A651386006049A7 /* FFViewForEach.swift in Sources */,
 				87B7D7402A650CB9006049A7 /* FFViewType.swift in Sources */,
 				874710C02A65431500C073E0 /* FFViewDynamicallyChange.swift in Sources */,
+				87153EC02A668205009C2084 /* FFStackSpacer.swift in Sources */,
 				87D07C032A64DDCC006F81AE /* FFViewCustomLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

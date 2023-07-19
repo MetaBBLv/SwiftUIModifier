@@ -12,7 +12,7 @@ struct FFViewGeometryReader: View {
     var body: some View {
         //实例：我现在创建两个视图，希望其中一个占据父视图的1/3，另一个占据2/3
         List {
-            // 注意：GeometryReader不考虑视图层次结构中进一步向下的任何便宜或艰巨，这就是为什么要设置Hstack间距为0，如果有间距，则视图对于可用空间就会大了。通过GeometryReader设置的就超出了原本视图frame
+            //注意：GeometryReader 不考虑视图层次结构中的任何偏移或间距，这就是 HStack 上没有间距的原因 - 如果我们允许其中的间距，则视图对于可用空间来说会有点太大 。通过GeometryReader设置的就超出了原本视图frame
             GeometryReader(content: { geometry in
                 HStack(spacing: 0, content: {
                     Text("Left")
