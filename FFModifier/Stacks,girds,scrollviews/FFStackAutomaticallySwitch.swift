@@ -4,7 +4,7 @@
 //
 //  Created by BBLv on 2023/7/18.
 //
-//  SwiftUI让我们可以监控当前的大小类别来决定如何布局，例如在空间充足时从HStack切换到空间有限时的VStack。只要稍加思考，我们就可以编写一个AdaptiveStack视图，自动为我们在水平和垂直布局之间切换。这使得在iPad上创建出色的布局变得更加简单，因为我的布局经自动调整以适应分割视图和滑动场景
+//  如何根据大小类别咋HStack和VStack之间自由切换 SwiftUI让我们可以监控当前的大小类别来决定如何布局，例如在空间充足时从HStack切换到空间有限时的VStack。只要稍加思考，我们就可以编写一个AdaptiveStack视图，自动为我们在水平和垂直布局之间切换。这使得在iPad上创建出色的布局变得更加简单，因为我的布局经自动调整以适应分割视图和滑动场景
 import SwiftUI
 
 struct AdaptiveStack<Content: View>: View {

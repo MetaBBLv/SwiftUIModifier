@@ -43,7 +43,9 @@ struct FFStackWithLazy: View {
                 //使用懒加载Stack，SwiftUI会在首次显示时自动创建视图，之后，该视图将保存在内存中，因此要注意显示内容的量。如果想了解懒加载在实践中时如何工作的，看下面事例
                 ScrollView {
                     LazyVStack {
-                        ForEach(1...100, id: \.self, content: SampleRow.init)
+                        ForEach(1...100, id: \.self) { i in
+                            SampleRow(id: i)
+                        }
                     }
                 }
                 .frame(height: 300)
