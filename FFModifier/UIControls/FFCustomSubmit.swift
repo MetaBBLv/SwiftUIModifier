@@ -10,8 +10,27 @@
 import SwiftUI
 
 struct FFCustomSubmit: View {
+    @State private var username = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        // 修改为join
+        List {
+            TextField("Username", text: $username)
+                .submitLabel(.join)
+        }
+        
+        /**通过submitLabel修饰符：可以选择不同的枚举：
+            continue，
+            done，
+            go，
+            join，
+            next，
+            return，
+            route，
+            search，
+            send
+         */
+        // 适用于TextField、SecureField、TextView输入控件
     }
 }
 

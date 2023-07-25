@@ -11,7 +11,7 @@ import SwiftUI
 struct FFModifierApp: App {
     var body: some Scene {
         WindowGroup {
-            FFTextFieldSubmit()
+            FFTextFieldNumber()
         }
     }
 }
