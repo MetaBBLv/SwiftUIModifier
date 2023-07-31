@@ -24,8 +24,8 @@ struct FFTappableButton: View {
                 }
                 
                 if showDetails {
-                    Text("You should follow me on Twitter: @twostraws")
-                        .font(.largeTitle)
+                    Text("噫吁嚱，危乎高哉！蜀道之难，难于上青天！蚕丛及鱼凫，开国何茫然！尔来四万八千岁，不与秦塞通人烟。西当太白有鸟道，可以横绝峨眉巅。")
+                        .font(.system(size: 14))
                 }
             })
             
