@@ -81,6 +81,8 @@
 		879AC3FC2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AC3FB2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift */; };
 		879AC3FE2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AC3FD2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift */; };
 		879AC4002A67DCB5001B3C43 /* FFTableColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AC3FF2A67DCB5001B3C43 /* FFTableColumn.swift */; };
+		879D010F2A7C0118005F4CF3 /* FFGestureOnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D010E2A7C0118005F4CF3 /* FFGestureOnTap.swift */; };
+		879D01112A7C0436005F4CF3 /* FFGestureMangify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D01102A7C0436005F4CF3 /* FFGestureMangify.swift */; };
 		87A0AB612A6E6DD600772404 /* FFCustomSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A0AB602A6E6DD600772404 /* FFCustomSubmit.swift */; };
 		87A7959E2A7BB8270083D99A /* FFGestureForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A7959D2A7BB8270083D99A /* FFGestureForView.swift */; };
 		87A795A02A7BBD9E0083D99A /* FFGestureReadTapOrDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A7959F2A7BBD9E0083D99A /* FFGestureReadTapOrDouble.swift */; };
@@ -240,6 +242,8 @@
 		879AC3FB2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewDismissKeyboard.swift; sourceTree = "<group>"; };
 		879AC3FD2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewHideIndicators.swift; sourceTree = "<group>"; };
 		879AC3FF2A67DCB5001B3C43 /* FFTableColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTableColumn.swift; sourceTree = "<group>"; };
+		879D010E2A7C0118005F4CF3 /* FFGestureOnTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureOnTap.swift; sourceTree = "<group>"; };
+		879D01102A7C0436005F4CF3 /* FFGestureMangify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureMangify.swift; sourceTree = "<group>"; };
 		87A0AB602A6E6DD600772404 /* FFCustomSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCustomSubmit.swift; sourceTree = "<group>"; };
 		87A7959D2A7BB8270083D99A /* FFGestureForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureForView.swift; sourceTree = "<group>"; };
 		87A7959F2A7BBD9E0083D99A /* FFGestureReadTapOrDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureReadTapOrDouble.swift; sourceTree = "<group>"; };
@@ -411,6 +415,8 @@
 				87CAA2FD2A7BD4170013B086 /* FFGestureShake.swift */,
 				87CAA2FF2A7BD7D60013B086 /* FFContentShape.swift */,
 				87CAA3012A7BD9B40013B086 /* FFDisableTaps.swift */,
+				879D010E2A7C0118005F4CF3 /* FFGestureOnTap.swift */,
+				879D01102A7C0436005F4CF3 /* FFGestureMangify.swift */,
 			);
 			path = TapAndGestures;
 			sourceTree = "<group>";
@@ -735,9 +741,11 @@
 				876C942F2A6E494E00C6AD8B /* FFTappableButton.swift in Sources */,
 				87B7D7442A651BE5006049A7 /* FFViewLayoutPriority.swift in Sources */,
 				874DE70F2A6FC8620018BFF3 /* FFTextFieldNumber.swift in Sources */,
+				879D01112A7C0436005F4CF3 /* FFGestureMangify.swift in Sources */,
 				873DE21F2A668C2900771D3F /* FFStackSpacerFixedsize.swift in Sources */,
 				872DC0B12A680A4700320AB2 /* FFScrollViewOverFlow.swift in Sources */,
 				87ED69572A720D0A00FEE441 /* FFLifeCycle.swift in Sources */,
+				879D010F2A7C0118005F4CF3 /* FFGestureOnTap.swift in Sources */,
 				87AB3AE02A7A623D00F9BB04 /* FFDetectAndRespondEvent.swift in Sources */,
 				874DE7112A6FCC340018BFF3 /* FFSecureField.swift in Sources */,
 				87AB3ADE2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift in Sources */,
