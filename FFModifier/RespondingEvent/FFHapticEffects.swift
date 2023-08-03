@@ -30,7 +30,7 @@ struct FFHapticEffects: View {
             return .impact(flexibility: .solid, intensity: amount)
         }
         
-        //可以提供拱顶的触觉效果，并通过提供自己的比较函数来自定义何时触发。例如，当两个随机数之间的差异大于0.5时，触发.success触觉
+        //可以提供固定的触觉效果，并通过提供自己的比较函数来自定义何时触发。例如，当两个随机数之间的差异大于0.5时，触发.success触觉
         Button("Mark Complete") {
             randomNumber = Double.random(in: 0...1)
         }

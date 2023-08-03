@@ -347,7 +347,6 @@
 				8747A0E02A711914000F6F63 /* FFMapAnnotations.swift */,
 				8747A0DF2A711914000F6F63 /* FFMultiDatePicker.swift */,
 				8747A0DD2A711914000F6F63 /* FFSafari.swift */,
-				874AF7FB2A6929990094E1A3 /* File.swift */,
 			);
 			path = UIControls;
 			sourceTree = "<group>";
@@ -520,6 +519,7 @@
 				87AB3ADD2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift */,
 				87AB3ADF2A7A623D00F9BB04 /* FFDetectAndRespondEvent.swift */,
 				87129D782A7A6AE400FBDE15 /* FFHapticEffects.swift */,
+				874AF7FB2A6929990094E1A3 /* File.swift */,
 			);
 			path = RespondingEvent;
 			sourceTree = "<group>";

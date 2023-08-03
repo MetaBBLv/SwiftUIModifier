@@ -41,7 +41,6 @@ struct FFSystemShareSheet: View {
                 )
             }
         }
-        
     }
 }
 
