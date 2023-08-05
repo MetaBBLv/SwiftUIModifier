@@ -107,6 +107,11 @@
 		87D07C032A64DDCC006F81AE /* FFViewCustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D07C022A64DDCC006F81AE /* FFViewCustomLayout.swift */; };
 		87D07C052A64E167006F81AE /* FFViewPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D07C042A64E167006F81AE /* FFViewPadding.swift */; };
 		87D07C072A64E3C9006F81AE /* FFViewGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D07C062A64E3C9006F81AE /* FFViewGeometryReader.swift */; };
+		87D506E92A7DD29E00171449 /* FFAttributeWapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D506E82A7DD29E00171449 /* FFAttributeWapper.swift */; };
+		87D506EB2A7DDF0800171449 /* FFStateObjectMonitorExternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D506EA2A7DDF0800171449 /* FFStateObjectMonitorExternal.swift */; };
+		87D506ED2A7DE21B00171449 /* FFObservedObjectManageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D506EC2A7DE21B00171449 /* FFObservedObjectManageState.swift */; };
+		87D506EF2A7DE94800171449 /* FFEnvironmentShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D506EE2A7DE94800171449 /* FFEnvironmentShare.swift */; };
+		87D506F32A7DF02100171449 /* FFObjectWillChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D506F22A7DF02100171449 /* FFObjectWillChange.swift */; };
 		87DD7A0C2A77B41B0008D831 /* FFDeviceRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD7A0B2A77B41B0008D831 /* FFDeviceRotation.swift */; };
 		87DD7A0E2A77B8A00008D831 /* FFToolbarKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD7A0D2A77B8A00008D831 /* FFToolbarKeyboard.swift */; };
 		87DD7A102A77BF050008D831 /* FFAsynchronousTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD7A0F2A77BF050008D831 /* FFAsynchronousTask.swift */; };
@@ -150,6 +155,9 @@
 		87ECEB2E2A5D76F70092C522 /* FFGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ECEB2D2A5D76F70092C522 /* FFGameScene.swift */; };
 		87ED69552A72087E00FEE441 /* FFScenePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED69542A72087E00FEE441 /* FFScenePhase.swift */; };
 		87ED69572A720D0A00FEE441 /* FFLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED69562A720D0A00FEE441 /* FFLifeCycle.swift */; };
+		87F929C32A7DF8E6000BAE6F /* FFConstantBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F929C22A7DF8E6000BAE6F /* FFConstantBindings.swift */; };
+		87F929C52A7DFA60000BAE6F /* FFCustomBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F929C42A7DFA60000BAE6F /* FFCustomBindings.swift */; };
+		87F929C72A7DFDA4000BAE6F /* FFTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F929C62A7DFDA4000BAE6F /* FFTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -268,6 +276,11 @@
 		87D07C022A64DDCC006F81AE /* FFViewCustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewCustomLayout.swift; sourceTree = "<group>"; };
 		87D07C042A64E167006F81AE /* FFViewPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewPadding.swift; sourceTree = "<group>"; };
 		87D07C062A64E3C9006F81AE /* FFViewGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewGeometryReader.swift; sourceTree = "<group>"; };
+		87D506E82A7DD29E00171449 /* FFAttributeWapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAttributeWapper.swift; sourceTree = "<group>"; };
+		87D506EA2A7DDF0800171449 /* FFStateObjectMonitorExternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStateObjectMonitorExternal.swift; sourceTree = "<group>"; };
+		87D506EC2A7DE21B00171449 /* FFObservedObjectManageState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFObservedObjectManageState.swift; sourceTree = "<group>"; };
+		87D506EE2A7DE94800171449 /* FFEnvironmentShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFEnvironmentShare.swift; sourceTree = "<group>"; };
+		87D506F22A7DF02100171449 /* FFObjectWillChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFObjectWillChange.swift; sourceTree = "<group>"; };
 		87DD7A0B2A77B41B0008D831 /* FFDeviceRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDeviceRotation.swift; sourceTree = "<group>"; };
 		87DD7A0D2A77B8A00008D831 /* FFToolbarKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFToolbarKeyboard.swift; sourceTree = "<group>"; };
 		87DD7A0F2A77BF050008D831 /* FFAsynchronousTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAsynchronousTask.swift; sourceTree = "<group>"; };
@@ -312,6 +325,9 @@
 		87ECEB2D2A5D76F70092C522 /* FFGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGameScene.swift; sourceTree = "<group>"; };
 		87ED69542A72087E00FEE441 /* FFScenePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScenePhase.swift; sourceTree = "<group>"; };
 		87ED69562A720D0A00FEE441 /* FFLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLifeCycle.swift; sourceTree = "<group>"; };
+		87F929C22A7DF8E6000BAE6F /* FFConstantBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFConstantBindings.swift; sourceTree = "<group>"; };
+		87F929C42A7DFA60000BAE6F /* FFCustomBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCustomBindings.swift; sourceTree = "<group>"; };
+		87F929C62A7DFDA4000BAE6F /* FFTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,6 +433,7 @@
 				87CAA3012A7BD9B40013B086 /* FFDisableTaps.swift */,
 				879D010E2A7C0118005F4CF3 /* FFGestureOnTap.swift */,
 				879D01102A7C0436005F4CF3 /* FFGestureMangify.swift */,
+				874AF7FB2A6929990094E1A3 /* File.swift */,
 			);
 			path = TapAndGestures;
 			sourceTree = "<group>";
@@ -445,6 +462,21 @@
 				875DD98C2A6568920061D9FB /* FFViewContainerSize.swift */,
 			);
 			path = Layout;
+			sourceTree = "<group>";
+		};
+		87D506E72A7DD22400171449 /* AdvancedState */ = {
+			isa = PBXGroup;
+			children = (
+				87D506E82A7DD29E00171449 /* FFAttributeWapper.swift */,
+				87D506EA2A7DDF0800171449 /* FFStateObjectMonitorExternal.swift */,
+				87D506EC2A7DE21B00171449 /* FFObservedObjectManageState.swift */,
+				87D506EE2A7DE94800171449 /* FFEnvironmentShare.swift */,
+				87D506F22A7DF02100171449 /* FFObjectWillChange.swift */,
+				87F929C22A7DF8E6000BAE6F /* FFConstantBindings.swift */,
+				87F929C42A7DFA60000BAE6F /* FFCustomBindings.swift */,
+				87F929C62A7DFDA4000BAE6F /* FFTimer.swift */,
+			);
+			path = AdvancedState;
 			sourceTree = "<group>";
 		};
 		87EC14DC2A5BA7D50065B715 = {
@@ -478,6 +510,7 @@
 				876C942B2A6E266200C6AD8B /* UIControls */,
 				87ED69532A72081300FEE441 /* RespondingEvent */,
 				87A7959C2A7BB7E40083D99A /* TapAndGestures */,
+				87D506E72A7DD22400171449 /* AdvancedState */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -560,7 +593,6 @@
 				87AB3ADD2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift */,
 				87AB3ADF2A7A623D00F9BB04 /* FFDetectAndRespondEvent.swift */,
 				87129D782A7A6AE400FBDE15 /* FFHapticEffects.swift */,
-				874AF7FB2A6929990094E1A3 /* File.swift */,
 			);
 			path = RespondingEvent;
 			sourceTree = "<group>";
@@ -665,6 +697,7 @@
 				87AB3ADC2A7A50E000F9BB04 /* FFCanvasDropImages.swift in Sources */,
 				875DD98D2A6568920061D9FB /* FFViewContainerSize.swift in Sources */,
 				8788B43A2A66A0070083A85B /* FFLayoutsSizeClasses.swift in Sources */,
+				87D506EF2A7DE94800171449 /* FFEnvironmentShare.swift in Sources */,
 				87E9CE5D2A7796E2005CAE05 /* FFAppdelegate.swift in Sources */,
 				870716AD2A7236DE00D8C34A /* FFLaunches.swift in Sources */,
 				87ECEB282A5D704E0092C522 /* FFVideoPlayer.swift in Sources */,
@@ -673,8 +706,11 @@
 				874DE71F2A6FF7C10018BFF3 /* FFStepperOrRead.swift in Sources */,
 				87153EBC2A667BBE009C2084 /* FFStackPrimary.swift in Sources */,
 				875DD98B2A6566DA0061D9FB /* FFViewDynamicallyAppearanceRota.swift in Sources */,
+				87D506EB2A7DDF0800171449 /* FFStateObjectMonitorExternal.swift in Sources */,
 				876C94352A6E559F00C6AD8B /* FFControlGroup.swift in Sources */,
+				87F929C72A7DFDA4000BAE6F /* FFTimer.swift in Sources */,
 				872DC0A72A67F92A00320AB2 /* FFScrollVIewContent.swift in Sources */,
+				87D506E92A7DD29E00171449 /* FFAttributeWapper.swift in Sources */,
 				8777BF6D2A6FACDA008D26A9 /* FFTextFieldVerticalEx.swift in Sources */,
 				87ECEB012A5C1FD40092C522 /* FFTextField.swift in Sources */,
 				872DC0AF2A68088B00320AB2 /* FFScrollViewStartBottom.swift in Sources */,
@@ -703,6 +739,7 @@
 				879AC4002A67DCB5001B3C43 /* FFTableColumn.swift in Sources */,
 				875DD9852A6558F70061D9FB /* FFViewThatFIts.swift in Sources */,
 				873DE2212A66930900771D3F /* FFStackZ.swift in Sources */,
+				87D506F32A7DF02100171449 /* FFObjectWillChange.swift in Sources */,
 				876C942D2A6E26D600C6AD8B /* FFState.swift in Sources */,
 				874AF7FC2A6929990094E1A3 /* File.swift in Sources */,
 				8777BF6B2A6FA656008D26A9 /* FFTextFieldDefaultFocus.swift in Sources */,
@@ -753,6 +790,7 @@
 				87E25F882A678C7D007B76AE /* FFStackWithLazy.swift in Sources */,
 				87ECEB052A5C245F0092C522 /* FFTextPlaceholder.swift in Sources */,
 				87ECEB242A5D6ACC0092C522 /* FFImageContainerRelativeShape.swift in Sources */,
+				87D506ED2A7DE21B00171449 /* FFObservedObjectManageState.swift in Sources */,
 				8747A0E52A711914000F6F63 /* FFMapAnnotations.swift in Sources */,
 				874DE7132A6FCD460018BFF3 /* FFToggleSwitch.swift in Sources */,
 				87ECEB1A2A5D3BFE0092C522 /* FFImageSFSymbols.swift in Sources */,
@@ -766,6 +804,8 @@
 				873B8A462A5F814F00394245 /* FFColorWithGETRGB.swift in Sources */,
 				87CAA2FE2A7BD4170013B086 /* FFGestureShake.swift in Sources */,
 				87ECEB092A5C2D9F0092C522 /* FFTextMarkdown.swift in Sources */,
+				87F929C32A7DF8E6000BAE6F /* FFConstantBindings.swift in Sources */,
+				87F929C52A7DFA60000BAE6F /* FFCustomBindings.swift in Sources */,
 				87ECEB222A5D66730092C522 /* FFImageStorkeShapes.swift in Sources */,
 				8788B43E2A66BC900083A85B /* FFScrollViewScrolling.swift in Sources */,
 				872DC0AD2A68030D00320AB2 /* FFScrollViewTransition.swift in Sources */,

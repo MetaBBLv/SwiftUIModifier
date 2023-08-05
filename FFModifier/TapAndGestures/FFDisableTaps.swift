@@ -21,7 +21,7 @@ struct FFDisableTaps: View {
                 .fill(.green.opacity(0.2))
                 .frame(width: 300, height: 300)
                 .clipShape(Circle())
-                .allowsTightening(false)
+                .allowsHitTesting(false)
         }
         //尽管矩形位于按钮的上面，但它设置了allowsTightening(false)-矩形上的任何点击都不会被矩形捕获，而是传递到下面的按钮。
         //当你想要用另外一个视图突出显示一个视图时，这种效果非常有用-上面的绿色圆圈可能时点击此处开始的教程的一部分，如果圆圈本身抓住了点击，则该效果将不起作用

@@ -4,7 +4,7 @@
 //
 //  Created by 小B同学 on 2023/8/3.
 //
-//  如何检测视图中的水top insert位置
+//  如何检测视图中的tap insert位置
 //  SwiftUI中有一个onTapGesture()变量，可以检测点击的确切位置，无论是相对于视图的边界还是在整个屏幕的全局位置。
 
 
