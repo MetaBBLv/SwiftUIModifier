@@ -2,6 +2,25 @@
 关于SwiftUI中基础组件的修饰符的学习过程，每一本View都是一组式样。
 由于这是我的学习过程，所以并没有做过多的式样导航
 
+## 案例详细
+在掘金上对每一组案例实操，以及一些语言的描述，旨在熟能生巧，对SwiftUI的基础组件更熟悉的目的。这组资料是来自Paul Hudso的`Swift by Example`,有兴趣的同学可以研究一下，[地址：https://www.hackingwithswift.com/quick-start/swiftui/](https://www.hackingwithswift.com/quick-start/swiftui/)
+
+#### [001 - SwiftUI基础篇Text](https://juejin.cn/post/7254472309283995707)
+
+#### [002 - SwiftUI基础篇Image](https://juejin.cn/post/7255149657768230967)
+
+#### [003 - SwiftUI基础篇ViewLayout](https://juejin.cn/post/7256975111563116601)
+
+#### [004 - SwiftUI基础篇Stacks,Grids,ScrollViews](https://juejin.cn/post/7258149598031298615)
+
+#### [005 - SwiftUI基础篇UI（上）](https://juejin.cn/post/7260016275299614777)
+
+#### [006 - SwiftUI基础篇UI（下）](https://juejin.cn/post/7260149868781371453)
+
+#### [007 - SwiftUI基础篇RespondingEvents](https://juejin.cn/post/7262640420470734909)
+
+#### [008 - SwiftUI基础篇Tap Gestures](https://juejin.cn/post/7263125158948094012)
+
 ## 如何运行更多的式样
 
 #### 为SwiftUI小白准备
