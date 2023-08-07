@@ -33,8 +33,6 @@ struct FFTimer: View {
                 }
             }
     }
-    
-    
 }
 
 #Preview {

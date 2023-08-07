@@ -18,6 +18,7 @@
 		872DC0AD2A68030D00320AB2 /* FFScrollViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AC2A68030D00320AB2 /* FFScrollViewTransition.swift */; };
 		872DC0AF2A68088B00320AB2 /* FFScrollViewStartBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AE2A68088B00320AB2 /* FFScrollViewStartBottom.swift */; };
 		872DC0B12A680A4700320AB2 /* FFScrollViewOverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0B02A680A4700320AB2 /* FFScrollViewOverFlow.swift */; };
+		873AAB312A80BB5700A88576 /* FFListDynamicItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873AAB302A80BB5700A88576 /* FFListDynamicItems.swift */; };
 		873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */; };
 		873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */; };
 		873B8A3E2A5EA13300394245 /* FFImageDynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3D2A5EA13300394245 /* FFImageDynamicColor.swift */; };
@@ -60,6 +61,9 @@
 		875DD9892A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875DD9882A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift */; };
 		875DD98B2A6566DA0061D9FB /* FFViewDynamicallyAppearanceRota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875DD98A2A6566DA0061D9FB /* FFViewDynamicallyAppearanceRota.swift */; };
 		875DD98D2A6568920061D9FB /* FFViewContainerSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875DD98C2A6568920061D9FB /* FFViewContainerSize.swift */; };
+		875F8F3A2A80C70A0006D5BC /* FFListDeleteRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F8F392A80C70A0006D5BC /* FFListDeleteRows.swift */; };
+		87649DEB2A8099B3003FFA8E /* FFList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87649DEA2A8099B3003FFA8E /* FFList.swift */; };
+		87649DED2A809B81003FFA8E /* FFListStaticitems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87649DEC2A809B81003FFA8E /* FFListStaticitems.swift */; };
 		876C942D2A6E26D600C6AD8B /* FFState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C942C2A6E26D600C6AD8B /* FFState.swift */; };
 		876C942F2A6E494E00C6AD8B /* FFTappableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C942E2A6E494E00C6AD8B /* FFTappableButton.swift */; };
 		876C94312A6E4F0800C6AD8B /* FFDisableOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C94302A6E4F0800C6AD8B /* FFDisableOverlay.swift */; };
@@ -83,10 +87,13 @@
 		879D010F2A7C0118005F4CF3 /* FFGestureOnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D010E2A7C0118005F4CF3 /* FFGestureOnTap.swift */; };
 		879D01112A7C0436005F4CF3 /* FFGestureMangify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879D01102A7C0436005F4CF3 /* FFGestureMangify.swift */; };
 		87A0AB612A6E6DD600772404 /* FFCustomSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A0AB602A6E6DD600772404 /* FFCustomSubmit.swift */; };
+		87A398742A80FFA8001D9C1D /* FFListAddSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A398732A80FFA8001D9C1D /* FFListAddSection.swift */; };
+		87A398762A8101D3001D9C1D /* FFListEditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A398752A8101D3001D9C1D /* FFListEditButton.swift */; };
 		87A7959E2A7BB8270083D99A /* FFGestureForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A7959D2A7BB8270083D99A /* FFGestureForView.swift */; };
 		87A795A02A7BBD9E0083D99A /* FFGestureReadTapOrDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A7959F2A7BBD9E0083D99A /* FFGestureReadTapOrDouble.swift */; };
 		87A795A22A7BBEC80083D99A /* FFGestureHighPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A795A12A7BBEC80083D99A /* FFGestureHighPriority.swift */; };
 		87A795A42A7BC10A0083D99A /* FFSimultaneousGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A795A32A7BC10A0083D99A /* FFSimultaneousGesture.swift */; };
+		87A95A622A80E70C00C88FF9 /* FFListMoveRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A95A612A80E70C00C88FF9 /* FFListMoveRows.swift */; };
 		87AB3ADA2A7A508800F9BB04 /* FFCanvasDropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB3AD92A7A508800F9BB04 /* FFCanvasDropImage.swift */; };
 		87AB3ADC2A7A50E000F9BB04 /* FFCanvasDropImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB3ADB2A7A50E000F9BB04 /* FFCanvasDropImages.swift */; };
 		87AB3ADE2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB3ADD2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift */; };
@@ -98,8 +105,13 @@
 		87B7D7462A651E86006049A7 /* FFViewSameWidthHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7D7452A651E86006049A7 /* FFViewSameWidthHeight.swift */; };
 		87B7D7482A652272006049A7 /* FFViewForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7D7472A652272006049A7 /* FFViewForegroundStyle.swift */; };
 		87B7D74A2A652650006049A7 /* FFViewInsertSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7D7492A652650006049A7 /* FFViewInsertSafeArea.swift */; };
+		87C0BBC92A810C0B0012BB4A /* SwiftListListRowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0BBC82A810C0B0012BB4A /* SwiftListListRowBackground.swift */; };
+		87C0BBCB2A810D280012BB4A /* FFListInsetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0BBCA2A810D280012BB4A /* FFListInsetGroup.swift */; };
+		87C0BBCD2A810FAF0012BB4A /* FFListExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0BBCC2A810FAF0012BB4A /* FFListExpanding.swift */; };
+		87C0BBCF2A81138C0012BB4A /* FFListScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0BBCE2A81138C0012BB4A /* FFListScroll.swift */; };
 		87C104B12A7E3B56004959E8 /* FFStateOnchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C104B02A7E3B56004959E8 /* FFStateOnchange.swift */; };
 		87C104B32A7E413C004959E8 /* FFDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C104B22A7E413C004959E8 /* FFDarkMode.swift */; };
+		87C104B52A7E4915004959E8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C104B42A7E4915004959E8 /* File.swift */; };
 		87CAA2FA2A7BC9630013B086 /* FFGestureSequenced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CAA2F92A7BC9630013B086 /* FFGestureSequenced.swift */; };
 		87CAA2FC2A7BCCF00013B086 /* FFViewHovering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CAA2FB2A7BCCF00013B086 /* FFViewHovering.swift */; };
 		87CAA2FE2A7BD4170013B086 /* FFGestureShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CAA2FD2A7BD4170013B086 /* FFGestureShake.swift */; };
@@ -186,6 +198,7 @@
 		872DC0AC2A68030D00320AB2 /* FFScrollViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewTransition.swift; sourceTree = "<group>"; };
 		872DC0AE2A68088B00320AB2 /* FFScrollViewStartBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewStartBottom.swift; sourceTree = "<group>"; };
 		872DC0B02A680A4700320AB2 /* FFScrollViewOverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewOverFlow.swift; sourceTree = "<group>"; };
+		873AAB302A80BB5700A88576 /* FFListDynamicItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListDynamicItems.swift; sourceTree = "<group>"; };
 		873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageRemoteUrl.swift; sourceTree = "<group>"; };
 		873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageTransparency.swift; sourceTree = "<group>"; };
 		873B8A3D2A5EA13300394245 /* FFImageDynamicColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageDynamicColor.swift; sourceTree = "<group>"; };
@@ -230,6 +243,9 @@
 		875DD9882A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewDynamicallyAppearance.swift; sourceTree = "<group>"; };
 		875DD98A2A6566DA0061D9FB /* FFViewDynamicallyAppearanceRota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewDynamicallyAppearanceRota.swift; sourceTree = "<group>"; };
 		875DD98C2A6568920061D9FB /* FFViewContainerSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewContainerSize.swift; sourceTree = "<group>"; };
+		875F8F392A80C70A0006D5BC /* FFListDeleteRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListDeleteRows.swift; sourceTree = "<group>"; };
+		87649DEA2A8099B3003FFA8E /* FFList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFList.swift; sourceTree = "<group>"; };
+		87649DEC2A809B81003FFA8E /* FFListStaticitems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListStaticitems.swift; sourceTree = "<group>"; };
 		876C942C2A6E26D600C6AD8B /* FFState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFState.swift; sourceTree = "<group>"; };
 		876C942E2A6E494E00C6AD8B /* FFTappableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTappableButton.swift; sourceTree = "<group>"; };
 		876C94302A6E4F0800C6AD8B /* FFDisableOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDisableOverlay.swift; sourceTree = "<group>"; };
@@ -253,10 +269,13 @@
 		879D010E2A7C0118005F4CF3 /* FFGestureOnTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureOnTap.swift; sourceTree = "<group>"; };
 		879D01102A7C0436005F4CF3 /* FFGestureMangify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureMangify.swift; sourceTree = "<group>"; };
 		87A0AB602A6E6DD600772404 /* FFCustomSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCustomSubmit.swift; sourceTree = "<group>"; };
+		87A398732A80FFA8001D9C1D /* FFListAddSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListAddSection.swift; sourceTree = "<group>"; };
+		87A398752A8101D3001D9C1D /* FFListEditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListEditButton.swift; sourceTree = "<group>"; };
 		87A7959D2A7BB8270083D99A /* FFGestureForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureForView.swift; sourceTree = "<group>"; };
 		87A7959F2A7BBD9E0083D99A /* FFGestureReadTapOrDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureReadTapOrDouble.swift; sourceTree = "<group>"; };
 		87A795A12A7BBEC80083D99A /* FFGestureHighPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureHighPriority.swift; sourceTree = "<group>"; };
 		87A795A32A7BC10A0083D99A /* FFSimultaneousGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSimultaneousGesture.swift; sourceTree = "<group>"; };
+		87A95A612A80E70C00C88FF9 /* FFListMoveRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListMoveRows.swift; sourceTree = "<group>"; };
 		87AB3AD92A7A508800F9BB04 /* FFCanvasDropImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCanvasDropImage.swift; sourceTree = "<group>"; };
 		87AB3ADB2A7A50E000F9BB04 /* FFCanvasDropImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCanvasDropImages.swift; sourceTree = "<group>"; };
 		87AB3ADD2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCanvasDropDraggable.swift; sourceTree = "<group>"; };
@@ -268,8 +287,13 @@
 		87B7D7452A651E86006049A7 /* FFViewSameWidthHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewSameWidthHeight.swift; sourceTree = "<group>"; };
 		87B7D7472A652272006049A7 /* FFViewForegroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewForegroundStyle.swift; sourceTree = "<group>"; };
 		87B7D7492A652650006049A7 /* FFViewInsertSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewInsertSafeArea.swift; sourceTree = "<group>"; };
+		87C0BBC82A810C0B0012BB4A /* SwiftListListRowBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListListRowBackground.swift; sourceTree = "<group>"; };
+		87C0BBCA2A810D280012BB4A /* FFListInsetGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListInsetGroup.swift; sourceTree = "<group>"; };
+		87C0BBCC2A810FAF0012BB4A /* FFListExpanding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListExpanding.swift; sourceTree = "<group>"; };
+		87C0BBCE2A81138C0012BB4A /* FFListScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListScroll.swift; sourceTree = "<group>"; };
 		87C104B02A7E3B56004959E8 /* FFStateOnchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStateOnchange.swift; sourceTree = "<group>"; };
 		87C104B22A7E413C004959E8 /* FFDarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDarkMode.swift; sourceTree = "<group>"; };
+		87C104B42A7E4915004959E8 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		87CAA2F92A7BC9630013B086 /* FFGestureSequenced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureSequenced.swift; sourceTree = "<group>"; };
 		87CAA2FB2A7BCCF00013B086 /* FFViewHovering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewHovering.swift; sourceTree = "<group>"; };
 		87CAA2FD2A7BD4170013B086 /* FFGestureShake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureShake.swift; sourceTree = "<group>"; };
@@ -350,6 +374,24 @@
 				873B8A552A5FCA3400394245 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87649DE92A8099A6003FFA8E /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				87649DEA2A8099B3003FFA8E /* FFList.swift */,
+				87649DEC2A809B81003FFA8E /* FFListStaticitems.swift */,
+				873AAB302A80BB5700A88576 /* FFListDynamicItems.swift */,
+				875F8F392A80C70A0006D5BC /* FFListDeleteRows.swift */,
+				87A95A612A80E70C00C88FF9 /* FFListMoveRows.swift */,
+				87A398732A80FFA8001D9C1D /* FFListAddSection.swift */,
+				87A398752A8101D3001D9C1D /* FFListEditButton.swift */,
+				87C0BBC82A810C0B0012BB4A /* SwiftListListRowBackground.swift */,
+				87C0BBCA2A810D280012BB4A /* FFListInsetGroup.swift */,
+				87C0BBCC2A810FAF0012BB4A /* FFListExpanding.swift */,
+				87C0BBCE2A81138C0012BB4A /* FFListScroll.swift */,
+			);
+			path = Lists;
 			sourceTree = "<group>";
 		};
 		876C942B2A6E266200C6AD8B /* UIControls */ = {
@@ -478,6 +520,7 @@
 				87F929C62A7DFDA4000BAE6F /* FFTimer.swift */,
 				87C104B02A7E3B56004959E8 /* FFStateOnchange.swift */,
 				87C104B22A7E413C004959E8 /* FFDarkMode.swift */,
+				87C104B42A7E4915004959E8 /* File.swift */,
 			);
 			path = AdvancedState;
 			sourceTree = "<group>";
@@ -514,6 +557,7 @@
 				87ED69532A72081300FEE441 /* RespondingEvent */,
 				87A7959C2A7BB7E40083D99A /* TapAndGestures */,
 				87D506E72A7DD22400171449 /* AdvancedState */,
+				87649DE92A8099A6003FFA8E /* Lists */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -683,6 +727,7 @@
 				87D07C072A64E3C9006F81AE /* FFViewGeometryReader.swift in Sources */,
 				874B6D0E2A6F737500EA6A0A /* FFTextFieldkeyboard.swift in Sources */,
 				874DE71D2A6FF4CB0018BFF3 /* FFSegmentedOrRead.swift in Sources */,
+				87649DED2A809B81003FFA8E /* FFListStaticitems.swift in Sources */,
 				87B7D74A2A652650006049A7 /* FFViewInsertSafeArea.swift in Sources */,
 				87EC14EB2A5BA7D50065B715 /* ContentView.swift in Sources */,
 				879AC3FA2A67CEBC001B3C43 /* FFLazyGridPosition.swift in Sources */,
@@ -700,8 +745,10 @@
 				87AB3ADC2A7A50E000F9BB04 /* FFCanvasDropImages.swift in Sources */,
 				875DD98D2A6568920061D9FB /* FFViewContainerSize.swift in Sources */,
 				8788B43A2A66A0070083A85B /* FFLayoutsSizeClasses.swift in Sources */,
+				87A398742A80FFA8001D9C1D /* FFListAddSection.swift in Sources */,
 				87D506EF2A7DE94800171449 /* FFEnvironmentShare.swift in Sources */,
 				87E9CE5D2A7796E2005CAE05 /* FFAppdelegate.swift in Sources */,
+				87649DEB2A8099B3003FFA8E /* FFList.swift in Sources */,
 				870716AD2A7236DE00D8C34A /* FFLaunches.swift in Sources */,
 				87ECEB282A5D704E0092C522 /* FFVideoPlayer.swift in Sources */,
 				876C94332A6E53E400C6AD8B /* FFButtonsBordered.swift in Sources */,
@@ -712,6 +759,7 @@
 				87D506EB2A7DDF0800171449 /* FFStateObjectMonitorExternal.swift in Sources */,
 				876C94352A6E559F00C6AD8B /* FFControlGroup.swift in Sources */,
 				87F929C72A7DFDA4000BAE6F /* FFTimer.swift in Sources */,
+				87C0BBC92A810C0B0012BB4A /* SwiftListListRowBackground.swift in Sources */,
 				872DC0A72A67F92A00320AB2 /* FFScrollVIewContent.swift in Sources */,
 				87D506E92A7DD29E00171449 /* FFAttributeWapper.swift in Sources */,
 				8777BF6D2A6FACDA008D26A9 /* FFTextFieldVerticalEx.swift in Sources */,
@@ -735,6 +783,7 @@
 				87CAA3002A7BD7D60013B086 /* FFContentShape.swift in Sources */,
 				87EB0D232A653153006F32D4 /* FFViewhideSystemUI.swift in Sources */,
 				874DE71B2A6FF1A80018BFF3 /* FFDatePickerOrRead.swift in Sources */,
+				87C104B52A7E4915004959E8 /* File.swift in Sources */,
 				87A7959E2A7BB8270083D99A /* FFGestureForView.swift in Sources */,
 				874B6D082A6F6F1D00EA6A0A /* FFTextFieldBorder.swift in Sources */,
 				87CAA2FA2A7BC9630013B086 /* FFGestureSequenced.swift in Sources */,
@@ -749,6 +798,7 @@
 				87DD7A182A7A38280008D831 /* FFFindAndReplaceText.swift in Sources */,
 				876C94312A6E4F0800C6AD8B /* FFDisableOverlay.swift in Sources */,
 				873B8A422A5EB18F00394245 /* FFImageVideo.swift in Sources */,
+				87C0BBCB2A810D280012BB4A /* FFListInsetGroup.swift in Sources */,
 				873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */,
 				87ECEB1C2A5D41A30092C522 /* FFImageGradients.swift in Sources */,
 				87ECEB182A5D398C0092C522 /* FFImagetile.swift in Sources */,
@@ -768,12 +818,15 @@
 				876C94392A6E5A7800C6AD8B /* FFTextFieldSubmit.swift in Sources */,
 				874DE7292A6FFE810018BFF3 /* FFMap.swift in Sources */,
 				879AC3F82A67C4A0001B3C43 /* FFGirdPosition.swift in Sources */,
+				87C0BBCD2A810FAF0012BB4A /* FFListExpanding.swift in Sources */,
+				873AAB312A80BB5700A88576 /* FFListDynamicItems.swift in Sources */,
 				874DE7152A6FEC9C0018BFF3 /* FFSliderOrRead.swift in Sources */,
 				874DE7172A6FEE990018BFF3 /* FFPickerOrRead.swift in Sources */,
 				872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */,
 				875DD9892A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift in Sources */,
 				87CAA3022A7BD9B40013B086 /* FFDisableTaps.swift in Sources */,
 				87153EBE2A667F09009C2084 /* FFStackSpacingAndAlignment.swift in Sources */,
+				87A95A622A80E70C00C88FF9 /* FFListMoveRows.swift in Sources */,
 				87EC14FA2A5BDDEA0065B715 /* FFTextFormat.swift in Sources */,
 				87A795A42A7BC10A0083D99A /* FFSimultaneousGesture.swift in Sources */,
 				879AC3FC2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift in Sources */,
@@ -786,6 +839,7 @@
 				87ED69572A720D0A00FEE441 /* FFLifeCycle.swift in Sources */,
 				879D010F2A7C0118005F4CF3 /* FFGestureOnTap.swift in Sources */,
 				87AB3AE02A7A623D00F9BB04 /* FFDetectAndRespondEvent.swift in Sources */,
+				87A398762A8101D3001D9C1D /* FFListEditButton.swift in Sources */,
 				874DE7112A6FCC340018BFF3 /* FFSecureField.swift in Sources */,
 				87AB3ADE2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift in Sources */,
 				874DE7272A6FFDD40018BFF3 /* FFProressViewIndeterminate.swift in Sources */,
@@ -795,6 +849,8 @@
 				87ECEB242A5D6ACC0092C522 /* FFImageContainerRelativeShape.swift in Sources */,
 				87D506ED2A7DE21B00171449 /* FFObservedObjectManageState.swift in Sources */,
 				8747A0E52A711914000F6F63 /* FFMapAnnotations.swift in Sources */,
+				87C0BBCF2A81138C0012BB4A /* FFListScroll.swift in Sources */,
+				875F8F3A2A80C70A0006D5BC /* FFListDeleteRows.swift in Sources */,
 				874DE7132A6FCD460018BFF3 /* FFToggleSwitch.swift in Sources */,
 				87ECEB1A2A5D3BFE0092C522 /* FFImageSFSymbols.swift in Sources */,
 				879AC3FE2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift in Sources */,
