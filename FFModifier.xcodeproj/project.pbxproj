@@ -18,6 +18,8 @@
 		872DC0AD2A68030D00320AB2 /* FFScrollViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AC2A68030D00320AB2 /* FFScrollViewTransition.swift */; };
 		872DC0AF2A68088B00320AB2 /* FFScrollViewStartBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AE2A68088B00320AB2 /* FFScrollViewStartBottom.swift */; };
 		872DC0B12A680A4700320AB2 /* FFScrollViewOverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0B02A680A4700320AB2 /* FFScrollViewOverFlow.swift */; };
+		8731EC8C2A820EFE00B0A612 /* FFListImplicitStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731EC8B2A820EFE00B0A612 /* FFListImplicitStacking.swift */; };
+		8731EC8E2A82144500B0A612 /* FFListSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731EC8D2A82144500B0A612 /* FFListSeparator.swift */; };
 		873AAB312A80BB5700A88576 /* FFListDynamicItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873AAB302A80BB5700A88576 /* FFListDynamicItems.swift */; };
 		873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */; };
 		873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */; };
@@ -73,6 +75,14 @@
 		876C94392A6E5A7800C6AD8B /* FFTextFieldSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C94382A6E5A7800C6AD8B /* FFTextFieldSubmit.swift */; };
 		8777BF6B2A6FA656008D26A9 /* FFTextFieldDefaultFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777BF6A2A6FA656008D26A9 /* FFTextFieldDefaultFocus.swift */; };
 		8777BF6D2A6FACDA008D26A9 /* FFTextFieldVerticalEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8777BF6C2A6FACDA008D26A9 /* FFTextFieldVerticalEx.swift */; };
+		8780A3242A8224BB002484A4 /* FFListPullRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8780A3232A8224BB002484A4 /* FFListPullRefresh.swift */; };
+		8780A3262A82277B002484A4 /* FFListCustomSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8780A3252A82277B002484A4 /* FFListCustomSwipe.swift */; };
+		8780A3282A822EBA002484A4 /* FFListSearchBarFilterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8780A3272A822EBA002484A4 /* FFListSearchBarFilterData.swift */; };
+		8780A32A2A824334002484A4 /* FFListSearchTocken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8780A3292A824334002484A4 /* FFListSearchTocken.swift */; };
+		8780A32C2A825157002484A4 /* FFListForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8780A32B2A825157002484A4 /* FFListForEach.swift */; };
+		8780A32E2A825576002484A4 /* FFListRowSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8780A32D2A825576002484A4 /* FFListRowSeparator.swift */; };
+		8780A3302A8258E4002484A4 /* FFListRowIndividual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8780A32F2A8258E4002484A4 /* FFListRowIndividual.swift */; };
+		8786BB4A2A81E4E5004F329C /* FFListSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8786BB492A81E4E5004F329C /* FFListSelectionRow.swift */; };
 		8788B4382A669D3B0083A85B /* FFStackZIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4372A669D3B0083A85B /* FFStackZIndex.swift */; };
 		8788B43A2A66A0070083A85B /* FFLayoutsSizeClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4392A66A0070083A85B /* FFLayoutsSizeClasses.swift */; };
 		8788B43C2A66B3D80083A85B /* FFStackAutomaticallySwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B43B2A66B3D80083A85B /* FFStackAutomaticallySwitch.swift */; };
@@ -198,6 +208,8 @@
 		872DC0AC2A68030D00320AB2 /* FFScrollViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewTransition.swift; sourceTree = "<group>"; };
 		872DC0AE2A68088B00320AB2 /* FFScrollViewStartBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewStartBottom.swift; sourceTree = "<group>"; };
 		872DC0B02A680A4700320AB2 /* FFScrollViewOverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewOverFlow.swift; sourceTree = "<group>"; };
+		8731EC8B2A820EFE00B0A612 /* FFListImplicitStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListImplicitStacking.swift; sourceTree = "<group>"; };
+		8731EC8D2A82144500B0A612 /* FFListSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListSeparator.swift; sourceTree = "<group>"; };
 		873AAB302A80BB5700A88576 /* FFListDynamicItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListDynamicItems.swift; sourceTree = "<group>"; };
 		873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageRemoteUrl.swift; sourceTree = "<group>"; };
 		873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageTransparency.swift; sourceTree = "<group>"; };
@@ -255,6 +267,14 @@
 		876C94382A6E5A7800C6AD8B /* FFTextFieldSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTextFieldSubmit.swift; sourceTree = "<group>"; };
 		8777BF6A2A6FA656008D26A9 /* FFTextFieldDefaultFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTextFieldDefaultFocus.swift; sourceTree = "<group>"; };
 		8777BF6C2A6FACDA008D26A9 /* FFTextFieldVerticalEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTextFieldVerticalEx.swift; sourceTree = "<group>"; };
+		8780A3232A8224BB002484A4 /* FFListPullRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListPullRefresh.swift; sourceTree = "<group>"; };
+		8780A3252A82277B002484A4 /* FFListCustomSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListCustomSwipe.swift; sourceTree = "<group>"; };
+		8780A3272A822EBA002484A4 /* FFListSearchBarFilterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListSearchBarFilterData.swift; sourceTree = "<group>"; };
+		8780A3292A824334002484A4 /* FFListSearchTocken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListSearchTocken.swift; sourceTree = "<group>"; };
+		8780A32B2A825157002484A4 /* FFListForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListForEach.swift; sourceTree = "<group>"; };
+		8780A32D2A825576002484A4 /* FFListRowSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListRowSeparator.swift; sourceTree = "<group>"; };
+		8780A32F2A8258E4002484A4 /* FFListRowIndividual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListRowIndividual.swift; sourceTree = "<group>"; };
+		8786BB492A81E4E5004F329C /* FFListSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListSelectionRow.swift; sourceTree = "<group>"; };
 		8788B4372A669D3B0083A85B /* FFStackZIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackZIndex.swift; sourceTree = "<group>"; };
 		8788B4392A66A0070083A85B /* FFLayoutsSizeClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLayoutsSizeClasses.swift; sourceTree = "<group>"; };
 		8788B43B2A66B3D80083A85B /* FFStackAutomaticallySwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackAutomaticallySwitch.swift; sourceTree = "<group>"; };
@@ -390,6 +410,16 @@
 				87C0BBCA2A810D280012BB4A /* FFListInsetGroup.swift */,
 				87C0BBCC2A810FAF0012BB4A /* FFListExpanding.swift */,
 				87C0BBCE2A81138C0012BB4A /* FFListScroll.swift */,
+				8786BB492A81E4E5004F329C /* FFListSelectionRow.swift */,
+				8731EC8B2A820EFE00B0A612 /* FFListImplicitStacking.swift */,
+				8731EC8D2A82144500B0A612 /* FFListSeparator.swift */,
+				8780A3232A8224BB002484A4 /* FFListPullRefresh.swift */,
+				8780A3252A82277B002484A4 /* FFListCustomSwipe.swift */,
+				8780A3272A822EBA002484A4 /* FFListSearchBarFilterData.swift */,
+				8780A3292A824334002484A4 /* FFListSearchTocken.swift */,
+				8780A32B2A825157002484A4 /* FFListForEach.swift */,
+				8780A32D2A825576002484A4 /* FFListRowSeparator.swift */,
+				8780A32F2A8258E4002484A4 /* FFListRowIndividual.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -737,8 +767,11 @@
 				87ECEB262A5D6AF20092C522 /* FFImageShapeTrim.swift in Sources */,
 				87EB0D252A653344006F32D4 /* FFViewGestures.swift in Sources */,
 				87CAA2FC2A7BCCF00013B086 /* FFViewHovering.swift in Sources */,
+				8780A3262A82277B002484A4 /* FFListCustomSwipe.swift in Sources */,
 				873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */,
+				8780A32E2A825576002484A4 /* FFListRowSeparator.swift in Sources */,
 				87D07C052A64E167006F81AE /* FFViewPadding.swift in Sources */,
+				8786BB4A2A81E4E5004F329C /* FFListSelectionRow.swift in Sources */,
 				87ECEB142A5D2C010092C522 /* FFImage.swift in Sources */,
 				8747A0E62A711914000F6F63 /* FFLabelHidden.swift in Sources */,
 				87129D792A7A6AE400FBDE15 /* FFHapticEffects.swift in Sources */,
@@ -749,9 +782,11 @@
 				87D506EF2A7DE94800171449 /* FFEnvironmentShare.swift in Sources */,
 				87E9CE5D2A7796E2005CAE05 /* FFAppdelegate.swift in Sources */,
 				87649DEB2A8099B3003FFA8E /* FFList.swift in Sources */,
+				8780A32A2A824334002484A4 /* FFListSearchTocken.swift in Sources */,
 				870716AD2A7236DE00D8C34A /* FFLaunches.swift in Sources */,
 				87ECEB282A5D704E0092C522 /* FFVideoPlayer.swift in Sources */,
 				876C94332A6E53E400C6AD8B /* FFButtonsBordered.swift in Sources */,
+				8780A32C2A825157002484A4 /* FFListForEach.swift in Sources */,
 				87ED69552A72087E00FEE441 /* FFScenePhase.swift in Sources */,
 				874DE71F2A6FF7C10018BFF3 /* FFStepperOrRead.swift in Sources */,
 				87153EBC2A667BBE009C2084 /* FFStackPrimary.swift in Sources */,
@@ -766,8 +801,11 @@
 				87ECEB012A5C1FD40092C522 /* FFTextField.swift in Sources */,
 				872DC0AF2A68088B00320AB2 /* FFScrollViewStartBottom.swift in Sources */,
 				8788B4402A66BFE20083A85B /* FFScrollViewReader.swift in Sources */,
+				8731EC8C2A820EFE00B0A612 /* FFListImplicitStacking.swift in Sources */,
 				87ECEAFD2A5C17E50092C522 /* FFTextAddSpacing.swift in Sources */,
+				8731EC8E2A82144500B0A612 /* FFListSeparator.swift in Sources */,
 				873B8A402A5EA7DB00394245 /* FFImagePhotosPicker.swift in Sources */,
+				8780A3242A8224BB002484A4 /* FFListPullRefresh.swift in Sources */,
 				87E9CE5B2A778BDF005CAE05 /* FFLaunchesCode.swift in Sources */,
 				87DD7A0C2A77B41B0008D831 /* FFDeviceRotation.swift in Sources */,
 				873B8A4C2A5F955300394245 /* Temp.swift in Sources */,
@@ -782,6 +820,7 @@
 				87DD7A102A77BF050008D831 /* FFAsynchronousTask.swift in Sources */,
 				87CAA3002A7BD7D60013B086 /* FFContentShape.swift in Sources */,
 				87EB0D232A653153006F32D4 /* FFViewhideSystemUI.swift in Sources */,
+				8780A3302A8258E4002484A4 /* FFListRowIndividual.swift in Sources */,
 				874DE71B2A6FF1A80018BFF3 /* FFDatePickerOrRead.swift in Sources */,
 				87C104B52A7E4915004959E8 /* File.swift in Sources */,
 				87A7959E2A7BB8270083D99A /* FFGestureForView.swift in Sources */,
@@ -825,6 +864,7 @@
 				872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */,
 				875DD9892A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift in Sources */,
 				87CAA3022A7BD9B40013B086 /* FFDisableTaps.swift in Sources */,
+				8780A3282A822EBA002484A4 /* FFListSearchBarFilterData.swift in Sources */,
 				87153EBE2A667F09009C2084 /* FFStackSpacingAndAlignment.swift in Sources */,
 				87A95A622A80E70C00C88FF9 /* FFListMoveRows.swift in Sources */,
 				87EC14FA2A5BDDEA0065B715 /* FFTextFormat.swift in Sources */,

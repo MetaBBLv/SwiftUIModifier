@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct FFListScroll: View {
+struct FFScrollTo: View {
     var body: some View {
         ScrollViewReader(content: { proxy in
             VStack {
@@ -23,6 +23,72 @@ struct FFListScroll: View {
                 }
             }
         })
+    }
+}
+
+struct FFScrollToAnchor: View {
+    var body: some View {
+        ScrollViewReader(content: { proxy in
+            VStack {
+                Button("Jump to #50") {
+                    proxy.scrollTo(50, anchor: .top)
+                }
+                
+                List(0..<100, id: \.self) { i in
+                    Text("Example \(i)")
+                        .id(i)
+                }
+            }
+        })
+    }
+}
+
+struct FFScrollToAnchorAnimation: View {
+    var body: some View {
+        ScrollViewReader(content: { proxy in
+            VStack {
+                Button("Jump to #50") {
+                    withAnimation {
+                        proxy.scrollTo(50, anchor: .top)
+                    }
+                }
+                
+                List(0..<100, id: \.self) { i in
+                    Text("Example \(i)")
+                        .id(i)
+                }
+            }
+        })
+    }
+}
+
+struct FFListScroll: View {
+    var body: some View {
+        NavigationStack {
+            List {
+                NavigationLink {
+                    FFScrollTo()
+                } label: {
+                    Text("scrollTo")
+                }
+                
+                NavigationLink {
+                    FFScrollToAnchor()
+                } label: {
+                    Text("scrollToAnchor")
+                }
+                
+                NavigationLink {
+                    FFScrollToAnchorAnimation()
+                } label: {
+                    Text("scrollToAnchorWithAnimation")
+                }
+            }
+        }
+        
+        
+        
+        
     }
 }
 
