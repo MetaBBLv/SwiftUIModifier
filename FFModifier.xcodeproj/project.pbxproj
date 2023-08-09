@@ -12,6 +12,10 @@
 		87153EBC2A667BBE009C2084 /* FFStackPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBB2A667BBE009C2084 /* FFStackPrimary.swift */; };
 		87153EBE2A667F09009C2084 /* FFStackSpacingAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBD2A667F09009C2084 /* FFStackSpacingAndAlignment.swift */; };
 		87153EC02A668205009C2084 /* FFStackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBF2A668205009C2084 /* FFStackSpacer.swift */; };
+		872143FD2A83A55E00F7A446 /* FFForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872143FC2A83A55E00F7A446 /* FFForms.swift */; };
+		872143FF2A83A73A00F7A446 /* FFFormDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872143FE2A83A73A00F7A446 /* FFFormDesign.swift */; };
+		872144012A83A92900F7A446 /* FFFormSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872144002A83A92900F7A446 /* FFFormSections.swift */; };
+		872144032A83AB4600F7A446 /* FFFormPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872144022A83AB4600F7A446 /* FFFormPicker.swift */; };
 		872DC0A72A67F92A00320AB2 /* FFScrollVIewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */; };
 		872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */; };
 		872DC0AB2A67FEBF00320AB2 /* FFScrollViewSnap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */; };
@@ -202,6 +206,10 @@
 		87153EBB2A667BBE009C2084 /* FFStackPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackPrimary.swift; sourceTree = "<group>"; };
 		87153EBD2A667F09009C2084 /* FFStackSpacingAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackSpacingAndAlignment.swift; sourceTree = "<group>"; };
 		87153EBF2A668205009C2084 /* FFStackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackSpacer.swift; sourceTree = "<group>"; };
+		872143FC2A83A55E00F7A446 /* FFForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFForms.swift; sourceTree = "<group>"; };
+		872143FE2A83A73A00F7A446 /* FFFormDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormDesign.swift; sourceTree = "<group>"; };
+		872144002A83A92900F7A446 /* FFFormSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormSections.swift; sourceTree = "<group>"; };
+		872144022A83AB4600F7A446 /* FFFormPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormPicker.swift; sourceTree = "<group>"; };
 		872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollVIewContent.swift; sourceTree = "<group>"; };
 		872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewFlash.swift; sourceTree = "<group>"; };
 		872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewSnap.swift; sourceTree = "<group>"; };
@@ -387,6 +395,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		872143FB2A83A54A00F7A446 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				872143FC2A83A55E00F7A446 /* FFForms.swift */,
+				872143FE2A83A73A00F7A446 /* FFFormDesign.swift */,
+				872144002A83A92900F7A446 /* FFFormSections.swift */,
+				872144022A83AB4600F7A446 /* FFFormPicker.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
 		873B8A522A5FCA3400394245 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -588,6 +607,7 @@
 				87A7959C2A7BB7E40083D99A /* TapAndGestures */,
 				87D506E72A7DD22400171449 /* AdvancedState */,
 				87649DE92A8099A6003FFA8E /* Lists */,
+				872143FB2A83A54A00F7A446 /* Forms */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -809,6 +829,7 @@
 				87E9CE5B2A778BDF005CAE05 /* FFLaunchesCode.swift in Sources */,
 				87DD7A0C2A77B41B0008D831 /* FFDeviceRotation.swift in Sources */,
 				873B8A4C2A5F955300394245 /* Temp.swift in Sources */,
+				872143FD2A83A55E00F7A446 /* FFForms.swift in Sources */,
 				87AB3ADA2A7A508800F9BB04 /* FFCanvasDropImage.swift in Sources */,
 				873B8A4A2A5F8D6C00394245 /* SwiftCustomColorWithAsset.swift in Sources */,
 				8747A0E42A711914000F6F63 /* FFMultiDatePicker.swift in Sources */,
@@ -821,7 +842,9 @@
 				87CAA3002A7BD7D60013B086 /* FFContentShape.swift in Sources */,
 				87EB0D232A653153006F32D4 /* FFViewhideSystemUI.swift in Sources */,
 				8780A3302A8258E4002484A4 /* FFListRowIndividual.swift in Sources */,
+				872144012A83A92900F7A446 /* FFFormSections.swift in Sources */,
 				874DE71B2A6FF1A80018BFF3 /* FFDatePickerOrRead.swift in Sources */,
+				872144032A83AB4600F7A446 /* FFFormPicker.swift in Sources */,
 				87C104B52A7E4915004959E8 /* File.swift in Sources */,
 				87A7959E2A7BB8270083D99A /* FFGestureForView.swift in Sources */,
 				874B6D082A6F6F1D00EA6A0A /* FFTextFieldBorder.swift in Sources */,
@@ -877,6 +900,7 @@
 				873DE21F2A668C2900771D3F /* FFStackSpacerFixedsize.swift in Sources */,
 				872DC0B12A680A4700320AB2 /* FFScrollViewOverFlow.swift in Sources */,
 				87ED69572A720D0A00FEE441 /* FFLifeCycle.swift in Sources */,
+				872143FF2A83A73A00F7A446 /* FFFormDesign.swift in Sources */,
 				879D010F2A7C0118005F4CF3 /* FFGestureOnTap.swift in Sources */,
 				87AB3AE02A7A623D00F9BB04 /* FFDetectAndRespondEvent.swift in Sources */,
 				87A398762A8101D3001D9C1D /* FFListEditButton.swift in Sources */,
