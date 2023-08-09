@@ -35,7 +35,7 @@ struct FFListDeleteRows: View {
                 })
                 .navigationTitle("Users")
             }
-            //onDelete()作为ForEach的修饰符，不能直接用于List，这是因为列表中包含静态行
+            //onDelete()作为ForEach的修饰符，不能直接用于List，因为此修饰符是在DynamicViewContent中定义的
             
         }
     }

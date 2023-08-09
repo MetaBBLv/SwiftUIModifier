@@ -5,7 +5,7 @@
 //  Created by BBLv on 2023/8/7.
 //
 //  如何使用EditButton对list进行编辑
-//  如果你已经配置了一个SwiftUI列表视图来支持删除或编辑它的项目，你可以允许用户通过在某处添加一个EditButton来自饿还列表视图的编辑模式。
+//  如果已经配置了一个SwiftUI列表视图来支持删除或编辑它的项目，允许可以在某处添加一个EditButton来开启list视图的编辑模式。
 
 import SwiftUI
 

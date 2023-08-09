@@ -420,6 +420,7 @@
 				8780A32B2A825157002484A4 /* FFListForEach.swift */,
 				8780A32D2A825576002484A4 /* FFListRowSeparator.swift */,
 				8780A32F2A8258E4002484A4 /* FFListRowIndividual.swift */,
+				87C104B42A7E4915004959E8 /* File.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -550,7 +551,6 @@
 				87F929C62A7DFDA4000BAE6F /* FFTimer.swift */,
 				87C104B02A7E3B56004959E8 /* FFStateOnchange.swift */,
 				87C104B22A7E413C004959E8 /* FFDarkMode.swift */,
-				87C104B42A7E4915004959E8 /* File.swift */,
 			);
 			path = AdvancedState;
 			sourceTree = "<group>";
