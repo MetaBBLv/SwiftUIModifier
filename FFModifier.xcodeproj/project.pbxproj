@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		870716AD2A7236DE00D8C34A /* FFLaunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870716AC2A7236DE00D8C34A /* FFLaunches.swift */; };
+		8712898C2A84B4B700809403 /* FFFormDisablingElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8712898B2A84B4B700809403 /* FFFormDisablingElements.swift */; };
+		8712898E2A84B67500809403 /* FFFormShowAndHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8712898D2A84B67500809403 /* FFFormShowAndHidden.swift */; };
+		871289902A84B87300809403 /* FFFormAlign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8712898F2A84B87300809403 /* FFFormAlign.swift */; };
 		87129D792A7A6AE400FBDE15 /* FFHapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87129D782A7A6AE400FBDE15 /* FFHapticEffects.swift */; };
 		87153EBC2A667BBE009C2084 /* FFStackPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBB2A667BBE009C2084 /* FFStackPrimary.swift */; };
 		87153EBE2A667F09009C2084 /* FFStackSpacingAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBD2A667F09009C2084 /* FFStackSpacingAndAlignment.swift */; };
@@ -202,6 +205,9 @@
 
 /* Begin PBXFileReference section */
 		870716AC2A7236DE00D8C34A /* FFLaunches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLaunches.swift; sourceTree = "<group>"; };
+		8712898B2A84B4B700809403 /* FFFormDisablingElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormDisablingElements.swift; sourceTree = "<group>"; };
+		8712898D2A84B67500809403 /* FFFormShowAndHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormShowAndHidden.swift; sourceTree = "<group>"; };
+		8712898F2A84B87300809403 /* FFFormAlign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormAlign.swift; sourceTree = "<group>"; };
 		87129D782A7A6AE400FBDE15 /* FFHapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFHapticEffects.swift; sourceTree = "<group>"; };
 		87153EBB2A667BBE009C2084 /* FFStackPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackPrimary.swift; sourceTree = "<group>"; };
 		87153EBD2A667F09009C2084 /* FFStackSpacingAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackSpacingAndAlignment.swift; sourceTree = "<group>"; };
@@ -402,6 +408,9 @@
 				872143FE2A83A73A00F7A446 /* FFFormDesign.swift */,
 				872144002A83A92900F7A446 /* FFFormSections.swift */,
 				872144022A83AB4600F7A446 /* FFFormPicker.swift */,
+				8712898B2A84B4B700809403 /* FFFormDisablingElements.swift */,
+				8712898D2A84B67500809403 /* FFFormShowAndHidden.swift */,
+				8712898F2A84B87300809403 /* FFFormAlign.swift */,
 			);
 			path = Forms;
 			sourceTree = "<group>";
@@ -846,11 +855,13 @@
 				874DE71B2A6FF1A80018BFF3 /* FFDatePickerOrRead.swift in Sources */,
 				872144032A83AB4600F7A446 /* FFFormPicker.swift in Sources */,
 				87C104B52A7E4915004959E8 /* File.swift in Sources */,
+				871289902A84B87300809403 /* FFFormAlign.swift in Sources */,
 				87A7959E2A7BB8270083D99A /* FFGestureForView.swift in Sources */,
 				874B6D082A6F6F1D00EA6A0A /* FFTextFieldBorder.swift in Sources */,
 				87CAA2FA2A7BC9630013B086 /* FFGestureSequenced.swift in Sources */,
 				876C94372A6E588300C6AD8B /* FFTextFieldRead.swift in Sources */,
 				879AC4002A67DCB5001B3C43 /* FFTableColumn.swift in Sources */,
+				8712898E2A84B67500809403 /* FFFormShowAndHidden.swift in Sources */,
 				875DD9852A6558F70061D9FB /* FFViewThatFIts.swift in Sources */,
 				873DE2212A66930900771D3F /* FFStackZ.swift in Sources */,
 				87D506F32A7DF02100171449 /* FFObjectWillChange.swift in Sources */,
@@ -863,6 +874,7 @@
 				87C0BBCB2A810D280012BB4A /* FFListInsetGroup.swift in Sources */,
 				873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */,
 				87ECEB1C2A5D41A30092C522 /* FFImageGradients.swift in Sources */,
+				8712898C2A84B4B700809403 /* FFFormDisablingElements.swift in Sources */,
 				87ECEB182A5D398C0092C522 /* FFImagetile.swift in Sources */,
 				87ECEB0B2A5C315F0092C522 /* FFCustomizeLinks.swift in Sources */,
 				874DE7212A6FF9E70018BFF3 /* FFTextEditor.swift in Sources */,
