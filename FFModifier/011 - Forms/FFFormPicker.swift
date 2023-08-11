@@ -34,7 +34,7 @@ struct FFFormPicker: View {
                     .pickerStyle(.wheel)
                 }
             }
-            .navigationTitle("Select your cheese")
+            .navigationTitle("Select your choose")
         }
     }
 }
