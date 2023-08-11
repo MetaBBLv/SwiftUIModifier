@@ -411,6 +411,7 @@
 				8712898B2A84B4B700809403 /* FFFormDisablingElements.swift */,
 				8712898D2A84B67500809403 /* FFFormShowAndHidden.swift */,
 				8712898F2A84B87300809403 /* FFFormAlign.swift */,
+				87C104B42A7E4915004959E8 /* File.swift */,
 			);
 			path = Forms;
 			sourceTree = "<group>";
@@ -448,7 +449,6 @@
 				8780A32B2A825157002484A4 /* FFListForEach.swift */,
 				8780A32D2A825576002484A4 /* FFListRowSeparator.swift */,
 				8780A32F2A8258E4002484A4 /* FFListRowIndividual.swift */,
-				87C104B42A7E4915004959E8 /* File.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
