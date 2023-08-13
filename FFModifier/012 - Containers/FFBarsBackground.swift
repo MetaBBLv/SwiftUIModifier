@@ -46,7 +46,7 @@ struct FFBarsBackground: View {
             .tabItem {
                 Label("Third", systemImage: "list.bullet")
             }
-            //在该示例中，当用户滚动时，列表内容直接出现在导航标题方便。如果你采用这种方法，轻确保你的主要内容于toolbar重叠时不会发生冲突。
+            //在该示例中，当滚动时，列表内容直接出现在导航标题上。如果采用这种方法，请确保你的主要内容与toolbar重叠时不会发生UI问题。
         }
         
     }

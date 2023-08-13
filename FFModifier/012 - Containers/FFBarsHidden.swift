@@ -25,8 +25,6 @@ struct FFBarsDetailView: View {
 }
 
 struct FFBarsHidden: View {
-    
-    
     var body: some View {
         TabView {
             NavigationStack {
