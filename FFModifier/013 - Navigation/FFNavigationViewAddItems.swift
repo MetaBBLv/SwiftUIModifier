@@ -127,6 +127,7 @@ struct FFNavigationViewAddItems: View {
                     Text("通过primaryAction与secondaryAction设置item")
                 }
             }
+            .navigationTitle("Navigation")
         }
         
     }
