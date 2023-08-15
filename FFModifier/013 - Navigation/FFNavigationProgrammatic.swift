@@ -27,7 +27,7 @@ struct FFNavigationProgrammatic: View {
             }
             //当代码运行时，将看到“Detail8”，点返回看到“Detail 4”，点返回看到“Detail 1”，点返回看到List
         }
-        .navigationTitle("Navigation")
+        .navigationTitle("Navigation_01")
     }
 }
 

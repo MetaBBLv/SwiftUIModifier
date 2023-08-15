@@ -19,6 +19,8 @@
 		872143FF2A83A73A00F7A446 /* FFFormDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872143FE2A83A73A00F7A446 /* FFFormDesign.swift */; };
 		872144012A83A92900F7A446 /* FFFormSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872144002A83A92900F7A446 /* FFFormSections.swift */; };
 		872144032A83AB4600F7A446 /* FFFormPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872144022A83AB4600F7A446 /* FFFormPicker.swift */; };
+		8721B9E42A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8721B9E32A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift */; };
+		8721B9E62A8B499F00A6527E /* FFNavigationProgrammaticForHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8721B9E52A8B499F00A6527E /* FFNavigationProgrammaticForHash.swift */; };
 		872DC0A72A67F92A00320AB2 /* FFScrollVIewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */; };
 		872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */; };
 		872DC0AB2A67FEBF00320AB2 /* FFScrollViewSnap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */; };
@@ -235,6 +237,8 @@
 		872143FE2A83A73A00F7A446 /* FFFormDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormDesign.swift; sourceTree = "<group>"; };
 		872144002A83A92900F7A446 /* FFFormSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormSections.swift; sourceTree = "<group>"; };
 		872144022A83AB4600F7A446 /* FFFormPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormPicker.swift; sourceTree = "<group>"; };
+		8721B9E32A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationProgrammaticForNext.swift; sourceTree = "<group>"; };
+		8721B9E52A8B499F00A6527E /* FFNavigationProgrammaticForHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationProgrammaticForHash.swift; sourceTree = "<group>"; };
 		872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollVIewContent.swift; sourceTree = "<group>"; };
 		872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewFlash.swift; sourceTree = "<group>"; };
 		872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewSnap.swift; sourceTree = "<group>"; };
@@ -633,6 +637,8 @@
 				87ADB27A2A8928AE004BD5DC /* FFnavigationPushView.swift */,
 				87ADB27C2A892B01004BD5DC /* FFNavigationForList.swift */,
 				87ADB27E2A89337E004BD5DC /* FFNavigationProgrammatic.swift */,
+				8721B9E32A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift */,
+				8721B9E52A8B499F00A6527E /* FFNavigationProgrammaticForHash.swift */,
 			);
 			path = "013 - Navigation";
 			sourceTree = "<group>";
@@ -884,6 +890,7 @@
 				87AB3ADC2A7A50E000F9BB04 /* FFCanvasDropImages.swift in Sources */,
 				875DD98D2A6568920061D9FB /* FFViewContainerSize.swift in Sources */,
 				8788B43A2A66A0070083A85B /* FFLayoutsSizeClasses.swift in Sources */,
+				8721B9E62A8B499F00A6527E /* FFNavigationProgrammaticForHash.swift in Sources */,
 				87D9749F2A86160600B75AA1 /* FFTabViewBadge.swift in Sources */,
 				87A398742A80FFA8001D9C1D /* FFListAddSection.swift in Sources */,
 				87D097BC2A88F901006AE3E9 /* FFNavigationViewAddItems.swift in Sources */,
@@ -1039,6 +1046,7 @@
 				87B7D73E2A650A10006049A7 /* FFViewSafeArea.swift in Sources */,
 				87D974A12A8617F900B75AA1 /* FFGroupBox.swift in Sources */,
 				8788B4422A6775520083A85B /* FFStack3DEffects.swift in Sources */,
+				8721B9E42A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift in Sources */,
 				87B7D7422A651386006049A7 /* FFViewForEach.swift in Sources */,
 				87B7D7402A650CB9006049A7 /* FFViewType.swift in Sources */,
 				874710C02A65431500C073E0 /* FFViewDynamicallyChange.swift in Sources */,
