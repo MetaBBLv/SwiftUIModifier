@@ -15,6 +15,15 @@
 		87153EBC2A667BBE009C2084 /* FFStackPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBB2A667BBE009C2084 /* FFStackPrimary.swift */; };
 		87153EBE2A667F09009C2084 /* FFStackSpacingAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBD2A667F09009C2084 /* FFStackSpacingAndAlignment.swift */; };
 		87153EC02A668205009C2084 /* FFStackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87153EBF2A668205009C2084 /* FFStackSpacer.swift */; };
+		8716E6242A8B85A3003E85F9 /* FFNavigationSplitViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716E6232A8B85A3003E85F9 /* FFNavigationSplitViewContent.swift */; };
+		8716E6262A8B869C003E85F9 /* FFNavigationSplitViewHideAndShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716E6252A8B869C003E85F9 /* FFNavigationSplitViewHideAndShow.swift */; };
+		8716E6282A8B8BB4003E85F9 /* FFNavigationSplitViewCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716E6272A8B8BB4003E85F9 /* FFNavigationSplitViewCustomize.swift */; };
+		8716E62A2A8B8E20003E85F9 /* FFNavigationSplitViewCustomizeMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716E6292A8B8E20003E85F9 /* FFNavigationSplitViewCustomizeMax.swift */; };
+		8716E62C2A8B8EEA003E85F9 /* FFNavigationSplitViewDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716E62B2A8B8EEA003E85F9 /* FFNavigationSplitViewDisplayMode.swift */; };
+		8716E62E2A8B90DF003E85F9 /* FFNavigationSplitViewDisplayModeBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716E62D2A8B90DF003E85F9 /* FFNavigationSplitViewDisplayModeBalance.swift */; };
+		8716E6302A8B91DD003E85F9 /* FFNavigationSplitViewCompact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716E62F2A8B91DD003E85F9 /* FFNavigationSplitViewCompact.swift */; };
+		8716E6322A8B93BB003E85F9 /* FFInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716E6312A8B93BB003E85F9 /* FFInspector.swift */; };
+		8716E6342A8B963A003E85F9 /* FFInspectorIdeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716E6332A8B963A003E85F9 /* FFInspectorIdeal.swift */; };
 		872143FD2A83A55E00F7A446 /* FFForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872143FC2A83A55E00F7A446 /* FFForms.swift */; };
 		872143FF2A83A73A00F7A446 /* FFFormDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872143FE2A83A73A00F7A446 /* FFFormDesign.swift */; };
 		872144012A83A92900F7A446 /* FFFormSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872144002A83A92900F7A446 /* FFFormSections.swift */; };
@@ -29,6 +38,7 @@
 		872DC0B12A680A4700320AB2 /* FFScrollViewOverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0B02A680A4700320AB2 /* FFScrollViewOverFlow.swift */; };
 		8731EC8C2A820EFE00B0A612 /* FFListImplicitStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731EC8B2A820EFE00B0A612 /* FFListImplicitStacking.swift */; };
 		8731EC8E2A82144500B0A612 /* FFListSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731EC8D2A82144500B0A612 /* FFListSeparator.swift */; };
+		873202DD2A8B530C00B290CC /* FFNavigationCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873202DC2A8B530C00B290CC /* FFNavigationCodable.swift */; };
 		8735E8CC2A85DFA900271850 /* FFContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8CB2A85DFA900271850 /* FFContainer.swift */; };
 		8735E8CE2A85E11400271850 /* FFTabViewEnbedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8CD2A85E11400271850 /* FFTabViewEnbedViews.swift */; };
 		8735E8D02A85F8A500271850 /* FFTabViewScrollingPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8CF2A85F8A500271850 /* FFTabViewScrollingPages.swift */; };
@@ -209,6 +219,7 @@
 		87F929C32A7DF8E6000BAE6F /* FFConstantBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F929C22A7DF8E6000BAE6F /* FFConstantBindings.swift */; };
 		87F929C52A7DFA60000BAE6F /* FFCustomBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F929C42A7DFA60000BAE6F /* FFCustomBindings.swift */; };
 		87F929C72A7DFDA4000BAE6F /* FFTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F929C62A7DFDA4000BAE6F /* FFTimer.swift */; };
+		87FE98362A8B663500B258EB /* FFNavigationSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FE98352A8B663500B258EB /* FFNavigationSplitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -233,6 +244,15 @@
 		87153EBB2A667BBE009C2084 /* FFStackPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackPrimary.swift; sourceTree = "<group>"; };
 		87153EBD2A667F09009C2084 /* FFStackSpacingAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackSpacingAndAlignment.swift; sourceTree = "<group>"; };
 		87153EBF2A668205009C2084 /* FFStackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackSpacer.swift; sourceTree = "<group>"; };
+		8716E6232A8B85A3003E85F9 /* FFNavigationSplitViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationSplitViewContent.swift; sourceTree = "<group>"; };
+		8716E6252A8B869C003E85F9 /* FFNavigationSplitViewHideAndShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationSplitViewHideAndShow.swift; sourceTree = "<group>"; };
+		8716E6272A8B8BB4003E85F9 /* FFNavigationSplitViewCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationSplitViewCustomize.swift; sourceTree = "<group>"; };
+		8716E6292A8B8E20003E85F9 /* FFNavigationSplitViewCustomizeMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationSplitViewCustomizeMax.swift; sourceTree = "<group>"; };
+		8716E62B2A8B8EEA003E85F9 /* FFNavigationSplitViewDisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationSplitViewDisplayMode.swift; sourceTree = "<group>"; };
+		8716E62D2A8B90DF003E85F9 /* FFNavigationSplitViewDisplayModeBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationSplitViewDisplayModeBalance.swift; sourceTree = "<group>"; };
+		8716E62F2A8B91DD003E85F9 /* FFNavigationSplitViewCompact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationSplitViewCompact.swift; sourceTree = "<group>"; };
+		8716E6312A8B93BB003E85F9 /* FFInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFInspector.swift; sourceTree = "<group>"; };
+		8716E6332A8B963A003E85F9 /* FFInspectorIdeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFInspectorIdeal.swift; sourceTree = "<group>"; };
 		872143FC2A83A55E00F7A446 /* FFForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFForms.swift; sourceTree = "<group>"; };
 		872143FE2A83A73A00F7A446 /* FFFormDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormDesign.swift; sourceTree = "<group>"; };
 		872144002A83A92900F7A446 /* FFFormSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormSections.swift; sourceTree = "<group>"; };
@@ -247,6 +267,7 @@
 		872DC0B02A680A4700320AB2 /* FFScrollViewOverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewOverFlow.swift; sourceTree = "<group>"; };
 		8731EC8B2A820EFE00B0A612 /* FFListImplicitStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListImplicitStacking.swift; sourceTree = "<group>"; };
 		8731EC8D2A82144500B0A612 /* FFListSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListSeparator.swift; sourceTree = "<group>"; };
+		873202DC2A8B530C00B290CC /* FFNavigationCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationCodable.swift; sourceTree = "<group>"; };
 		8735E8CB2A85DFA900271850 /* FFContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFContainer.swift; sourceTree = "<group>"; };
 		8735E8CD2A85E11400271850 /* FFTabViewEnbedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTabViewEnbedViews.swift; sourceTree = "<group>"; };
 		8735E8CF2A85F8A500271850 /* FFTabViewScrollingPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTabViewScrollingPages.swift; sourceTree = "<group>"; };
@@ -430,6 +451,7 @@
 		87F929C22A7DF8E6000BAE6F /* FFConstantBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFConstantBindings.swift; sourceTree = "<group>"; };
 		87F929C42A7DFA60000BAE6F /* FFCustomBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCustomBindings.swift; sourceTree = "<group>"; };
 		87F929C62A7DFDA4000BAE6F /* FFTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTimer.swift; sourceTree = "<group>"; };
+		87FE98352A8B663500B258EB /* FFNavigationSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationSplitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -639,6 +661,17 @@
 				87ADB27E2A89337E004BD5DC /* FFNavigationProgrammatic.swift */,
 				8721B9E32A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift */,
 				8721B9E52A8B499F00A6527E /* FFNavigationProgrammaticForHash.swift */,
+				873202DC2A8B530C00B290CC /* FFNavigationCodable.swift */,
+				87FE98352A8B663500B258EB /* FFNavigationSplitView.swift */,
+				8716E6232A8B85A3003E85F9 /* FFNavigationSplitViewContent.swift */,
+				8716E6252A8B869C003E85F9 /* FFNavigationSplitViewHideAndShow.swift */,
+				8716E6272A8B8BB4003E85F9 /* FFNavigationSplitViewCustomize.swift */,
+				8716E6292A8B8E20003E85F9 /* FFNavigationSplitViewCustomizeMax.swift */,
+				8716E62B2A8B8EEA003E85F9 /* FFNavigationSplitViewDisplayMode.swift */,
+				8716E62D2A8B90DF003E85F9 /* FFNavigationSplitViewDisplayModeBalance.swift */,
+				8716E62F2A8B91DD003E85F9 /* FFNavigationSplitViewCompact.swift */,
+				8716E6312A8B93BB003E85F9 /* FFInspector.swift */,
+				8716E6332A8B963A003E85F9 /* FFInspectorIdeal.swift */,
 			);
 			path = "013 - Navigation";
 			sourceTree = "<group>";
@@ -860,11 +893,14 @@
 				87ECEB1E2A5D4E020092C522 /* FFImageBackgrounds.swift in Sources */,
 				8788B4382A669D3B0083A85B /* FFStackZIndex.swift in Sources */,
 				874B6D0C2A6F724C00EA6A0A /* FFTextFieldAutocorrect.swift in Sources */,
+				8716E62C2A8B8EEA003E85F9 /* FFNavigationSplitViewDisplayMode.swift in Sources */,
 				87D974A32A861A1600B75AA1 /* FFBarsHidden.swift in Sources */,
 				87A795A22A7BBEC80083D99A /* FFGestureHighPriority.swift in Sources */,
 				875DD9872A6560CF0061D9FB /* FFViewAddPaddingForSafeArea.swift in Sources */,
 				87D07C072A64E3C9006F81AE /* FFViewGeometryReader.swift in Sources */,
+				87FE98362A8B663500B258EB /* FFNavigationSplitView.swift in Sources */,
 				874B6D0E2A6F737500EA6A0A /* FFTextFieldkeyboard.swift in Sources */,
+				8716E6302A8B91DD003E85F9 /* FFNavigationSplitViewCompact.swift in Sources */,
 				874DE71D2A6FF4CB0018BFF3 /* FFSegmentedOrRead.swift in Sources */,
 				87649DED2A809B81003FFA8E /* FFListStaticitems.swift in Sources */,
 				87B7D74A2A652650006049A7 /* FFViewInsertSafeArea.swift in Sources */,
@@ -876,9 +912,11 @@
 				87ECEB072A5C2B630092C522 /* FFTextPrivasySensitive.swift in Sources */,
 				87ECEB262A5D6AF20092C522 /* FFImageShapeTrim.swift in Sources */,
 				87D097BA2A88F6CB006AE3E9 /* FFNavigationEdit.swift in Sources */,
+				8716E62A2A8B8E20003E85F9 /* FFNavigationSplitViewCustomizeMax.swift in Sources */,
 				87EB0D252A653344006F32D4 /* FFViewGestures.swift in Sources */,
 				87CAA2FC2A7BCCF00013B086 /* FFViewHovering.swift in Sources */,
 				8780A3262A82277B002484A4 /* FFListCustomSwipe.swift in Sources */,
+				8716E6342A8B963A003E85F9 /* FFInspectorIdeal.swift in Sources */,
 				873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */,
 				8780A32E2A825576002484A4 /* FFListRowSeparator.swift in Sources */,
 				87D07C052A64E167006F81AE /* FFViewPadding.swift in Sources */,
@@ -939,6 +977,7 @@
 				87DD7A102A77BF050008D831 /* FFAsynchronousTask.swift in Sources */,
 				87CAA3002A7BD7D60013B086 /* FFContentShape.swift in Sources */,
 				87EB0D232A653153006F32D4 /* FFViewhideSystemUI.swift in Sources */,
+				8716E6242A8B85A3003E85F9 /* FFNavigationSplitViewContent.swift in Sources */,
 				8780A3302A8258E4002484A4 /* FFListRowIndividual.swift in Sources */,
 				872144012A83A92900F7A446 /* FFFormSections.swift in Sources */,
 				874DE71B2A6FF1A80018BFF3 /* FFDatePickerOrRead.swift in Sources */,
@@ -952,6 +991,7 @@
 				8735E8D42A85FF3400271850 /* FFStatusbarHideAndShow.swift in Sources */,
 				879AC4002A67DCB5001B3C43 /* FFTableColumn.swift in Sources */,
 				8712898E2A84B67500809403 /* FFFormShowAndHidden.swift in Sources */,
+				8716E6282A8B8BB4003E85F9 /* FFNavigationSplitViewCustomize.swift in Sources */,
 				875DD9852A6558F70061D9FB /* FFViewThatFIts.swift in Sources */,
 				873DE2212A66930900771D3F /* FFStackZ.swift in Sources */,
 				87D506F32A7DF02100171449 /* FFObjectWillChange.swift in Sources */,
@@ -962,6 +1002,7 @@
 				87DD7A182A7A38280008D831 /* FFFindAndReplaceText.swift in Sources */,
 				876C94312A6E4F0800C6AD8B /* FFDisableOverlay.swift in Sources */,
 				873B8A422A5EB18F00394245 /* FFImageVideo.swift in Sources */,
+				8716E62E2A8B90DF003E85F9 /* FFNavigationSplitViewDisplayModeBalance.swift in Sources */,
 				87C0BBCB2A810D280012BB4A /* FFListInsetGroup.swift in Sources */,
 				873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */,
 				87ECEB1C2A5D41A30092C522 /* FFImageGradients.swift in Sources */,
@@ -1023,6 +1064,7 @@
 				8747A0E52A711914000F6F63 /* FFMapAnnotations.swift in Sources */,
 				87C0BBCF2A81138C0012BB4A /* FFListScroll.swift in Sources */,
 				87D974A52A861FAB00B75AA1 /* FFBarsBackground.swift in Sources */,
+				873202DD2A8B530C00B290CC /* FFNavigationCodable.swift in Sources */,
 				875F8F3A2A80C70A0006D5BC /* FFListDeleteRows.swift in Sources */,
 				874DE7132A6FCD460018BFF3 /* FFToggleSwitch.swift in Sources */,
 				87ECEB1A2A5D3BFE0092C522 /* FFImageSFSymbols.swift in Sources */,
@@ -1038,6 +1080,7 @@
 				87ECEB092A5C2D9F0092C522 /* FFTextMarkdown.swift in Sources */,
 				87F929C32A7DF8E6000BAE6F /* FFConstantBindings.swift in Sources */,
 				87F929C52A7DFA60000BAE6F /* FFCustomBindings.swift in Sources */,
+				8716E6322A8B93BB003E85F9 /* FFInspector.swift in Sources */,
 				87ECEB222A5D66730092C522 /* FFImageStorkeShapes.swift in Sources */,
 				8788B43E2A66BC900083A85B /* FFScrollViewScrolling.swift in Sources */,
 				872DC0AD2A68030D00320AB2 /* FFScrollViewTransition.swift in Sources */,
@@ -1048,6 +1091,7 @@
 				8788B4422A6775520083A85B /* FFStack3DEffects.swift in Sources */,
 				8721B9E42A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift in Sources */,
 				87B7D7422A651386006049A7 /* FFViewForEach.swift in Sources */,
+				8716E6262A8B869C003E85F9 /* FFNavigationSplitViewHideAndShow.swift in Sources */,
 				87B7D7402A650CB9006049A7 /* FFViewType.swift in Sources */,
 				874710C02A65431500C073E0 /* FFViewDynamicallyChange.swift in Sources */,
 				87153EC02A668205009C2084 /* FFStackSpacer.swift in Sources */,

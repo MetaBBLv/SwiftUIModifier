@@ -25,7 +25,7 @@ struct FFNavigationProgrammaticForNext: View {
                         }
                     }
                 }
-                .navigationTitle("Navigation_02")
+                .navigationTitle("NavigationForNext")
             }
         }
     }
