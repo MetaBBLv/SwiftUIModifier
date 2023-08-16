@@ -24,8 +24,6 @@ struct FFNavigationEmbedView: View {
                 .navigationBarTitleDisplayMode(.inline)
             //这将产生小的导航标题，但你可以使用.large来设置一个大标题
         }
-        
-        
     }
 }
 

@@ -21,7 +21,6 @@ struct FFNavigationEdit: View {
             
             //如果你的标题在哪里，因为它代表了你的用户正在编辑某些内容的名称，我建议添加.toolvarRole(.editor)以便你的标题向其他文档标题一样与前沿对其。
                 .toolbarRole(.editor)
-            
         }
     }
 }
