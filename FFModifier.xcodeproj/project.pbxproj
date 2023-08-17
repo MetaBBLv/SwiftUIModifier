@@ -120,6 +120,7 @@
 		8784FC702A8CDA6B007C7E35 /* FFMenuShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FC6F2A8CDA6B007C7E35 /* FFMenuShow.swift */; };
 		8784FC742A8CDC64007C7E35 /* FFMenuPick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FC732A8CDC64007C7E35 /* FFMenuPick.swift */; };
 		8784FC762A8CE10E007C7E35 /* FFPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FC752A8CE10E007C7E35 /* FFPurchases.swift */; };
+		8784FC792A8E0F21007C7E35 /* FFPresentSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FC782A8E0F21007C7E35 /* FFPresentSheets.swift */; };
 		8786BB4A2A81E4E5004F329C /* FFListSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8786BB492A81E4E5004F329C /* FFListSelectionRow.swift */; };
 		8788B4382A669D3B0083A85B /* FFStackZIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4372A669D3B0083A85B /* FFStackZIndex.swift */; };
 		8788B43A2A66A0070083A85B /* FFLayoutsSizeClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4392A66A0070083A85B /* FFLayoutsSizeClasses.swift */; };
@@ -192,6 +193,10 @@
 		87DD7A182A7A38280008D831 /* FFFindAndReplaceText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD7A172A7A38280008D831 /* FFFindAndReplaceText.swift */; };
 		87DD7A1A2A7A382E0008D831 /* FFCanvasDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD7A192A7A382E0008D831 /* FFCanvasDrop.swift */; };
 		87E25F882A678C7D007B76AE /* FFStackWithLazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E25F872A678C7D007B76AE /* FFStackWithLazy.swift */; };
+		87E479DA2A8E1EA9002E6D5F /* FFPresentSheetsMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E479D92A8E1EA9002E6D5F /* FFPresentSheetsMultiple.swift */; };
+		87E479DC2A8E2173002E6D5F /* FFSheetViewDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E479DB2A8E2173002E6D5F /* FFSheetViewDismiss.swift */; };
+		87E479E02A8E3ED7002E6D5F /* FFSheetFullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E479DF2A8E3ED7002E6D5F /* FFSheetFullScreenCover.swift */; };
+		87E479E22A8E4112002E6D5F /* FFSheetPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E479E12A8E4112002E6D5F /* FFSheetPopover.swift */; };
 		87E9CE5B2A778BDF005CAE05 /* FFLaunchesCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9CE5A2A778BDF005CAE05 /* FFLaunchesCode.swift */; };
 		87E9CE5D2A7796E2005CAE05 /* FFAppdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9CE5C2A7796E2005CAE05 /* FFAppdelegate.swift */; };
 		87EB0D232A653153006F32D4 /* FFViewhideSystemUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EB0D222A653153006F32D4 /* FFViewhideSystemUI.swift */; };
@@ -362,6 +367,7 @@
 		8784FC6F2A8CDA6B007C7E35 /* FFMenuShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMenuShow.swift; sourceTree = "<group>"; };
 		8784FC732A8CDC64007C7E35 /* FFMenuPick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMenuPick.swift; sourceTree = "<group>"; };
 		8784FC752A8CE10E007C7E35 /* FFPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPurchases.swift; sourceTree = "<group>"; };
+		8784FC782A8E0F21007C7E35 /* FFPresentSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPresentSheets.swift; sourceTree = "<group>"; };
 		8786BB492A81E4E5004F329C /* FFListSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListSelectionRow.swift; sourceTree = "<group>"; };
 		8788B4372A669D3B0083A85B /* FFStackZIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackZIndex.swift; sourceTree = "<group>"; };
 		8788B4392A66A0070083A85B /* FFLayoutsSizeClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLayoutsSizeClasses.swift; sourceTree = "<group>"; };
@@ -434,6 +440,10 @@
 		87DD7A172A7A38280008D831 /* FFFindAndReplaceText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFFindAndReplaceText.swift; sourceTree = "<group>"; };
 		87DD7A192A7A382E0008D831 /* FFCanvasDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFCanvasDrop.swift; sourceTree = "<group>"; };
 		87E25F872A678C7D007B76AE /* FFStackWithLazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackWithLazy.swift; sourceTree = "<group>"; };
+		87E479D92A8E1EA9002E6D5F /* FFPresentSheetsMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPresentSheetsMultiple.swift; sourceTree = "<group>"; };
+		87E479DB2A8E2173002E6D5F /* FFSheetViewDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSheetViewDismiss.swift; sourceTree = "<group>"; };
+		87E479DF2A8E3ED7002E6D5F /* FFSheetFullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSheetFullScreenCover.swift; sourceTree = "<group>"; };
+		87E479E12A8E4112002E6D5F /* FFSheetPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSheetPopover.swift; sourceTree = "<group>"; };
 		87E9CE5A2A778BDF005CAE05 /* FFLaunchesCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLaunchesCode.swift; sourceTree = "<group>"; };
 		87E9CE5C2A7796E2005CAE05 /* FFAppdelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAppdelegate.swift; sourceTree = "<group>"; };
 		87EB0D222A653153006F32D4 /* FFViewhideSystemUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewhideSystemUI.swift; sourceTree = "<group>"; };
@@ -615,6 +625,18 @@
 			path = "014 - AlertsAndMenus";
 			sourceTree = "<group>";
 		};
+		8784FC772A8E0EB5007C7E35 /* 015 - PresentingViews */ = {
+			isa = PBXGroup;
+			children = (
+				8784FC782A8E0F21007C7E35 /* FFPresentSheets.swift */,
+				87E479D92A8E1EA9002E6D5F /* FFPresentSheetsMultiple.swift */,
+				87E479DB2A8E2173002E6D5F /* FFSheetViewDismiss.swift */,
+				87E479DF2A8E3ED7002E6D5F /* FFSheetFullScreenCover.swift */,
+				87E479E12A8E4112002E6D5F /* FFSheetPopover.swift */,
+			);
+			path = "015 - PresentingViews";
+			sourceTree = "<group>";
+		};
 		879E1F8E2A667A8A00287EF8 /* 004 - Stacks,girds,scrollviews */ = {
 			isa = PBXGroup;
 			children = (
@@ -770,6 +792,7 @@
 				8735E8CA2A85DDF600271850 /* 012 - Containers */,
 				87D097B42A88F1F0006AE3E9 /* 013 - Navigation */,
 				8784FC5E2A8CB388007C7E35 /* 014 - AlertsAndMenus */,
+				8784FC772A8E0EB5007C7E35 /* 015 - PresentingViews */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -1039,6 +1062,7 @@
 				8716E6282A8B8BB4003E85F9 /* FFNavigationSplitViewCustomize.swift in Sources */,
 				875DD9852A6558F70061D9FB /* FFViewThatFIts.swift in Sources */,
 				873DE2212A66930900771D3F /* FFStackZ.swift in Sources */,
+				87E479E02A8E3ED7002E6D5F /* FFSheetFullScreenCover.swift in Sources */,
 				8784FC642A8CC56B007C7E35 /* FFAlertTextField.swift in Sources */,
 				87D506F32A7DF02100171449 /* FFObjectWillChange.swift in Sources */,
 				87ADB27F2A89337E004BD5DC /* FFNavigationProgrammatic.swift in Sources */,
@@ -1065,6 +1089,7 @@
 				87EC14F82A5BDB400065B715 /* FFTextAlignment.swift in Sources */,
 				875DD9832A6550C10061D9FB /* FFViewLayoutProtocol.swift in Sources */,
 				8747A0E32A711914000F6F63 /* FFButtonRepeat.swift in Sources */,
+				87E479DC2A8E2173002E6D5F /* FFSheetViewDismiss.swift in Sources */,
 				87ECEB2E2A5D76F70092C522 /* FFGameScene.swift in Sources */,
 				8784FC6E2A8CD849007C7E35 /* FFAppStroeOverlay.swift in Sources */,
 				87A795A02A7BBD9E0083D99A /* FFGestureReadTapOrDouble.swift in Sources */,
@@ -1099,6 +1124,7 @@
 				87ED69572A720D0A00FEE441 /* FFLifeCycle.swift in Sources */,
 				872143FF2A83A73A00F7A446 /* FFFormDesign.swift in Sources */,
 				87ADB27D2A892B01004BD5DC /* FFNavigationForList.swift in Sources */,
+				87E479E22A8E4112002E6D5F /* FFSheetPopover.swift in Sources */,
 				879D010F2A7C0118005F4CF3 /* FFGestureOnTap.swift in Sources */,
 				87AB3AE02A7A623D00F9BB04 /* FFDetectAndRespondEvent.swift in Sources */,
 				87A398762A8101D3001D9C1D /* FFListEditButton.swift in Sources */,
@@ -1122,6 +1148,7 @@
 				874DE7232A6FFAFA0018BFF3 /* FFColorPicker.swift in Sources */,
 				87DD7A122A77CD880008D831 /* FFPasteData.swift in Sources */,
 				874B6D0A2A6F714000EA6A0A /* FFTextFieldPlaceholder.swift in Sources */,
+				8784FC792A8E0F21007C7E35 /* FFPresentSheets.swift in Sources */,
 				8747A0E22A711914000F6F63 /* FFSafari.swift in Sources */,
 				874DE7252A6FFC760018BFF3 /* FFProgressView.swift in Sources */,
 				873B8A462A5F814F00394245 /* FFColorWithGETRGB.swift in Sources */,
@@ -1131,6 +1158,7 @@
 				87F929C32A7DF8E6000BAE6F /* FFConstantBindings.swift in Sources */,
 				87F929C52A7DFA60000BAE6F /* FFCustomBindings.swift in Sources */,
 				8716E6322A8B93BB003E85F9 /* FFInspector.swift in Sources */,
+				87E479DA2A8E1EA9002E6D5F /* FFPresentSheetsMultiple.swift in Sources */,
 				87ECEB222A5D66730092C522 /* FFImageStorkeShapes.swift in Sources */,
 				8788B43E2A66BC900083A85B /* FFScrollViewScrolling.swift in Sources */,
 				872DC0AD2A68030D00320AB2 /* FFScrollViewTransition.swift in Sources */,
