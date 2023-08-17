@@ -516,7 +516,6 @@
 				87D974A02A8617F900B75AA1 /* FFGroupBox.swift */,
 				87D974A22A861A1600B75AA1 /* FFBarsHidden.swift */,
 				87D974A42A861FAB00B75AA1 /* FFBarsBackground.swift */,
-				87C104B42A7E4915004959E8 /* File.swift */,
 			);
 			path = "012 - Containers";
 			sourceTree = "<group>";
@@ -611,6 +610,7 @@
 				8784FC6F2A8CDA6B007C7E35 /* FFMenuShow.swift */,
 				8784FC732A8CDC64007C7E35 /* FFMenuPick.swift */,
 				8784FC752A8CE10E007C7E35 /* FFPurchases.swift */,
+				87C104B42A7E4915004959E8 /* File.swift */,
 			);
 			path = "014 - AlertsAndMenus";
 			sourceTree = "<group>";

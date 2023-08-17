@@ -4,7 +4,7 @@
 //
 //  Created by BBLv on 2023/8/16.
 //
-//  如何在alert添加一个TextField上
+//  如何在alert添加一个TextField
 //  SwiftUI的alert可以有一个或多个TextField或SecureField字段旁边的按钮，允许你提示用户直接输入。
 
 import SwiftUI
