@@ -6,7 +6,7 @@
 //
 //  如何使用Sheet-Present一个新视图
 //  SwiftUI的Sheets用于香油视图上present新视图，同时仍然允许用户在准备好时向下拖动以取消新视图。
-//  要使用表单，给他一些东西来显示（文本、图片、自定义View等），添加一个Bool值来定义DetailView是否应该被显示，然后将其作为模态sheet附加到主视图上。
+//  要使用sheet，给他一些东西来显示（文本、图片、自定义View等），添加一个Bool值来定义DetailView是否应该被显示，然后将其作为模态sheet附加到主视图上。
 
 import SwiftUI
 

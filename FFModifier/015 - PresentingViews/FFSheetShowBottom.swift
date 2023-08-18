@@ -22,7 +22,7 @@ struct FFSheetShowBottom: View {
             showingCredits.toggle()
         }
         .sheet(isPresented: $showingCredits) {
-            Text("This app was brought to you hacking with Swift")
+            Text("同时支持.medium和.large")
                 .presentationDetents([.medium, .large])
         }
         Divider()
@@ -31,7 +31,7 @@ struct FFSheetShowBottom: View {
             showingCredits2.toggle()
         }
         .sheet(isPresented: $showingCredits2) {
-            Text("This app was brought to you hacking with Swift")
+            Text("隐藏提示条")
                 .presentationDetents([.medium, .large])
                 .presentationDragIndicator(.hidden)
         }
@@ -43,7 +43,7 @@ struct FFSheetShowBottom: View {
             showingCredits3.toggle()
         }
         .sheet(isPresented: $showingCredits3) {
-            Text("This app was brought to you hacking with Swift")
+            Text("创建百分比的占用高度")
                 .presentationDetents([.fraction(0.15)])
         }
         Divider()
@@ -52,7 +52,7 @@ struct FFSheetShowBottom: View {
             showingCredits4.toggle()
         }
         .sheet(isPresented: $showingCredits4) {
-            Text("This app was brought to you hacking with Swift")
+            Text("固定高度")
                 .presentationDetents([.height(300)])
         }
         Divider()
@@ -61,7 +61,7 @@ struct FFSheetShowBottom: View {
             showingCredits5.toggle()
         }
         .sheet(isPresented: $showingCredits5) {
-            Text("This app was brought to you hacking with Swift")
+            Text("动态切换高度")
                 .presentationDetents(Set(heights))
         }
     }

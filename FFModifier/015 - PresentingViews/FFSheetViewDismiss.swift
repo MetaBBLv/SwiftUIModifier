@@ -4,7 +4,7 @@
 //
 //  Created by BBLv on 2023/8/17.
 //
-//  被Sheet的视图如何dismiss
+//  Sheet的视图如何dismiss
 //  当你使用一个Sheet显示了一个SwiftUI视图时，通常想要在某些事情完成后关闭那个视图。例如当用户点击一个按钮时。在SwiftUI中有两种解决这个问题的方法。
 
 
