@@ -236,6 +236,13 @@
 		87ED24742A8F548000EA8DC5 /* FFContentUnavailable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED24732A8F548000EA8DC5 /* FFContentUnavailable.swift */; };
 		87ED24762A8F55C900EA8DC5 /* FFContentUnavailableCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED24752A8F55C800EA8DC5 /* FFContentUnavailableCustom.swift */; };
 		87ED24782A8F565300EA8DC5 /* FFContentUnavailableCustomAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED24772A8F565300EA8DC5 /* FFContentUnavailableCustomAll.swift */; };
+		87ED247B2A906ED700EA8DC5 /* FFViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED247A2A906ED700EA8DC5 /* FFViewOffset.swift */; };
+		87ED247D2A9073EF00EA8DC5 /* FFViewPaddingAroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED247C2A9073EF00EA8DC5 /* FFViewPaddingAroundColor.swift */; };
+		87ED247F2A9075B100EA8DC5 /* FFAdvancedEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED247E2A9075B100EA8DC5 /* FFAdvancedEffects.swift */; };
+		87ED24812A90770F00EA8DC5 /* FFViewBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED24802A90770F00EA8DC5 /* FFViewBorder.swift */; };
+		87ED24832A907A2000EA8DC5 /* FFViewBorderInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED24822A907A2000EA8DC5 /* FFViewBorderInside.swift */; };
+		87ED24852A907CD100EA8DC5 /* FFBorderEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED24842A907CD100EA8DC5 /* FFBorderEffect.swift */; };
+		87ED24872A907F9700EA8DC5 /* FFViewShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED24862A907F9700EA8DC5 /* FFViewShadow.swift */; };
 		87ED69552A72087E00FEE441 /* FFScenePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED69542A72087E00FEE441 /* FFScenePhase.swift */; };
 		87ED69572A720D0A00FEE441 /* FFLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ED69562A720D0A00FEE441 /* FFLifeCycle.swift */; };
 		87F929C32A7DF8E6000BAE6F /* FFConstantBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F929C22A7DF8E6000BAE6F /* FFConstantBindings.swift */; };
@@ -490,6 +497,13 @@
 		87ED24732A8F548000EA8DC5 /* FFContentUnavailable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFContentUnavailable.swift; sourceTree = "<group>"; };
 		87ED24752A8F55C800EA8DC5 /* FFContentUnavailableCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFContentUnavailableCustom.swift; sourceTree = "<group>"; };
 		87ED24772A8F565300EA8DC5 /* FFContentUnavailableCustomAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFContentUnavailableCustomAll.swift; sourceTree = "<group>"; };
+		87ED247A2A906ED700EA8DC5 /* FFViewOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewOffset.swift; sourceTree = "<group>"; };
+		87ED247C2A9073EF00EA8DC5 /* FFViewPaddingAroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewPaddingAroundColor.swift; sourceTree = "<group>"; };
+		87ED247E2A9075B100EA8DC5 /* FFAdvancedEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAdvancedEffects.swift; sourceTree = "<group>"; };
+		87ED24802A90770F00EA8DC5 /* FFViewBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewBorder.swift; sourceTree = "<group>"; };
+		87ED24822A907A2000EA8DC5 /* FFViewBorderInside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewBorderInside.swift; sourceTree = "<group>"; };
+		87ED24842A907CD100EA8DC5 /* FFBorderEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFBorderEffect.swift; sourceTree = "<group>"; };
+		87ED24862A907F9700EA8DC5 /* FFViewShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFViewShadow.swift; sourceTree = "<group>"; };
 		87ED69542A72087E00FEE441 /* FFScenePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScenePhase.swift; sourceTree = "<group>"; };
 		87ED69562A720D0A00FEE441 /* FFLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLifeCycle.swift; sourceTree = "<group>"; };
 		87F929C22A7DF8E6000BAE6F /* FFConstantBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFConstantBindings.swift; sourceTree = "<group>"; };
@@ -811,6 +825,7 @@
 				87D097B42A88F1F0006AE3E9 /* 013 - Navigation */,
 				8784FC5E2A8CB388007C7E35 /* 014 - AlertsAndMenus */,
 				8784FC772A8E0EB5007C7E35 /* 015 - PresentingViews */,
+				87ED24792A906DE900EA8DC5 /* 016 - TransformingViews */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -871,6 +886,20 @@
 				873B8A4B2A5F955300394245 /* Temp.swift */,
 			);
 			path = "002 - Image";
+			sourceTree = "<group>";
+		};
+		87ED24792A906DE900EA8DC5 /* 016 - TransformingViews */ = {
+			isa = PBXGroup;
+			children = (
+				87ED247A2A906ED700EA8DC5 /* FFViewOffset.swift */,
+				87ED247C2A9073EF00EA8DC5 /* FFViewPaddingAroundColor.swift */,
+				87ED247E2A9075B100EA8DC5 /* FFAdvancedEffects.swift */,
+				87ED24802A90770F00EA8DC5 /* FFViewBorder.swift */,
+				87ED24822A907A2000EA8DC5 /* FFViewBorderInside.swift */,
+				87ED24842A907CD100EA8DC5 /* FFBorderEffect.swift */,
+				87ED24862A907F9700EA8DC5 /* FFViewShadow.swift */,
+			);
+			path = "016 - TransformingViews";
 			sourceTree = "<group>";
 		};
 		87ED69532A72081300FEE441 /* 007 - RespondingEvent */ = {
@@ -994,6 +1023,7 @@
 				87A0AB612A6E6DD600772404 /* FFCustomSubmit.swift in Sources */,
 				87ECEAFF2A5C1C8A0092C522 /* FFTextDataFormat.swift in Sources */,
 				87ECEB072A5C2B630092C522 /* FFTextPrivasySensitive.swift in Sources */,
+				87ED24812A90770F00EA8DC5 /* FFViewBorder.swift in Sources */,
 				87ECEB262A5D6AF20092C522 /* FFImageShapeTrim.swift in Sources */,
 				87D097BA2A88F6CB006AE3E9 /* FFNavigationEdit.swift in Sources */,
 				8716E62A2A8B8E20003E85F9 /* FFNavigationSplitViewCustomizeMax.swift in Sources */,
@@ -1102,6 +1132,7 @@
 				87ECEB182A5D398C0092C522 /* FFImagetile.swift in Sources */,
 				87ECEB0B2A5C315F0092C522 /* FFCustomizeLinks.swift in Sources */,
 				874DE7212A6FF9E70018BFF3 /* FFTextEditor.swift in Sources */,
+				87ED247F2A9075B100EA8DC5 /* FFAdvancedEffects.swift in Sources */,
 				87B7D7482A652272006049A7 /* FFViewForegroundStyle.swift in Sources */,
 				872DC0AB2A67FEBF00320AB2 /* FFScrollViewSnap.swift in Sources */,
 				8788B43C2A66B3D80083A85B /* FFStackAutomaticallySwitch.swift in Sources */,
@@ -1116,6 +1147,7 @@
 				87A795A02A7BBD9E0083D99A /* FFGestureReadTapOrDouble.swift in Sources */,
 				873B8A3E2A5EA13300394245 /* FFImageDynamicColor.swift in Sources */,
 				873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */,
+				87ED24832A907A2000EA8DC5 /* FFViewBorderInside.swift in Sources */,
 				876C94392A6E5A7800C6AD8B /* FFTextFieldSubmit.swift in Sources */,
 				87E479E42A8F03F4002E6D5F /* FFSheetSwipe.swift in Sources */,
 				8735E8D02A85F8A500271850 /* FFTabViewScrollingPages.swift in Sources */,
@@ -1149,6 +1181,7 @@
 				87E479E22A8E4112002E6D5F /* FFSheetPopover.swift in Sources */,
 				879D010F2A7C0118005F4CF3 /* FFGestureOnTap.swift in Sources */,
 				87AB3AE02A7A623D00F9BB04 /* FFDetectAndRespondEvent.swift in Sources */,
+				87ED247B2A906ED700EA8DC5 /* FFViewOffset.swift in Sources */,
 				87A398762A8101D3001D9C1D /* FFListEditButton.swift in Sources */,
 				874DE7112A6FCC340018BFF3 /* FFSecureField.swift in Sources */,
 				87AB3ADE2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift in Sources */,
@@ -1162,6 +1195,7 @@
 				87C0BBCF2A81138C0012BB4A /* FFListScroll.swift in Sources */,
 				87D974A52A861FAB00B75AA1 /* FFBarsBackground.swift in Sources */,
 				873202DD2A8B530C00B290CC /* FFNavigationCodable.swift in Sources */,
+				87ED24852A907CD100EA8DC5 /* FFBorderEffect.swift in Sources */,
 				875F8F3A2A80C70A0006D5BC /* FFListDeleteRows.swift in Sources */,
 				874DE7132A6FCD460018BFF3 /* FFToggleSwitch.swift in Sources */,
 				87ECEB1A2A5D3BFE0092C522 /* FFImageSFSymbols.swift in Sources */,
@@ -1175,7 +1209,9 @@
 				8747A0E22A711914000F6F63 /* FFSafari.swift in Sources */,
 				874DE7252A6FFC760018BFF3 /* FFProgressView.swift in Sources */,
 				873B8A462A5F814F00394245 /* FFColorWithGETRGB.swift in Sources */,
+				87ED24872A907F9700EA8DC5 /* FFViewShadow.swift in Sources */,
 				87CAA2FE2A7BD4170013B086 /* FFGestureShake.swift in Sources */,
+				87ED247D2A9073EF00EA8DC5 /* FFViewPaddingAroundColor.swift in Sources */,
 				8784FC742A8CDC64007C7E35 /* FFMenuPick.swift in Sources */,
 				87ECEB092A5C2D9F0092C522 /* FFTextMarkdown.swift in Sources */,
 				87F929C32A7DF8E6000BAE6F /* FFConstantBindings.swift in Sources */,
