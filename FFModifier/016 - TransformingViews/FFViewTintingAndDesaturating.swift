@@ -18,7 +18,7 @@ struct FFViewTintingAndDesaturating: View {
         //饱和度调整，0.0时全灰色-1.0为原始颜色
         Image(.mushroomTagliatelle)
             .saturation(0.3)
-        //甚至可以通过使用contrast()修饰符动态调整视图的对比度，0.0不会产生对比度，为灰色图像，1.0辉县市原始图像，高于1.0会增加对比度
+        //甚至可以通过使用contrast()修饰符动态调整视图的对比度，0.0不会产生对比度，为灰色图像，1.0为原始图像，高于1.0会增加对比度
         VStack {
             Image(.paellaAlicante)
                 .contrast(contrastAmount)
