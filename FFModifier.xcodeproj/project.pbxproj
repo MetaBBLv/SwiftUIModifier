@@ -39,6 +39,7 @@
 		8731EC8C2A820EFE00B0A612 /* FFListImplicitStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731EC8B2A820EFE00B0A612 /* FFListImplicitStacking.swift */; };
 		8731EC8E2A82144500B0A612 /* FFListSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731EC8D2A82144500B0A612 /* FFListSeparator.swift */; };
 		873202DD2A8B530C00B290CC /* FFNavigationCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873202DC2A8B530C00B290CC /* FFNavigationCodable.swift */; };
+		8732036C2A949A8E00024522 /* FFShapesBuiltin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732036B2A949A8E00024522 /* FFShapesBuiltin.swift */; };
 		8735E8CC2A85DFA900271850 /* FFContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8CB2A85DFA900271850 /* FFContainer.swift */; };
 		8735E8CE2A85E11400271850 /* FFTabViewEnbedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8CD2A85E11400271850 /* FFTabViewEnbedViews.swift */; };
 		8735E8D02A85F8A500271850 /* FFTabViewScrollingPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8CF2A85F8A500271850 /* FFTabViewScrollingPages.swift */; };
@@ -313,6 +314,7 @@
 		8731EC8B2A820EFE00B0A612 /* FFListImplicitStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListImplicitStacking.swift; sourceTree = "<group>"; };
 		8731EC8D2A82144500B0A612 /* FFListSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListSeparator.swift; sourceTree = "<group>"; };
 		873202DC2A8B530C00B290CC /* FFNavigationCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationCodable.swift; sourceTree = "<group>"; };
+		8732036B2A949A8E00024522 /* FFShapesBuiltin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFShapesBuiltin.swift; sourceTree = "<group>"; };
 		8735E8CB2A85DFA900271850 /* FFContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFContainer.swift; sourceTree = "<group>"; };
 		8735E8CD2A85E11400271850 /* FFTabViewEnbedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTabViewEnbedViews.swift; sourceTree = "<group>"; };
 		8735E8CF2A85F8A500271850 /* FFTabViewScrollingPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTabViewScrollingPages.swift; sourceTree = "<group>"; };
@@ -567,6 +569,14 @@
 				8712898F2A84B87300809403 /* FFFormAlign.swift */,
 			);
 			path = "011 - Forms";
+			sourceTree = "<group>";
+		};
+		8732036A2A949A3600024522 /* 018 - Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				8732036B2A949A8E00024522 /* FFShapesBuiltin.swift */,
+			);
+			path = "018 - Drawing";
 			sourceTree = "<group>";
 		};
 		8735E8CA2A85DDF600271850 /* 012 - Containers */ = {
@@ -858,6 +868,7 @@
 				8784FC5E2A8CB388007C7E35 /* 014 - AlertsAndMenus */,
 				8784FC772A8E0EB5007C7E35 /* 015 - PresentingViews */,
 				87ED24792A906DE900EA8DC5 /* 016 - TransformingViews */,
+				8732036A2A949A3600024522 /* 018 - Drawing */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -1256,6 +1267,7 @@
 				87C0BBCF2A81138C0012BB4A /* FFListScroll.swift in Sources */,
 				876200802A934333000515C4 /* FFViewTintingAndDesaturating.swift in Sources */,
 				87D974A52A861FAB00B75AA1 /* FFBarsBackground.swift in Sources */,
+				8732036C2A949A8E00024522 /* FFShapesBuiltin.swift in Sources */,
 				873202DD2A8B530C00B290CC /* FFNavigationCodable.swift in Sources */,
 				87ED24852A907CD100EA8DC5 /* FFBorderEffect.swift in Sources */,
 				875F8F3A2A80C70A0006D5BC /* FFListDeleteRows.swift in Sources */,
