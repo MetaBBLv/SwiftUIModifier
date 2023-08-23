@@ -37,7 +37,13 @@ struct FFShapesBuiltin: View {
                 .fill(.black)
                 .frame(width: 100, height: 50)
         }
-        
+        //一共绘制了五个图形，两个200*200，三个个100*50，由于各种形状的特殊性，即使使用ZStack容器，也是可以全部显示的，我这里使用的是VStack，更直观。
+        //Rectangle绘制一个基本样式的矩形。
+        //RoundedRectangle同样绘制的也是矩形，只不过可以将拐角按照一定的数值设置为圆角。
+        //UnevenRoundedRectangle是一个圆角矩形，可以针对单个角设定为圆角。对于任何的角，默认值为0，即直角。但是可以更改值。
+        //Capsule绘制一个盒子，UI更像一个胶囊，其中较短的边会完全圆化，比如定义一个100*50的图形，那么短边50就是编程圆边。
+        //Ellipse绘制一个基本样式的椭圆。
+        //Circle绘制一个高度和宽度相等的椭圆，即圆形。
     }
 }
 
