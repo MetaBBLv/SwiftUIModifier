@@ -46,7 +46,7 @@ struct Star: Shape {
                 path.addLine(to: CGPoint(x: center.x * cosAngle, y: bottom))
             } else {
                 //如果不是2的倍数，那么就绘制内边
-                bottom = innerX * sinAngle
+                bottom = innerY * sinAngle
                 path.addLine(to: CGPoint(x: innerX * cosAngle, y: bottom))
             }
             //判断当前bottom是否是最地点的值，如果不是就更新

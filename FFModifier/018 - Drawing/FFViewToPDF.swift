@@ -20,6 +20,12 @@ import SwiftUI
 @MainActor
 struct FFViewToPDF: View {
     var body: some View {
+        Text("Hello, metaBBLv")
+            .font(.largeTitle)
+            .foregroundStyle(.white)
+            .padding()
+            .background(.blue)
+            .clipShape(Capsule())
         ShareLink("Export PDF", item: render())
         
     }
