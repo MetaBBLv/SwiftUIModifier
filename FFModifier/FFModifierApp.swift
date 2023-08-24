@@ -23,7 +23,7 @@ struct FFModifierApp: App {
     
     var body: some Scene {
         WindowGroup {
-            FFViewToPDF()
+            FFMetalShaders()
         }
     }
 }
