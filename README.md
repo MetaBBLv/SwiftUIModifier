@@ -41,6 +41,8 @@
 
 #### [018 - SwiftUI基础篇Drawing](https://juejin.cn/spost/7270799751091306535)
 
+#### [019 - SwiftUI基础篇Animation（上）](https://juejin.cn/spost/7271070291690307638)
+
 #### 持续更新...
 
 ## 如何运行更多的式样
