@@ -158,6 +158,9 @@
 		8788B43E2A66BC900083A85B /* FFScrollViewScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B43D2A66BC900083A85B /* FFScrollViewScrolling.swift */; };
 		8788B4402A66BFE20083A85B /* FFScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B43F2A66BFE20083A85B /* FFScrollViewReader.swift */; };
 		8788B4422A6775520083A85B /* FFStack3DEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4412A6775520083A85B /* FFStack3DEffects.swift */; };
+		878CCE462A9CB3FF00445D69 /* FFCross-platformAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878CCE452A9CB3FF00445D69 /* FFCross-platformAbout.swift */; };
+		878CCE482A9CB67900445D69 /* FFMacOSTranslucent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878CCE472A9CB67900445D69 /* FFMacOSTranslucent.swift */; };
+		878CCE4A2A9CB85100445D69 /* FFWatchOSCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878CCE492A9CB85100445D69 /* FFWatchOSCarousel.swift */; };
 		879608DD2A9840F700533483 /* FFBasicAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879608DC2A9840F700533483 /* FFBasicAnimations.swift */; };
 		879608DF2A9848B500533483 /* FFAnimationSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879608DE2A9848B500533483 /* FFAnimationSpring.swift */; };
 		879AC3F82A67C4A0001B3C43 /* FFGirdPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879AC3F72A67C4A0001B3C43 /* FFGirdPosition.swift */; };
@@ -467,6 +470,9 @@
 		8788B43D2A66BC900083A85B /* FFScrollViewScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewScrolling.swift; sourceTree = "<group>"; };
 		8788B43F2A66BFE20083A85B /* FFScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewReader.swift; sourceTree = "<group>"; };
 		8788B4412A6775520083A85B /* FFStack3DEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStack3DEffects.swift; sourceTree = "<group>"; };
+		878CCE452A9CB3FF00445D69 /* FFCross-platformAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FFCross-platformAbout.swift"; sourceTree = "<group>"; };
+		878CCE472A9CB67900445D69 /* FFMacOSTranslucent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMacOSTranslucent.swift; sourceTree = "<group>"; };
+		878CCE492A9CB85100445D69 /* FFWatchOSCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFWatchOSCarousel.swift; sourceTree = "<group>"; };
 		879608DC2A9840F700533483 /* FFBasicAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFBasicAnimations.swift; sourceTree = "<group>"; };
 		879608DE2A9848B500533483 /* FFAnimationSpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAnimationSpring.swift; sourceTree = "<group>"; };
 		879AC3F72A67C4A0001B3C43 /* FFGirdPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGirdPosition.swift; sourceTree = "<group>"; };
@@ -784,6 +790,16 @@
 			path = "015 - PresentingViews";
 			sourceTree = "<group>";
 		};
+		878CCE442A9CB3B000445D69 /* 022 - Cross-platform */ = {
+			isa = PBXGroup;
+			children = (
+				878CCE452A9CB3FF00445D69 /* FFCross-platformAbout.swift */,
+				878CCE472A9CB67900445D69 /* FFMacOSTranslucent.swift */,
+				878CCE492A9CB85100445D69 /* FFWatchOSCarousel.swift */,
+			);
+			path = "022 - Cross-platform";
+			sourceTree = "<group>";
+		};
 		879608DB2A98409C00533483 /* 019 - Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -981,6 +997,7 @@
 				8732036A2A949A3600024522 /* 018 - Drawing */,
 				879608DB2A98409C00533483 /* 019 - Animation */,
 				87E1AC362A9C3B0100DFDFBE /* 021 - ComposingViews */,
+				878CCE442A9CB3B000445D69 /* 022 - Cross-platform */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -1387,6 +1404,7 @@
 				87A398762A8101D3001D9C1D /* FFListEditButton.swift in Sources */,
 				874DE7112A6FCC340018BFF3 /* FFSecureField.swift in Sources */,
 				87AB3ADE2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift in Sources */,
+				878CCE462A9CB3FF00445D69 /* FFCross-platformAbout.swift in Sources */,
 				87E1AC3E2A9C4CF400DFDFBE /* FFCustomModifiers.swift in Sources */,
 				876200882A934F05000515C4 /* FFViewChangeBackground.swift in Sources */,
 				87E1AC352A98B86D00DFDFBE /* FFAnimationmulti-step.swift in Sources */,
@@ -1417,6 +1435,7 @@
 				87DD7A122A77CD880008D831 /* FFPasteData.swift in Sources */,
 				876200782A933346000515C4 /* FFViewAccent.swift in Sources */,
 				874FC79A2A987B6D00B348FF /* FFAnimationViewAppears.swift in Sources */,
+				878CCE482A9CB67900445D69 /* FFMacOSTranslucent.swift in Sources */,
 				874B6D0A2A6F714000EA6A0A /* FFTextFieldPlaceholder.swift in Sources */,
 				8784FC792A8E0F21007C7E35 /* FFPresentSheets.swift in Sources */,
 				874FC79E2A98834D00B348FF /* FFAnimationMatchedGeometryEffect.swift in Sources */,
@@ -1457,6 +1476,7 @@
 				876200742A9331A3000515C4 /* FFViewOpacity.swift in Sources */,
 				87C104B12A7E3B56004959E8 /* FFStateOnchange.swift in Sources */,
 				87F8DF382A963108000FC498 /* FFMetalShaders.swift in Sources */,
+				878CCE4A2A9CB85100445D69 /* FFWatchOSCarousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
