@@ -47,6 +47,8 @@
 
 #### [021 - SwiftUI基础篇ComposingViews](https://juejin.cn/spost/7272181868073697292)
 
+#### [022 - SwiftUI基础篇Cross-platform](https://juejin.cn/post/7272628880178528295)
+
 #### 持续更新...
 
 ## 如何运行更多的式样
