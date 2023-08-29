@@ -30,6 +30,9 @@
 		872144032A83AB4600F7A446 /* FFFormPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872144022A83AB4600F7A446 /* FFFormPicker.swift */; };
 		8721B9E42A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8721B9E32A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift */; };
 		8721B9E62A8B499F00A6527E /* FFNavigationProgrammaticForHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8721B9E52A8B499F00A6527E /* FFNavigationProgrammaticForHash.swift */; };
+		872288A32A9DCE4F00720907 /* FFWatchOSDigitalCrown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288A22A9DCE4F00720907 /* FFWatchOSDigitalCrown.swift */; };
+		872288A52A9DD1F600720907 /* FFWindowOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288A42A9DD1F600720907 /* FFWindowOpen.swift */; };
+		872288A72A9DD46D00720907 /* FFScrollingVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288A62A9DD46D00720907 /* FFScrollingVertical.swift */; };
 		872DC0A72A67F92A00320AB2 /* FFScrollVIewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */; };
 		872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */; };
 		872DC0AB2A67FEBF00320AB2 /* FFScrollViewSnap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */; };
@@ -340,6 +343,9 @@
 		872144022A83AB4600F7A446 /* FFFormPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFormPicker.swift; sourceTree = "<group>"; };
 		8721B9E32A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationProgrammaticForNext.swift; sourceTree = "<group>"; };
 		8721B9E52A8B499F00A6527E /* FFNavigationProgrammaticForHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNavigationProgrammaticForHash.swift; sourceTree = "<group>"; };
+		872288A22A9DCE4F00720907 /* FFWatchOSDigitalCrown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFWatchOSDigitalCrown.swift; sourceTree = "<group>"; };
+		872288A42A9DD1F600720907 /* FFWindowOpen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFWindowOpen.swift; sourceTree = "<group>"; };
+		872288A62A9DD46D00720907 /* FFScrollingVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollingVertical.swift; sourceTree = "<group>"; };
 		872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollVIewContent.swift; sourceTree = "<group>"; };
 		872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewFlash.swift; sourceTree = "<group>"; };
 		872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewSnap.swift; sourceTree = "<group>"; };
@@ -796,6 +802,9 @@
 				878CCE452A9CB3FF00445D69 /* FFCross-platformAbout.swift */,
 				878CCE472A9CB67900445D69 /* FFMacOSTranslucent.swift */,
 				878CCE492A9CB85100445D69 /* FFWatchOSCarousel.swift */,
+				872288A22A9DCE4F00720907 /* FFWatchOSDigitalCrown.swift */,
+				872288A42A9DD1F600720907 /* FFWindowOpen.swift */,
+				872288A62A9DD46D00720907 /* FFScrollingVertical.swift */,
 			);
 			path = "022 - Cross-platform";
 			sourceTree = "<group>";
@@ -1206,6 +1215,7 @@
 				8762007E2A934148000515C4 /* FFViewBlend.swift in Sources */,
 				87E1AC2D2A989E9F00DFDFBE /* FFTransitionCustom.swift in Sources */,
 				87649DED2A809B81003FFA8E /* FFListStaticitems.swift in Sources */,
+				872288A32A9DCE4F00720907 /* FFWatchOSDigitalCrown.swift in Sources */,
 				87E1AC2B2A989CFC00DFDFBE /* FFTransitionAsymmetric.swift in Sources */,
 				87B7D74A2A652650006049A7 /* FFViewInsertSafeArea.swift in Sources */,
 				8784FC682A8CCFE2007C7E35 /* FFAlertMultiple.swift in Sources */,
@@ -1329,6 +1339,7 @@
 				876C94312A6E4F0800C6AD8B /* FFDisableOverlay.swift in Sources */,
 				873B8A422A5EB18F00394245 /* FFImageVideo.swift in Sources */,
 				8784FC6A2A8CD33E007C7E35 /* FFAlertSheet.swift in Sources */,
+				872288A52A9DD1F600720907 /* FFWindowOpen.swift in Sources */,
 				8716E62E2A8B90DF003E85F9 /* FFNavigationSplitViewDisplayModeBalance.swift in Sources */,
 				87C0BBCB2A810D280012BB4A /* FFListInsetGroup.swift in Sources */,
 				873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */,
@@ -1372,6 +1383,7 @@
 				87E1AC422A9C732F00DFDFBE /* FFCreateModifiers.swift in Sources */,
 				873AAB312A80BB5700A88576 /* FFListDynamicItems.swift in Sources */,
 				874DE7152A6FEC9C0018BFF3 /* FFSliderOrRead.swift in Sources */,
+				872288A72A9DD46D00720907 /* FFScrollingVertical.swift in Sources */,
 				874DE7172A6FEE990018BFF3 /* FFPickerOrRead.swift in Sources */,
 				872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */,
 				875DD9892A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift in Sources */,
