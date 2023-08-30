@@ -49,6 +49,8 @@
 
 #### [022 - SwiftUI基础篇Cross-platform](https://juejin.cn/post/7272628880178528295)
 
+#### [023 - SwiftUI基础篇CoreData](https://juejin.cn/post/7273025562142081060)
+
 #### 持续更新...
 
 ## 如何运行更多的式样
