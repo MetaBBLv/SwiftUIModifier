@@ -33,6 +33,26 @@
 		872288A32A9DCE4F00720907 /* FFWatchOSDigitalCrown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288A22A9DCE4F00720907 /* FFWatchOSDigitalCrown.swift */; };
 		872288A52A9DD1F600720907 /* FFWindowOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288A42A9DD1F600720907 /* FFWindowOpen.swift */; };
 		872288A72A9DD46D00720907 /* FFScrollingVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288A62A9DD46D00720907 /* FFScrollingVertical.swift */; };
+		872288AA2A9ED90700720907 /* FFCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288A92A9ED90700720907 /* FFCoreData.swift */; };
+		872288AC2A9EDE8300720907 /* FFCoreDataConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288AB2A9EDE8300720907 /* FFCoreDataConfigure.swift */; };
+		872288AF2A9EE36600720907 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 872288AD2A9EE36600720907 /* Main.xcdatamodeld */; };
+		872288B12A9EEDAF00720907 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288B02A9EEDAF00720907 /* PersistenceController.swift */; };
+		872288B32A9F1B9100720907 /* FFCoreDataManagged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288B22A9F1B9100720907 /* FFCoreDataManagged.swift */; };
+		872288B52A9F1C8B00720907 /* FFCoreDataFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288B42A9F1C8B00720907 /* FFCoreDataFetchRequest.swift */; };
+		872288B72A9F384E00720907 /* FFCoreDataFetchRequestsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288B62A9F384E00720907 /* FFCoreDataFetchRequestsFilter.swift */; };
+		872288B92A9F3AC100720907 /* FFCoreDataAddObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288B82A9F3AC100720907 /* FFCoreDataAddObjects.swift */; };
+		872288BB2A9F3F2900720907 /* FFCoreDataDeleteObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288BA2A9F3F2900720907 /* FFCoreDataDeleteObjects.swift */; };
+		872288BD2A9F417400720907 /* FFCoreDataLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288BC2A9F417400720907 /* FFCoreDataLimit.swift */; };
+		872288BF2A9F49E700720907 /* FFCoreDataNSUserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288BE2A9F49E700720907 /* FFCoreDataNSUserActivity.swift */; };
+		872288C22AA02D4700720907 /* FFAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288C12AA02D4700720907 /* FFAccessibility.swift */; };
+		872288C42AA02F9700720907 /* FFFontDynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288C32AA02F9700720907 /* FFFontDynamicType.swift */; };
+		872288C62AA0627600720907 /* FFSpecifyDynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288C52AA0627600720907 /* FFSpecifyDynamicType.swift */; };
+		872288C82AA0662F00720907 /* FFAccessibilityReduceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288C72AA0662F00720907 /* FFAccessibilityReduceMotion.swift */; };
+		872288CA2AA06B7200720907 /* FFAccessibilityDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288C92AA06B7200720907 /* FFAccessibilityDarkMode.swift */; };
+		872288CC2AA06E0300720907 /* FFAccessibilityDecorative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288CB2AA06E0200720907 /* FFAccessibilityDecorative.swift */; };
+		872288CE2AA0710400720907 /* FFAccessibilityReduceModeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288CD2AA0710400720907 /* FFAccessibilityReduceModeRequest.swift */; };
+		872288D02AA0759900720907 /* FFAccessibilityVoiceOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288CF2AA0759900720907 /* FFAccessibilityVoiceOver.swift */; };
+		872288D22AA07B0100720907 /* FFAccessibilityVoiceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872288D12AA07B0100720907 /* FFAccessibilityVoiceControl.swift */; };
 		872DC0A72A67F92A00320AB2 /* FFScrollVIewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */; };
 		872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */; };
 		872DC0AB2A67FEBF00320AB2 /* FFScrollViewSnap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */; };
@@ -346,6 +366,26 @@
 		872288A22A9DCE4F00720907 /* FFWatchOSDigitalCrown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFWatchOSDigitalCrown.swift; sourceTree = "<group>"; };
 		872288A42A9DD1F600720907 /* FFWindowOpen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFWindowOpen.swift; sourceTree = "<group>"; };
 		872288A62A9DD46D00720907 /* FFScrollingVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollingVertical.swift; sourceTree = "<group>"; };
+		872288A92A9ED90700720907 /* FFCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCoreData.swift; sourceTree = "<group>"; };
+		872288AB2A9EDE8300720907 /* FFCoreDataConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCoreDataConfigure.swift; sourceTree = "<group>"; };
+		872288AE2A9EE36600720907 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		872288B02A9EEDAF00720907 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		872288B22A9F1B9100720907 /* FFCoreDataManagged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCoreDataManagged.swift; sourceTree = "<group>"; };
+		872288B42A9F1C8B00720907 /* FFCoreDataFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCoreDataFetchRequest.swift; sourceTree = "<group>"; };
+		872288B62A9F384E00720907 /* FFCoreDataFetchRequestsFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCoreDataFetchRequestsFilter.swift; sourceTree = "<group>"; };
+		872288B82A9F3AC100720907 /* FFCoreDataAddObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCoreDataAddObjects.swift; sourceTree = "<group>"; };
+		872288BA2A9F3F2900720907 /* FFCoreDataDeleteObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCoreDataDeleteObjects.swift; sourceTree = "<group>"; };
+		872288BC2A9F417400720907 /* FFCoreDataLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCoreDataLimit.swift; sourceTree = "<group>"; };
+		872288BE2A9F49E700720907 /* FFCoreDataNSUserActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCoreDataNSUserActivity.swift; sourceTree = "<group>"; };
+		872288C12AA02D4700720907 /* FFAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAccessibility.swift; sourceTree = "<group>"; };
+		872288C32AA02F9700720907 /* FFFontDynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFFontDynamicType.swift; sourceTree = "<group>"; };
+		872288C52AA0627600720907 /* FFSpecifyDynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSpecifyDynamicType.swift; sourceTree = "<group>"; };
+		872288C72AA0662F00720907 /* FFAccessibilityReduceMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAccessibilityReduceMotion.swift; sourceTree = "<group>"; };
+		872288C92AA06B7200720907 /* FFAccessibilityDarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAccessibilityDarkMode.swift; sourceTree = "<group>"; };
+		872288CB2AA06E0200720907 /* FFAccessibilityDecorative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAccessibilityDecorative.swift; sourceTree = "<group>"; };
+		872288CD2AA0710400720907 /* FFAccessibilityReduceModeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAccessibilityReduceModeRequest.swift; sourceTree = "<group>"; };
+		872288CF2AA0759900720907 /* FFAccessibilityVoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAccessibilityVoiceOver.swift; sourceTree = "<group>"; };
+		872288D12AA07B0100720907 /* FFAccessibilityVoiceControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFAccessibilityVoiceControl.swift; sourceTree = "<group>"; };
 		872DC0A62A67F92A00320AB2 /* FFScrollVIewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollVIewContent.swift; sourceTree = "<group>"; };
 		872DC0A82A67FBDB00320AB2 /* FFScrollViewFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewFlash.swift; sourceTree = "<group>"; };
 		872DC0AA2A67FEBF00320AB2 /* FFScrollViewSnap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFScrollViewSnap.swift; sourceTree = "<group>"; };
@@ -645,6 +685,40 @@
 				8712898F2A84B87300809403 /* FFFormAlign.swift */,
 			);
 			path = "011 - Forms";
+			sourceTree = "<group>";
+		};
+		872288A82A9ED8CD00720907 /* 023 - CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				872288A92A9ED90700720907 /* FFCoreData.swift */,
+				872288AB2A9EDE8300720907 /* FFCoreDataConfigure.swift */,
+				872288AD2A9EE36600720907 /* Main.xcdatamodeld */,
+				872288B02A9EEDAF00720907 /* PersistenceController.swift */,
+				872288B22A9F1B9100720907 /* FFCoreDataManagged.swift */,
+				872288B42A9F1C8B00720907 /* FFCoreDataFetchRequest.swift */,
+				872288B62A9F384E00720907 /* FFCoreDataFetchRequestsFilter.swift */,
+				872288B82A9F3AC100720907 /* FFCoreDataAddObjects.swift */,
+				872288BA2A9F3F2900720907 /* FFCoreDataDeleteObjects.swift */,
+				872288BC2A9F417400720907 /* FFCoreDataLimit.swift */,
+				872288BE2A9F49E700720907 /* FFCoreDataNSUserActivity.swift */,
+			);
+			path = "023 - CoreData";
+			sourceTree = "<group>";
+		};
+		872288C02AA02D0500720907 /* 024 - Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				872288C12AA02D4700720907 /* FFAccessibility.swift */,
+				872288C32AA02F9700720907 /* FFFontDynamicType.swift */,
+				872288C52AA0627600720907 /* FFSpecifyDynamicType.swift */,
+				872288C72AA0662F00720907 /* FFAccessibilityReduceMotion.swift */,
+				872288C92AA06B7200720907 /* FFAccessibilityDarkMode.swift */,
+				872288CB2AA06E0200720907 /* FFAccessibilityDecorative.swift */,
+				872288CD2AA0710400720907 /* FFAccessibilityReduceModeRequest.swift */,
+				872288CF2AA0759900720907 /* FFAccessibilityVoiceOver.swift */,
+				872288D12AA07B0100720907 /* FFAccessibilityVoiceControl.swift */,
+			);
+			path = "024 - Accessibility";
 			sourceTree = "<group>";
 		};
 		8732036A2A949A3600024522 /* 018 - Drawing */ = {
@@ -1007,6 +1081,8 @@
 				879608DB2A98409C00533483 /* 019 - Animation */,
 				87E1AC362A9C3B0100DFDFBE /* 021 - ComposingViews */,
 				878CCE442A9CB3B000445D69 /* 022 - Cross-platform */,
+				872288A82A9ED8CD00720907 /* 023 - CoreData */,
+				872288C02AA02D0500720907 /* 024 - Accessibility */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -1217,14 +1293,18 @@
 				87649DED2A809B81003FFA8E /* FFListStaticitems.swift in Sources */,
 				872288A32A9DCE4F00720907 /* FFWatchOSDigitalCrown.swift in Sources */,
 				87E1AC2B2A989CFC00DFDFBE /* FFTransitionAsymmetric.swift in Sources */,
+				872288BF2A9F49E700720907 /* FFCoreDataNSUserActivity.swift in Sources */,
 				87B7D74A2A652650006049A7 /* FFViewInsertSafeArea.swift in Sources */,
 				8784FC682A8CCFE2007C7E35 /* FFAlertMultiple.swift in Sources */,
 				874FC79C2A9880DF00B348FF /* FFAnimationMultiple.swift in Sources */,
 				87EC14EB2A5BA7D50065B715 /* ContentView.swift in Sources */,
 				87ADB27B2A8928AE004BD5DC /* FFnavigationPushView.swift in Sources */,
 				879AC3FA2A67CEBC001B3C43 /* FFLazyGridPosition.swift in Sources */,
+				872288C42AA02F9700720907 /* FFFontDynamicType.swift in Sources */,
 				87A0AB612A6E6DD600772404 /* FFCustomSubmit.swift in Sources */,
+				872288CC2AA06E0300720907 /* FFAccessibilityDecorative.swift in Sources */,
 				87ECEAFF2A5C1C8A0092C522 /* FFTextDataFormat.swift in Sources */,
+				872288BD2A9F417400720907 /* FFCoreDataLimit.swift in Sources */,
 				87ECEB072A5C2B630092C522 /* FFTextPrivasySensitive.swift in Sources */,
 				87ED24812A90770F00EA8DC5 /* FFViewBorder.swift in Sources */,
 				87ECEB262A5D6AF20092C522 /* FFImageShapeTrim.swift in Sources */,
@@ -1240,12 +1320,14 @@
 				8780A32E2A825576002484A4 /* FFListRowSeparator.swift in Sources */,
 				87D07C052A64E167006F81AE /* FFViewPadding.swift in Sources */,
 				8786BB4A2A81E4E5004F329C /* FFListSelectionRow.swift in Sources */,
+				872288BB2A9F3F2900720907 /* FFCoreDataDeleteObjects.swift in Sources */,
 				87E1AC3A2A9C423000DFDFBE /* FFCustomText.swift in Sources */,
 				8735E8CC2A85DFA900271850 /* FFContainer.swift in Sources */,
 				87ECEB142A5D2C010092C522 /* FFImage.swift in Sources */,
 				8747A0E62A711914000F6F63 /* FFLabelHidden.swift in Sources */,
 				87129D792A7A6AE400FBDE15 /* FFHapticEffects.swift in Sources */,
 				87AB3ADC2A7A50E000F9BB04 /* FFCanvasDropImages.swift in Sources */,
+				872288D02AA0759900720907 /* FFAccessibilityVoiceOver.swift in Sources */,
 				875DD98D2A6568920061D9FB /* FFViewContainerSize.swift in Sources */,
 				876200842A9348D0000515C4 /* FFProgressViewCustomizing.swift in Sources */,
 				8788B43A2A66A0070083A85B /* FFLayoutsSizeClasses.swift in Sources */,
@@ -1263,6 +1345,7 @@
 				876C94332A6E53E400C6AD8B /* FFButtonsBordered.swift in Sources */,
 				8780A32C2A825157002484A4 /* FFListForEach.swift in Sources */,
 				87ED69552A72087E00FEE441 /* FFScenePhase.swift in Sources */,
+				872288C22AA02D4700720907 /* FFAccessibility.swift in Sources */,
 				87F8DF3A2A963430000FC498 /* FFMetal.metal in Sources */,
 				874DE71F2A6FF7C10018BFF3 /* FFStepperOrRead.swift in Sources */,
 				87153EBC2A667BBE009C2084 /* FFStackPrimary.swift in Sources */,
@@ -1313,6 +1396,7 @@
 				872144032A83AB4600F7A446 /* FFFormPicker.swift in Sources */,
 				87E1AC402A9C6E7F00DFDFBE /* FFCustomViewWrap.swift in Sources */,
 				87C104B52A7E4915004959E8 /* File.swift in Sources */,
+				872288CE2AA0710400720907 /* FFAccessibilityReduceModeRequest.swift in Sources */,
 				876200722A931334000515C4 /* FFViewRound.swift in Sources */,
 				871289902A84B87300809403 /* FFFormAlign.swift in Sources */,
 				87A7959E2A7BB8270083D99A /* FFGestureForView.swift in Sources */,
@@ -1328,7 +1412,10 @@
 				873DE2212A66930900771D3F /* FFStackZ.swift in Sources */,
 				87E479E02A8E3ED7002E6D5F /* FFSheetFullScreenCover.swift in Sources */,
 				8784FC642A8CC56B007C7E35 /* FFAlertTextField.swift in Sources */,
+				872288AC2A9EDE8300720907 /* FFCoreDataConfigure.swift in Sources */,
+				872288C82AA0662F00720907 /* FFAccessibilityReduceMotion.swift in Sources */,
 				87D506F32A7DF02100171449 /* FFObjectWillChange.swift in Sources */,
+				872288CA2AA06B7200720907 /* FFAccessibilityDarkMode.swift in Sources */,
 				87ADB27F2A89337E004BD5DC /* FFNavigationProgrammatic.swift in Sources */,
 				8762008C2A935088000515C4 /* FFTextEditorBackground.swift in Sources */,
 				8762007C2A933661000515C4 /* FFViewBlur.swift in Sources */,
@@ -1342,6 +1429,7 @@
 				872288A52A9DD1F600720907 /* FFWindowOpen.swift in Sources */,
 				8716E62E2A8B90DF003E85F9 /* FFNavigationSplitViewDisplayModeBalance.swift in Sources */,
 				87C0BBCB2A810D280012BB4A /* FFListInsetGroup.swift in Sources */,
+				872288B52A9F1C8B00720907 /* FFCoreDataFetchRequest.swift in Sources */,
 				873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */,
 				8732036E2A959CE400024522 /* FFDramCustomPath.swift in Sources */,
 				87ECEB1C2A5D41A30092C522 /* FFImageGradients.swift in Sources */,
@@ -1370,7 +1458,9 @@
 				873B8A3E2A5EA13300394245 /* FFImageDynamicColor.swift in Sources */,
 				87E1AC382A9C3B6000DFDFBE /* FFCustomView.swift in Sources */,
 				873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */,
+				872288C62AA0627600720907 /* FFSpecifyDynamicType.swift in Sources */,
 				87ED24832A907A2000EA8DC5 /* FFViewBorderInside.swift in Sources */,
+				872288B72A9F384E00720907 /* FFCoreDataFetchRequestsFilter.swift in Sources */,
 				876C94392A6E5A7800C6AD8B /* FFTextFieldSubmit.swift in Sources */,
 				87E479E42A8F03F4002E6D5F /* FFSheetSwipe.swift in Sources */,
 				8735E8D02A85F8A500271850 /* FFTabViewScrollingPages.swift in Sources */,
@@ -1400,10 +1490,12 @@
 				879AC3FC2A67D686001B3C43 /* FFScrollViewDismissKeyboard.swift in Sources */,
 				876C942F2A6E494E00C6AD8B /* FFTappableButton.swift in Sources */,
 				87B7D7442A651BE5006049A7 /* FFViewLayoutPriority.swift in Sources */,
+				872288D22AA07B0100720907 /* FFAccessibilityVoiceControl.swift in Sources */,
 				874DE70F2A6FC8620018BFF3 /* FFTextFieldNumber.swift in Sources */,
 				879D01112A7C0436005F4CF3 /* FFGestureMangify.swift in Sources */,
 				873DE21F2A668C2900771D3F /* FFStackSpacerFixedsize.swift in Sources */,
 				872DC0B12A680A4700320AB2 /* FFScrollViewOverFlow.swift in Sources */,
+				872288B92A9F3AC100720907 /* FFCoreDataAddObjects.swift in Sources */,
 				87ED69572A720D0A00FEE441 /* FFLifeCycle.swift in Sources */,
 				874FC7942A9873FB00B348FF /* FFAnimateBindingValues.swift in Sources */,
 				872143FF2A83A73A00F7A446 /* FFFormDesign.swift in Sources */,
@@ -1421,10 +1513,12 @@
 				876200882A934F05000515C4 /* FFViewChangeBackground.swift in Sources */,
 				87E1AC352A98B86D00DFDFBE /* FFAnimationmulti-step.swift in Sources */,
 				874DE7272A6FFDD40018BFF3 /* FFProressViewIndeterminate.swift in Sources */,
+				872288B32A9F1B9100720907 /* FFCoreDataManagged.swift in Sources */,
 				87E25F882A678C7D007B76AE /* FFStackWithLazy.swift in Sources */,
 				87ECEB052A5C245F0092C522 /* FFTextPlaceholder.swift in Sources */,
 				879608DD2A9840F700533483 /* FFBasicAnimations.swift in Sources */,
 				87E1AC252A9897E900DFDFBE /* FFTransitionView.swift in Sources */,
+				872288AF2A9EE36600720907 /* Main.xcdatamodeld in Sources */,
 				87C104B32A7E413C004959E8 /* FFDarkMode.swift in Sources */,
 				87ECEB242A5D6ACC0092C522 /* FFImageContainerRelativeShape.swift in Sources */,
 				87D506ED2A7DE21B00171449 /* FFObservedObjectManageState.swift in Sources */,
@@ -1450,6 +1544,7 @@
 				878CCE482A9CB67900445D69 /* FFMacOSTranslucent.swift in Sources */,
 				874B6D0A2A6F714000EA6A0A /* FFTextFieldPlaceholder.swift in Sources */,
 				8784FC792A8E0F21007C7E35 /* FFPresentSheets.swift in Sources */,
+				872288AA2A9ED90700720907 /* FFCoreData.swift in Sources */,
 				874FC79E2A98834D00B348FF /* FFAnimationMatchedGeometryEffect.swift in Sources */,
 				8767479B2A96283F000F9C44 /* FFViewToPDF.swift in Sources */,
 				8747A0E22A711914000F6F63 /* FFSafari.swift in Sources */,
@@ -1472,6 +1567,7 @@
 				8735E8DA2A8607CD00271850 /* FFToolbarCustomize.swift in Sources */,
 				876747992A9619C8000F9C44 /* FFConvertToImage.swift in Sources */,
 				87CC93A72A9C7D1600F512A1 /* FFTextInsertImage.swift in Sources */,
+				872288B12A9EEDAF00720907 /* PersistenceController.swift in Sources */,
 				8784FC602A8CB482007C7E35 /* FFPresentations.swift in Sources */,
 				87DD7A0E2A77B8A00008D831 /* FFToolbarKeyboard.swift in Sources */,
 				87B7D73E2A650A10006049A7 /* FFViewSafeArea.swift in Sources */,
@@ -1632,6 +1728,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = FFLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1663,6 +1760,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = FFLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1698,6 +1796,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		872288AD2A9EE36600720907 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				872288AE2A9EE36600720907 /* Main.xcdatamodel */,
+			);
+			currentVersion = 872288AE2A9EE36600720907 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 87EC14DD2A5BA7D50065B715 /* Project object */;
 }
