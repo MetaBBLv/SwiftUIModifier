@@ -203,6 +203,7 @@
 		87A795A22A7BBEC80083D99A /* FFGestureHighPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A795A12A7BBEC80083D99A /* FFGestureHighPriority.swift */; };
 		87A795A42A7BC10A0083D99A /* FFSimultaneousGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A795A32A7BC10A0083D99A /* FFSimultaneousGesture.swift */; };
 		87A95A622A80E70C00C88FF9 /* FFListMoveRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A95A612A80E70C00C88FF9 /* FFListMoveRows.swift */; };
+		87A963532AA30C490051646E /* FFToolingSwiftUIChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A963522AA30C490051646E /* FFToolingSwiftUIChange.swift */; };
 		87AB3ADA2A7A508800F9BB04 /* FFCanvasDropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB3AD92A7A508800F9BB04 /* FFCanvasDropImage.swift */; };
 		87AB3ADC2A7A50E000F9BB04 /* FFCanvasDropImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB3ADB2A7A50E000F9BB04 /* FFCanvasDropImages.swift */; };
 		87AB3ADE2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AB3ADD2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift */; };
@@ -540,6 +541,7 @@
 		87A795A12A7BBEC80083D99A /* FFGestureHighPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGestureHighPriority.swift; sourceTree = "<group>"; };
 		87A795A32A7BC10A0083D99A /* FFSimultaneousGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSimultaneousGesture.swift; sourceTree = "<group>"; };
 		87A95A612A80E70C00C88FF9 /* FFListMoveRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListMoveRows.swift; sourceTree = "<group>"; };
+		87A963522AA30C490051646E /* FFToolingSwiftUIChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFToolingSwiftUIChange.swift; sourceTree = "<group>"; };
 		87AB3AD92A7A508800F9BB04 /* FFCanvasDropImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCanvasDropImage.swift; sourceTree = "<group>"; };
 		87AB3ADB2A7A50E000F9BB04 /* FFCanvasDropImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCanvasDropImages.swift; sourceTree = "<group>"; };
 		87AB3ADD2A7A5C5200F9BB04 /* FFCanvasDropDraggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFCanvasDropDraggable.swift; sourceTree = "<group>"; };
@@ -915,6 +917,7 @@
 			children = (
 				87991F362AA1D85400C26D81 /* FFToolingSafe.swift */,
 				87991F382AA1E13100C26D81 /* FFToolingDiffenertSize.swift */,
+				87A963522AA30C490051646E /* FFToolingSwiftUIChange.swift */,
 			);
 			path = "025 - Tooling";
 			sourceTree = "<group>";
@@ -1482,6 +1485,7 @@
 				8735E8D82A86050B00271850 /* FFToolbarButtons.swift in Sources */,
 				87E1AC312A98AC7E00DFDFBE /* FFAnimationsOverride.swift in Sources */,
 				8735E8CE2A85E11400271850 /* FFTabViewEnbedViews.swift in Sources */,
+				87A963532AA30C490051646E /* FFToolingSwiftUIChange.swift in Sources */,
 				874DE7292A6FFE810018BFF3 /* FFMap.swift in Sources */,
 				879AC3F82A67C4A0001B3C43 /* FFGirdPosition.swift in Sources */,
 				87C0BBCD2A810FAF0012BB4A /* FFListExpanding.swift in Sources */,
