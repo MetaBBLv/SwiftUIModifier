@@ -53,6 +53,8 @@
 
 #### [024 - SwiftUI基础篇Accessibility](https://juejin.cn/post/7273384313958367244)
 
+#### [025 - SwiftUI基础篇Instruments和Tools](https://juejin.cn/spost/7274856158174363702)
+
 #### 持续更新...
 
 ## 如何运行更多的式样
