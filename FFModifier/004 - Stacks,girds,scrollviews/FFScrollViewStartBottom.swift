@@ -21,7 +21,7 @@ struct FFScrollViewStartBottom: View {
                     .clipShape(.rect(cornerRadius: 25))
             }
         }
-        .scrollPosition(initialAnchor: .bottom)
+//        .scrollPosition(initialAnchor: .bottom)
         
         //如果你的UI在用户不滚动的情况下发生某种变化（例如，如果出现假盘，或者你调整ScrollView的大小），则滚动位置将保持锚定在底部。但是，如果用户手动调整滚动位置，他将正常自由的滚动
         //提示:initialAnchor参数时任何UIPoint，因此你可以使用.trailing从右边边缘启动水平滚动的视图

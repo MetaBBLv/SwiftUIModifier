@@ -97,6 +97,7 @@
 		874B6D0C2A6F724C00EA6A0A /* FFTextFieldAutocorrect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B6D0B2A6F724C00EA6A0A /* FFTextFieldAutocorrect.swift */; };
 		874B6D0E2A6F737500EA6A0A /* FFTextFieldkeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B6D0D2A6F737500EA6A0A /* FFTextFieldkeyboard.swift */; };
 		874B6D102A6F75EE00EA6A0A /* FFLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874B6D0F2A6F75EE00EA6A0A /* FFLaunchScreen.storyboard */; };
+		874C3E502AA5AD2300598FFD /* FFToolingInstruments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C3E4F2AA5AD2300598FFD /* FFToolingInstruments.swift */; };
 		874DE70F2A6FC8620018BFF3 /* FFTextFieldNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DE70E2A6FC8620018BFF3 /* FFTextFieldNumber.swift */; };
 		874DE7112A6FCC340018BFF3 /* FFSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DE7102A6FCC340018BFF3 /* FFSecureField.swift */; };
 		874DE7132A6FCD460018BFF3 /* FFToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DE7122A6FCD460018BFF3 /* FFToggleSwitch.swift */; };
@@ -435,6 +436,8 @@
 		874B6D0B2A6F724C00EA6A0A /* FFTextFieldAutocorrect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTextFieldAutocorrect.swift; sourceTree = "<group>"; };
 		874B6D0D2A6F737500EA6A0A /* FFTextFieldkeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTextFieldkeyboard.swift; sourceTree = "<group>"; };
 		874B6D0F2A6F75EE00EA6A0A /* FFLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FFLaunchScreen.storyboard; sourceTree = "<group>"; };
+		874C3E4F2AA5AD2300598FFD /* FFToolingInstruments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFToolingInstruments.swift; sourceTree = "<group>"; };
+		874C3E512AA5BEC800598FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		874DE70E2A6FC8620018BFF3 /* FFTextFieldNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTextFieldNumber.swift; sourceTree = "<group>"; };
 		874DE7102A6FCC340018BFF3 /* FFSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSecureField.swift; sourceTree = "<group>"; };
 		874DE7122A6FCD460018BFF3 /* FFToggleSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFToggleSwitch.swift; sourceTree = "<group>"; };
@@ -918,6 +921,7 @@
 				87991F362AA1D85400C26D81 /* FFToolingSafe.swift */,
 				87991F382AA1E13100C26D81 /* FFToolingDiffenertSize.swift */,
 				87A963522AA30C490051646E /* FFToolingSwiftUIChange.swift */,
+				874C3E4F2AA5AD2300598FFD /* FFToolingInstruments.swift */,
 			);
 			path = "025 - Tooling";
 			sourceTree = "<group>";
@@ -1074,6 +1078,7 @@
 		87EC14E72A5BA7D50065B715 /* FFModifier */ = {
 			isa = PBXGroup;
 			children = (
+				874C3E512AA5BEC800598FFD /* Info.plist */,
 				87EC14E82A5BA7D50065B715 /* FFModifierApp.swift */,
 				87EC14EC2A5BA7D60065B715 /* Assets.xcassets */,
 				87ECEB292A5D73290092C522 /* Video.mp4 */,
@@ -1497,6 +1502,7 @@
 				872DC0A92A67FBDB00320AB2 /* FFScrollViewFlash.swift in Sources */,
 				875DD9892A6563BD0061D9FB /* FFViewDynamicallyAppearance.swift in Sources */,
 				87CAA3022A7BD9B40013B086 /* FFDisableTaps.swift in Sources */,
+				874C3E502AA5AD2300598FFD /* FFToolingInstruments.swift in Sources */,
 				8780A3282A822EBA002484A4 /* FFListSearchBarFilterData.swift in Sources */,
 				876747972A9613B2000F9C44 /* FFUIBezierPathAndCGPath.swift in Sources */,
 				87D097B62A88F21A006AE3E9 /* FFNavigation.swift in Sources */,
@@ -1735,12 +1741,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FFModifier/Preview Content\"";
-				DEVELOPMENT_TEAM = Q3GFS3GUH3;
+				DEVELOPMENT_TEAM = 6TR9324593;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FFModifier/Info.plist;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "保存图像到相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1767,12 +1775,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FFModifier/Preview Content\"";
 				DEVELOPMENT_TEAM = 6TR9324593;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FFModifier/Info.plist;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "保存图像到相册";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

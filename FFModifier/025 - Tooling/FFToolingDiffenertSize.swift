@@ -14,7 +14,5 @@ struct FFToolingDiffenertSize: View {
 }
 
 #Preview {
-    Group {
-        FFToolingDiffenertSize()
-    }
+    FFToolingDiffenertSize()
 }

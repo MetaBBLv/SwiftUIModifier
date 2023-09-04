@@ -62,7 +62,7 @@ struct FFViewToPDF: View {
     }
 }
 
-@MainActor
+
 #Preview {
     FFViewToPDF()
 }
