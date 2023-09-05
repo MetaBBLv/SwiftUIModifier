@@ -73,6 +73,8 @@
 		8735E8D62A86028A00271850 /* FFDisclosureGroupHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8D52A86028A00271850 /* FFDisclosureGroupHide.swift */; };
 		8735E8D82A86050B00271850 /* FFToolbarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8D72A86050B00271850 /* FFToolbarButtons.swift */; };
 		8735E8DA2A8607CD00271850 /* FFToolbarCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8D92A8607CD00271850 /* FFToolbarCustomize.swift */; };
+		87385EBB2AA6C926006A5515 /* FFPropertyWappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87385EBA2AA6C926006A5515 /* FFPropertyWappers.swift */; };
+		87385EBD2AA6D0F6006A5515 /* FFPropertyWappersAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87385EBC2AA6D0F6006A5515 /* FFPropertyWappersAll.swift */; };
 		873AAB312A80BB5700A88576 /* FFListDynamicItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873AAB302A80BB5700A88576 /* FFListDynamicItems.swift */; };
 		873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */; };
 		873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */; };
@@ -410,6 +412,8 @@
 		8735E8D52A86028A00271850 /* FFDisclosureGroupHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFDisclosureGroupHide.swift; sourceTree = "<group>"; };
 		8735E8D72A86050B00271850 /* FFToolbarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFToolbarButtons.swift; sourceTree = "<group>"; };
 		8735E8D92A8607CD00271850 /* FFToolbarCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFToolbarCustomize.swift; sourceTree = "<group>"; };
+		87385EBA2AA6C926006A5515 /* FFPropertyWappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWappers.swift; sourceTree = "<group>"; };
+		87385EBC2AA6D0F6006A5515 /* FFPropertyWappersAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWappersAll.swift; sourceTree = "<group>"; };
 		873AAB302A80BB5700A88576 /* FFListDynamicItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListDynamicItems.swift; sourceTree = "<group>"; };
 		873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageRemoteUrl.swift; sourceTree = "<group>"; };
 		873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageTransparency.swift; sourceTree = "<group>"; };
@@ -767,6 +771,15 @@
 			path = "012 - Containers";
 			sourceTree = "<group>";
 		};
+		87385EB92AA6C8FA006A5515 /* 026 - PropertyWappers */ = {
+			isa = PBXGroup;
+			children = (
+				87385EBA2AA6C926006A5515 /* FFPropertyWappers.swift */,
+				87385EBC2AA6D0F6006A5515 /* FFPropertyWappersAll.swift */,
+			);
+			path = "026 - PropertyWappers";
+			sourceTree = "<group>";
+		};
 		873B8A522A5FCA3400394245 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1105,6 +1118,7 @@
 				872288A82A9ED8CD00720907 /* 023 - CoreData */,
 				872288C02AA02D0500720907 /* 024 - Accessibility */,
 				87991F352AA1D76400C26D81 /* 025 - Tooling */,
+				87385EB92AA6C8FA006A5515 /* 026 - PropertyWappers */,
 				87EC14EE2A5BA7D60065B715 /* Preview Content */,
 			);
 			path = FFModifier;
@@ -1451,6 +1465,7 @@
 				8784FC6A2A8CD33E007C7E35 /* FFAlertSheet.swift in Sources */,
 				872288A52A9DD1F600720907 /* FFWindowOpen.swift in Sources */,
 				8716E62E2A8B90DF003E85F9 /* FFNavigationSplitViewDisplayModeBalance.swift in Sources */,
+				87385EBB2AA6C926006A5515 /* FFPropertyWappers.swift in Sources */,
 				87C0BBCB2A810D280012BB4A /* FFListInsetGroup.swift in Sources */,
 				872288B52A9F1C8B00720907 /* FFCoreDataFetchRequest.swift in Sources */,
 				873B8A442A5EBD5D00394245 /* FFSFAminate.swift in Sources */,
@@ -1482,6 +1497,7 @@
 				87E1AC382A9C3B6000DFDFBE /* FFCustomView.swift in Sources */,
 				873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */,
 				872288C62AA0627600720907 /* FFSpecifyDynamicType.swift in Sources */,
+				87385EBD2AA6D0F6006A5515 /* FFPropertyWappersAll.swift in Sources */,
 				87ED24832A907A2000EA8DC5 /* FFViewBorderInside.swift in Sources */,
 				872288B72A9F384E00720907 /* FFCoreDataFetchRequestsFilter.swift in Sources */,
 				876C94392A6E5A7800C6AD8B /* FFTextFieldSubmit.swift in Sources */,
