@@ -28,7 +28,7 @@ struct FFModifierApp: App {
     
     var body: some Scene {
         WindowGroup {
-            FFToolingInstruments()
+            FFPropertyWrapperScaledMetric()
         }
     }
     

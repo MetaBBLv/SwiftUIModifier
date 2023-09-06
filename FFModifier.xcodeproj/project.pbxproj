@@ -75,6 +75,7 @@
 		8735E8DA2A8607CD00271850 /* FFToolbarCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735E8D92A8607CD00271850 /* FFToolbarCustomize.swift */; };
 		87385EBB2AA6C926006A5515 /* FFPropertyWappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87385EBA2AA6C926006A5515 /* FFPropertyWappers.swift */; };
 		87385EBD2AA6D0F6006A5515 /* FFPropertyWappersAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87385EBC2AA6D0F6006A5515 /* FFPropertyWappersAll.swift */; };
+		87385EBF2AA8140A006A5515 /* FFPropertyWrapperState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87385EBE2AA8140A006A5515 /* FFPropertyWrapperState.swift */; };
 		873AAB312A80BB5700A88576 /* FFListDynamicItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873AAB302A80BB5700A88576 /* FFListDynamicItems.swift */; };
 		873B8A3A2A5E8A9300394245 /* FFImageRemoteUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */; };
 		873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */; };
@@ -177,6 +178,20 @@
 		8784FC742A8CDC64007C7E35 /* FFMenuPick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FC732A8CDC64007C7E35 /* FFMenuPick.swift */; };
 		8784FC762A8CE10E007C7E35 /* FFPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FC752A8CE10E007C7E35 /* FFPurchases.swift */; };
 		8784FC792A8E0F21007C7E35 /* FFPresentSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784FC782A8E0F21007C7E35 /* FFPresentSheets.swift */; };
+		87868E5C2AA81F3400616BA6 /* FFPropertyWrapperStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E5B2AA81F3400616BA6 /* FFPropertyWrapperStateObject.swift */; };
+		87868E5E2AA8228A00616BA6 /* FFPropertyWrapperPublished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E5D2AA8228A00616BA6 /* FFPropertyWrapperPublished.swift */; };
+		87868E602AA8285400616BA6 /* FFPropertyWrapperObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E5F2AA8285400616BA6 /* FFPropertyWrapperObservedObject.swift */; };
+		87868E622AA8538600616BA6 /* FFPropertyWrapperEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E612AA8538600616BA6 /* FFPropertyWrapperEnvironmentObject.swift */; };
+		87868E642AA859C000616BA6 /* FFPropertyWrapperEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E632AA859C000616BA6 /* FFPropertyWrapperEnvironment.swift */; };
+		87868E662AA85D4800616BA6 /* FFPropertyWrapperBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E652AA85D4800616BA6 /* FFPropertyWrapperBinding.swift */; };
+		87868E6A2AA863AC00616BA6 /* FFPropertyWrapperFocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E692AA863AC00616BA6 /* FFPropertyWrapperFocusState.swift */; };
+		87868E6C2AA8654000616BA6 /* FFPropertyWrapperFocusStateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E6B2AA8654000616BA6 /* FFPropertyWrapperFocusStateEnum.swift */; };
+		87868E6E2AA868E200616BA6 /* FFPropertyWrapperGestureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E6D2AA868E200616BA6 /* FFPropertyWrapperGestureState.swift */; };
+		87868E702AA86D3500616BA6 /* FFPropertyWrapperFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E6F2AA86D3500616BA6 /* FFPropertyWrapperFetchRequest.swift */; };
+		87868E722AA86F4400616BA6 /* FFPropertyWrapperAppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E712AA86F4400616BA6 /* FFPropertyWrapperAppStorage.swift */; };
+		87868E742AA872AF00616BA6 /* FFPropertyWrapperSceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E732AA872AF00616BA6 /* FFPropertyWrapperSceneStorage.swift */; };
+		87868E762AA875F100616BA6 /* FFPropertyWrapperScaledMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E752AA875F100616BA6 /* FFPropertyWrapperScaledMetric.swift */; };
+		87868E782AA8788900616BA6 /* FFPropertyWrapperUIApplicationDelegateAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87868E772AA8788900616BA6 /* FFPropertyWrapperUIApplicationDelegateAdaptor.swift */; };
 		8786BB4A2A81E4E5004F329C /* FFListSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8786BB492A81E4E5004F329C /* FFListSelectionRow.swift */; };
 		8788B4382A669D3B0083A85B /* FFStackZIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4372A669D3B0083A85B /* FFStackZIndex.swift */; };
 		8788B43A2A66A0070083A85B /* FFLayoutsSizeClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8788B4392A66A0070083A85B /* FFLayoutsSizeClasses.swift */; };
@@ -414,6 +429,7 @@
 		8735E8D92A8607CD00271850 /* FFToolbarCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFToolbarCustomize.swift; sourceTree = "<group>"; };
 		87385EBA2AA6C926006A5515 /* FFPropertyWappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWappers.swift; sourceTree = "<group>"; };
 		87385EBC2AA6D0F6006A5515 /* FFPropertyWappersAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWappersAll.swift; sourceTree = "<group>"; };
+		87385EBE2AA8140A006A5515 /* FFPropertyWrapperState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperState.swift; sourceTree = "<group>"; };
 		873AAB302A80BB5700A88576 /* FFListDynamicItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListDynamicItems.swift; sourceTree = "<group>"; };
 		873B8A392A5E8A9300394245 /* FFImageRemoteUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageRemoteUrl.swift; sourceTree = "<group>"; };
 		873B8A3B2A5E9C8200394245 /* FFImageTransparency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFImageTransparency.swift; sourceTree = "<group>"; };
@@ -519,6 +535,20 @@
 		8784FC732A8CDC64007C7E35 /* FFMenuPick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMenuPick.swift; sourceTree = "<group>"; };
 		8784FC752A8CE10E007C7E35 /* FFPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPurchases.swift; sourceTree = "<group>"; };
 		8784FC782A8E0F21007C7E35 /* FFPresentSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPresentSheets.swift; sourceTree = "<group>"; };
+		87868E5B2AA81F3400616BA6 /* FFPropertyWrapperStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperStateObject.swift; sourceTree = "<group>"; };
+		87868E5D2AA8228A00616BA6 /* FFPropertyWrapperPublished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperPublished.swift; sourceTree = "<group>"; };
+		87868E5F2AA8285400616BA6 /* FFPropertyWrapperObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperObservedObject.swift; sourceTree = "<group>"; };
+		87868E612AA8538600616BA6 /* FFPropertyWrapperEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperEnvironmentObject.swift; sourceTree = "<group>"; };
+		87868E632AA859C000616BA6 /* FFPropertyWrapperEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperEnvironment.swift; sourceTree = "<group>"; };
+		87868E652AA85D4800616BA6 /* FFPropertyWrapperBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperBinding.swift; sourceTree = "<group>"; };
+		87868E692AA863AC00616BA6 /* FFPropertyWrapperFocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperFocusState.swift; sourceTree = "<group>"; };
+		87868E6B2AA8654000616BA6 /* FFPropertyWrapperFocusStateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperFocusStateEnum.swift; sourceTree = "<group>"; };
+		87868E6D2AA868E200616BA6 /* FFPropertyWrapperGestureState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperGestureState.swift; sourceTree = "<group>"; };
+		87868E6F2AA86D3500616BA6 /* FFPropertyWrapperFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperFetchRequest.swift; sourceTree = "<group>"; };
+		87868E712AA86F4400616BA6 /* FFPropertyWrapperAppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperAppStorage.swift; sourceTree = "<group>"; };
+		87868E732AA872AF00616BA6 /* FFPropertyWrapperSceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperSceneStorage.swift; sourceTree = "<group>"; };
+		87868E752AA875F100616BA6 /* FFPropertyWrapperScaledMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperScaledMetric.swift; sourceTree = "<group>"; };
+		87868E772AA8788900616BA6 /* FFPropertyWrapperUIApplicationDelegateAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPropertyWrapperUIApplicationDelegateAdaptor.swift; sourceTree = "<group>"; };
 		8786BB492A81E4E5004F329C /* FFListSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFListSelectionRow.swift; sourceTree = "<group>"; };
 		8788B4372A669D3B0083A85B /* FFStackZIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStackZIndex.swift; sourceTree = "<group>"; };
 		8788B4392A66A0070083A85B /* FFLayoutsSizeClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLayoutsSizeClasses.swift; sourceTree = "<group>"; };
@@ -776,6 +806,21 @@
 			children = (
 				87385EBA2AA6C926006A5515 /* FFPropertyWappers.swift */,
 				87385EBC2AA6D0F6006A5515 /* FFPropertyWappersAll.swift */,
+				87385EBE2AA8140A006A5515 /* FFPropertyWrapperState.swift */,
+				87868E5B2AA81F3400616BA6 /* FFPropertyWrapperStateObject.swift */,
+				87868E5D2AA8228A00616BA6 /* FFPropertyWrapperPublished.swift */,
+				87868E5F2AA8285400616BA6 /* FFPropertyWrapperObservedObject.swift */,
+				87868E612AA8538600616BA6 /* FFPropertyWrapperEnvironmentObject.swift */,
+				87868E632AA859C000616BA6 /* FFPropertyWrapperEnvironment.swift */,
+				87868E652AA85D4800616BA6 /* FFPropertyWrapperBinding.swift */,
+				87868E692AA863AC00616BA6 /* FFPropertyWrapperFocusState.swift */,
+				87868E6B2AA8654000616BA6 /* FFPropertyWrapperFocusStateEnum.swift */,
+				87868E6D2AA868E200616BA6 /* FFPropertyWrapperGestureState.swift */,
+				87868E6F2AA86D3500616BA6 /* FFPropertyWrapperFetchRequest.swift */,
+				87868E712AA86F4400616BA6 /* FFPropertyWrapperAppStorage.swift */,
+				87868E732AA872AF00616BA6 /* FFPropertyWrapperSceneStorage.swift */,
+				87868E752AA875F100616BA6 /* FFPropertyWrapperScaledMetric.swift */,
+				87868E772AA8788900616BA6 /* FFPropertyWrapperUIApplicationDelegateAdaptor.swift */,
 			);
 			path = "026 - PropertyWappers";
 			sourceTree = "<group>";
@@ -1322,6 +1367,7 @@
 				87D07C072A64E3C9006F81AE /* FFViewGeometryReader.swift in Sources */,
 				87FE98362A8B663500B258EB /* FFNavigationSplitView.swift in Sources */,
 				874B6D0E2A6F737500EA6A0A /* FFTextFieldkeyboard.swift in Sources */,
+				87868E662AA85D4800616BA6 /* FFPropertyWrapperBinding.swift in Sources */,
 				8716E6302A8B91DD003E85F9 /* FFNavigationSplitViewCompact.swift in Sources */,
 				874DE71D2A6FF4CB0018BFF3 /* FFSegmentedOrRead.swift in Sources */,
 				8762007E2A934148000515C4 /* FFViewBlend.swift in Sources */,
@@ -1334,11 +1380,13 @@
 				8784FC682A8CCFE2007C7E35 /* FFAlertMultiple.swift in Sources */,
 				874FC79C2A9880DF00B348FF /* FFAnimationMultiple.swift in Sources */,
 				87EC14EB2A5BA7D50065B715 /* ContentView.swift in Sources */,
+				87868E702AA86D3500616BA6 /* FFPropertyWrapperFetchRequest.swift in Sources */,
 				87ADB27B2A8928AE004BD5DC /* FFnavigationPushView.swift in Sources */,
 				879AC3FA2A67CEBC001B3C43 /* FFLazyGridPosition.swift in Sources */,
 				872288C42AA02F9700720907 /* FFFontDynamicType.swift in Sources */,
 				87A0AB612A6E6DD600772404 /* FFCustomSubmit.swift in Sources */,
 				872288CC2AA06E0300720907 /* FFAccessibilityDecorative.swift in Sources */,
+				87868E5C2AA81F3400616BA6 /* FFPropertyWrapperStateObject.swift in Sources */,
 				87ECEAFF2A5C1C8A0092C522 /* FFTextDataFormat.swift in Sources */,
 				872288BD2A9F417400720907 /* FFCoreDataLimit.swift in Sources */,
 				87ECEB072A5C2B630092C522 /* FFTextPrivasySensitive.swift in Sources */,
@@ -1346,6 +1394,7 @@
 				87ECEB262A5D6AF20092C522 /* FFImageShapeTrim.swift in Sources */,
 				87D097BA2A88F6CB006AE3E9 /* FFNavigationEdit.swift in Sources */,
 				874FC7962A98773A00B348FF /* FFAnimationExlicit.swift in Sources */,
+				87868E6C2AA8654000616BA6 /* FFPropertyWrapperFocusStateEnum.swift in Sources */,
 				8716E62A2A8B8E20003E85F9 /* FFNavigationSplitViewCustomizeMax.swift in Sources */,
 				8784FC762A8CE10E007C7E35 /* FFPurchases.swift in Sources */,
 				87EB0D252A653344006F32D4 /* FFViewGestures.swift in Sources */,
@@ -1355,6 +1404,7 @@
 				873B8A3C2A5E9C8200394245 /* FFImageTransparency.swift in Sources */,
 				8780A32E2A825576002484A4 /* FFListRowSeparator.swift in Sources */,
 				87D07C052A64E167006F81AE /* FFViewPadding.swift in Sources */,
+				87868E6E2AA868E200616BA6 /* FFPropertyWrapperGestureState.swift in Sources */,
 				8786BB4A2A81E4E5004F329C /* FFListSelectionRow.swift in Sources */,
 				872288BB2A9F3F2900720907 /* FFCoreDataDeleteObjects.swift in Sources */,
 				87E1AC3A2A9C423000DFDFBE /* FFCustomText.swift in Sources */,
@@ -1383,6 +1433,7 @@
 				87ED69552A72087E00FEE441 /* FFScenePhase.swift in Sources */,
 				872288C22AA02D4700720907 /* FFAccessibility.swift in Sources */,
 				87F8DF3A2A963430000FC498 /* FFMetal.metal in Sources */,
+				87868E602AA8285400616BA6 /* FFPropertyWrapperObservedObject.swift in Sources */,
 				874DE71F2A6FF7C10018BFF3 /* FFStepperOrRead.swift in Sources */,
 				87153EBC2A667BBE009C2084 /* FFStackPrimary.swift in Sources */,
 				875DD98B2A6566DA0061D9FB /* FFViewDynamicallyAppearanceRota.swift in Sources */,
@@ -1447,6 +1498,7 @@
 				875DD9852A6558F70061D9FB /* FFViewThatFIts.swift in Sources */,
 				87ED24782A8F565300EA8DC5 /* FFContentUnavailableCustomAll.swift in Sources */,
 				873DE2212A66930900771D3F /* FFStackZ.swift in Sources */,
+				87868E622AA8538600616BA6 /* FFPropertyWrapperEnvironmentObject.swift in Sources */,
 				87E479E02A8E3ED7002E6D5F /* FFSheetFullScreenCover.swift in Sources */,
 				8784FC642A8CC56B007C7E35 /* FFAlertTextField.swift in Sources */,
 				872288AC2A9EDE8300720907 /* FFCoreDataConfigure.swift in Sources */,
@@ -1488,10 +1540,12 @@
 				87EC14F82A5BDB400065B715 /* FFTextAlignment.swift in Sources */,
 				875DD9832A6550C10061D9FB /* FFViewLayoutProtocol.swift in Sources */,
 				8747A0E32A711914000F6F63 /* FFButtonRepeat.swift in Sources */,
+				87868E742AA872AF00616BA6 /* FFPropertyWrapperSceneStorage.swift in Sources */,
 				87F8DF362A962D76000FC498 /* FFVisualEffectBlurs.swift in Sources */,
 				87E479DC2A8E2173002E6D5F /* FFSheetViewDismiss.swift in Sources */,
 				87ECEB2E2A5D76F70092C522 /* FFGameScene.swift in Sources */,
 				8784FC6E2A8CD849007C7E35 /* FFAppStroeOverlay.swift in Sources */,
+				87868E722AA86F4400616BA6 /* FFPropertyWrapperAppStorage.swift in Sources */,
 				87A795A02A7BBD9E0083D99A /* FFGestureReadTapOrDouble.swift in Sources */,
 				873B8A3E2A5EA13300394245 /* FFImageDynamicColor.swift in Sources */,
 				87E1AC382A9C3B6000DFDFBE /* FFCustomView.swift in Sources */,
@@ -1559,8 +1613,10 @@
 				87E25F882A678C7D007B76AE /* FFStackWithLazy.swift in Sources */,
 				87ECEB052A5C245F0092C522 /* FFTextPlaceholder.swift in Sources */,
 				879608DD2A9840F700533483 /* FFBasicAnimations.swift in Sources */,
+				87868E782AA8788900616BA6 /* FFPropertyWrapperUIApplicationDelegateAdaptor.swift in Sources */,
 				87E1AC252A9897E900DFDFBE /* FFTransitionView.swift in Sources */,
 				872288AF2A9EE36600720907 /* Main.xcdatamodeld in Sources */,
+				87868E5E2AA8228A00616BA6 /* FFPropertyWrapperPublished.swift in Sources */,
 				87C104B32A7E413C004959E8 /* FFDarkMode.swift in Sources */,
 				87ECEB242A5D6ACC0092C522 /* FFImageContainerRelativeShape.swift in Sources */,
 				87D506ED2A7DE21B00171449 /* FFObservedObjectManageState.swift in Sources */,
@@ -1571,9 +1627,11 @@
 				8732036C2A949A8E00024522 /* FFShapesBuiltin.swift in Sources */,
 				873202DD2A8B530C00B290CC /* FFNavigationCodable.swift in Sources */,
 				87ED24852A907CD100EA8DC5 /* FFBorderEffect.swift in Sources */,
+				87868E642AA859C000616BA6 /* FFPropertyWrapperEnvironment.swift in Sources */,
 				875F8F3A2A80C70A0006D5BC /* FFListDeleteRows.swift in Sources */,
 				874DE7132A6FCD460018BFF3 /* FFToggleSwitch.swift in Sources */,
 				87ECEB1A2A5D3BFE0092C522 /* FFImageSFSymbols.swift in Sources */,
+				87385EBF2AA8140A006A5515 /* FFPropertyWrapperState.swift in Sources */,
 				879AC3FE2A67DA8F001B3C43 /* FFScrollViewHideIndicators.swift in Sources */,
 				879608DF2A9848B500533483 /* FFAnimationSpring.swift in Sources */,
 				87E1AC3C2A9C44DF00DFDFBE /* FFViewStoreProperties.swift in Sources */,
@@ -1602,6 +1660,7 @@
 				8716E6322A8B93BB003E85F9 /* FFInspector.swift in Sources */,
 				87E479DA2A8E1EA9002E6D5F /* FFPresentSheetsMultiple.swift in Sources */,
 				87ECEB222A5D66730092C522 /* FFImageStorkeShapes.swift in Sources */,
+				87868E762AA875F100616BA6 /* FFPropertyWrapperScaledMetric.swift in Sources */,
 				8788B43E2A66BC900083A85B /* FFScrollViewScrolling.swift in Sources */,
 				872DC0AD2A68030D00320AB2 /* FFScrollViewTransition.swift in Sources */,
 				87E1AC272A989A3000DFDFBE /* FFTransitionsCombine.swift in Sources */,
@@ -1617,6 +1676,7 @@
 				8788B4422A6775520083A85B /* FFStack3DEffects.swift in Sources */,
 				8721B9E42A8B481F00A6527E /* FFNavigationProgrammaticForNext.swift in Sources */,
 				87B7D7422A651386006049A7 /* FFViewForEach.swift in Sources */,
+				87868E6A2AA863AC00616BA6 /* FFPropertyWrapperFocusState.swift in Sources */,
 				87E479E62A8F0B66002E6D5F /* FFSheetShowBottom.swift in Sources */,
 				8716E6262A8B869C003E85F9 /* FFNavigationSplitViewHideAndShow.swift in Sources */,
 				87B7D7402A650CB9006049A7 /* FFViewType.swift in Sources */,
