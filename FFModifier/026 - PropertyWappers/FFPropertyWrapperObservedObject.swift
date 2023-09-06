@@ -21,7 +21,7 @@ struct FFPropertyWrapperObservedObject: View {
     //其次，被观察对象专门设计用于在外部观察你的视图的对象，这意味着它可以在多个视图之间共享。@ObservedObject属性包装器将自动确保属性收到密切监视，以便重要的更改出现时重新加载使用它的任何视图。这还代表了数据必须在其他地方被创建，是被传入你的视图的。
     //第三，不是被观察的对象中所有的属性都会导致视图刷新。由你的需求决定了哪些属性更改会发送更改通知，要么使用@Published，要么自定义通知，都可以实现。符合ObservableObject协议的类型会得到一个默认的objectWillChange的发布者，可以根据需要进行自定义通知。
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
     }
 }
 

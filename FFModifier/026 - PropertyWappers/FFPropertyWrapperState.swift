@@ -17,7 +17,7 @@ struct FFPropertyWrapperState: View {
     @State var hobby = "KEEP LOVING, KEEP LIVING"
     //当使用@State修饰引用类型的时候，数据发生更改时，不会收到通知，对于不符合ObservableObject协议的类有用。
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
     }
 }
 

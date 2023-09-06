@@ -29,8 +29,6 @@ struct FFPropertyWrapperAppStorage: View {
                 //上述代码更改用户名将立即写入UserDefaults，并同时更新视图，如果使用旧的方式
                 UserDefaults.standard.setValue("@metaBBLv", forKey: "username")
             }
-            
-            
         }
     }
 }
