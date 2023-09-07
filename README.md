@@ -59,7 +59,9 @@
 
 #### [027 - SwiftUI基础篇Property Wrappers - Items（上）](https://juejin.cn/post/7275551128854347787)
 
-#### 持续更新...
+#### [028 - SwiftUI基础篇Property Wrappers - Items（下）](https://juejin.cn/post/7275641079382179879)
+
+#### 基础篇部分已完结
 
 ## 如何运行更多的式样
 
